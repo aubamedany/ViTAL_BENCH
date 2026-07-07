@@ -16,7 +16,7 @@ def get_content_by_chunk_id(data, chunk_id):
 
 
 if __name__ == "__main__":
-    json_path = "output/legal_traffic_clause_chunks.json"
+    json_path = "legal_traffic_chunks.json"
 
 
     data = load_law_data(json_path)
