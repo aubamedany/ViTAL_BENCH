@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated experiment outputs (all reproducible from source + fixed seeds)
+artifacts/          # frozen dataset v1, reports, index, skeletons, review CSVs
+configs/            # generated run matrix (scripts/gen_configs.py)
+runs/               # per-run JSONL + manifests
+cache/              # retrieval cache
+paper_tables/       # T1-T6 markdown/latex + stats.json
+
+# FAISS indices / model caches
+*.faiss
