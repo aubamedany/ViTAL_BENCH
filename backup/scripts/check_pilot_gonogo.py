@@ -24,9 +24,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic import metrics as M
-from vntraffic import tables as T
+from backup.vntraffic import constants as C
+from backup.vntraffic import metrics as M
+from backup.vntraffic import tables as T
 
 
 def _flag(ok: bool) -> str:

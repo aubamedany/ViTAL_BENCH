@@ -21,9 +21,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic.dataset import filter_tier, load_items
-from vntraffic.subtags import (build_proposals, coverage_summary, write_review_csv)
+from backup.vntraffic import constants as C
+from backup.vntraffic.dataset import filter_tier, load_items
+from backup.vntraffic.subtags import (build_proposals, coverage_summary, write_review_csv)
 
 
 def main() -> int:

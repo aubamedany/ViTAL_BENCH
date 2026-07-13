@@ -15,8 +15,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic.config import RunConfig
-from vntraffic.runner import run
+from backup.vntraffic.config import RunConfig
+from backup.vntraffic.runner import run
 
 
 def main() -> int:

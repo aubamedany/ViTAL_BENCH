@@ -20,11 +20,11 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic import metrics as M
-from vntraffic import stats as S
-from vntraffic import tables as T
-from vntraffic.models.registry import DEFAULT_BEST_MODEL, ladder_keys, leakage_subset_keys
+from backup.vntraffic import constants as C
+from backup.vntraffic import metrics as M
+from backup.vntraffic import stats as S
+from backup.vntraffic import tables as T
+from backup.vntraffic.models.registry import DEFAULT_BEST_MODEL, ladder_keys, leakage_subset_keys
 
 
 def _write(out_dir, name, md, tex):

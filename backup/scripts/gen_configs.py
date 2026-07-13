@@ -27,9 +27,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic.config import RunConfig
-from vntraffic.models.registry import (DEFAULT_BEST_MODEL, ladder_keys,
+from backup.vntraffic import constants as C
+from backup.vntraffic.config import RunConfig
+from backup.vntraffic.models.registry import (DEFAULT_BEST_MODEL, ladder_keys,
                                        leakage_subset_keys)
 
 DEFAULT_ALT_EMBEDDER = "bkai-foundation-models/vietnamese-bi-encoder"

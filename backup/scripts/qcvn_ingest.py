@@ -23,10 +23,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic.corpus import load_corpus
-from vntraffic.dataset import filter_tier, load_items
-from vntraffic.qcvn_ingest import build_skeleton, merge_skeleton
+from backup.vntraffic import constants as C
+from backup.vntraffic.corpus import load_corpus
+from backup.vntraffic.dataset import filter_tier, load_items
+from backup.vntraffic.qcvn_ingest import build_skeleton, merge_skeleton
 
 
 def main() -> int:

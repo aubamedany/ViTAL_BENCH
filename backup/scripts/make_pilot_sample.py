@@ -23,9 +23,9 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic.config import RunConfig
-from vntraffic.dataset import filter_tier, load_items
+from backup.vntraffic import constants as C
+from backup.vntraffic.config import RunConfig
+from backup.vntraffic.dataset import filter_tier, load_items
 
 
 def main() -> int:

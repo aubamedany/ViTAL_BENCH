@@ -18,10 +18,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic.corpus import load_corpus
-from vntraffic.embedder import Embedder
-from vntraffic.retriever import Retriever
+from backup.vntraffic import constants as C
+from backup.vntraffic.corpus import load_corpus
+from backup.vntraffic.embedder import Embedder
+from backup.vntraffic.retriever import Retriever
 
 
 def main() -> int:

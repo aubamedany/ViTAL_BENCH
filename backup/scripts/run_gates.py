@@ -27,13 +27,13 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from vntraffic import constants as C
-from vntraffic.corpus import load_corpus
-from vntraffic.dataset import filter_tier, load_items, save_items
-from vntraffic.gates import (dataset_version, dedup_items, rebalance_detection)
-from vntraffic.gradeability import build_gradeability_report
-from vntraffic.resolver import build_coverage_report, gold_citations_from_items
-from vntraffic.subtags import apply_reviewed, read_reviewed_csv
+from backup.vntraffic import constants as C
+from backup.vntraffic.corpus import load_corpus
+from backup.vntraffic.dataset import filter_tier, load_items, save_items
+from backup.vntraffic.gates import (dataset_version, dedup_items, rebalance_detection)
+from backup.vntraffic.gradeability import build_gradeability_report
+from backup.vntraffic.resolver import build_coverage_report, gold_citations_from_items
+from backup.vntraffic.subtags import apply_reviewed, read_reviewed_csv
 
 
 def _check(label, got, expected):
