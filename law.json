@@ -1064,8 +1064,6 @@
     "D": "Xếp toàn bộ hàng hóa thấp hơn thành thùng và không có phần nào nhô ra",
     "GT": "C",
     "law": [
-      "TT_12_2025_BXD_D16_K2",
-      "TT_12_2025_BXD_D17_K2"
     ],
     "type_question": "law",
     "type_image": "cong_kenh"
@@ -1080,7 +1078,6 @@
     "D": "Được xếp hàng không giới hạn chiều cao nếu không che biển số xe",
     "GT": "C",
     "law": [
-      "TT_12_2025_BXD_D16_K2"
     ],
     "type_question": "law",
     "type_image": "cong_kenh"
@@ -1876,7 +1873,7 @@
     "D": "Chỉ phải chấp hành khi có lực lượng chức năng điều tiết",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_BienP102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K6"
     ],
     "type_question": "law",
@@ -1939,7 +1936,7 @@
     "D": "Được đi tiếp nếu đi sát lề phải",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_BGTVT_BienCamXeMay",
+      "QCVN_41_2024_PLB_4",
       "ND_168_2024_D7_K6"
     ],
     "type_question": "law",
@@ -1985,7 +1982,7 @@
     "D": "Đi đúng theo hướng lưu thông được phép",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_BienP103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D11_K2"
     ],
@@ -2002,7 +1999,7 @@
     "D": "Được đi vào nếu chỉ đi trong thời gian ngắn",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_BienP103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D11_K2"
     ],
@@ -2049,7 +2046,7 @@
     "D": "Đi vào phần đường có biển báo cấm xe mô tô",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_BienP111A",
+      "QCVN_41_2024_PLB_11",
       "LUAT_36_2024_D11_K1"
     ],
     "type_question": "law",
@@ -2065,7 +2062,7 @@
     "D": "Được đi vào nếu không gây cản trở giao thông",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_BienP111A",
+      "QCVN_41_2024_PLB_11",
       "LUAT_36_2024_D11_K1",
       "ND_168_2024_D7_K6"
     ],
@@ -2112,7 +2109,7 @@
     "D": "Cấm xe thô sơ đi qua đoạn đường phía trước",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_B10_A"
+      "QCVN_41_2024_PLB_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2127,7 +2124,7 @@
     "D": "Được đi qua nếu không có phương tiện cơ giới phía sau",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_B10_A",
+      "QCVN_41_2024_PLB_10",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2173,7 +2170,7 @@
     "D": "Làn đường dành cho xe máy và xe đạp",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_R412G",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D10_K1"
     ],
     "type_question": "law",
@@ -2189,8 +2186,8 @@
     "D": "Đi đúng làn dành cho xe máy, xe đạp và không chạy quá 50 km/h",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_R412G",
-      "QCVN_41_2024_P127",
+      "QCVN_41_2024_PLD_14",
+      "QCVN_41_2024_PLB_27",
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2"
     ],
@@ -2238,7 +2235,7 @@
     "D": "Hạn chế tốc độ tối đa của xe ô tô tải xuống còn 5 km/h",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_B6_B"
+      "QCVN_41_2024_PLB_6"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2253,7 +2250,7 @@
     "D": "Không được điều khiển phương tiện đi vào đoạn đường có hiệu lực của biển",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_B6_B",
+      "QCVN_41_2024_PLB_6",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2361,7 +2358,7 @@
     "D": "Cấm các phương tiện dừng và đỗ tại vị trí đặt biển",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2376,7 +2373,7 @@
     "D": "Được đi vào nếu bật đèn báo hướng rẽ và di chuyển chậm",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_P102",
+      "QCVN_41_2024_PLB_2",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2422,7 +2419,7 @@
     "D": "Cấm các loại xe ô tô tải đi vào, trừ xe được quyền ưu tiên theo quy định",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P106A"
+      "QCVN_41_2024_PLB_6"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2437,7 +2434,7 @@
     "D": "Được đi vào nếu xe không chở hàng và di chuyển với tốc độ thấp",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P106A",
+      "QCVN_41_2024_PLB_6",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2483,7 +2480,7 @@
     "D": "Cấm xe mô tô tiếp tục đi thẳng qua vị trí đặt biển",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_P136"
+      "QCVN_41_2024_PLB_36"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2498,7 +2495,7 @@
     "D": "Được đi thẳng khi điều khiển xe sát mép đường bên phải",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_P136",
+      "QCVN_41_2024_PLB_36",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2545,7 +2542,7 @@
     "D": "Cấm các loại xe ô tô đi qua, trừ xe mô tô hai bánh, xe gắn máy và xe được quyền ưu tiên",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2560,7 +2557,7 @@
     "D": "Được đi qua nếu di chuyển chậm và sát mép đường",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2606,7 +2603,7 @@
     "D": "Chỉ dẫn phần đường dành riêng cho xe mô tô",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2621,7 +2618,7 @@
     "D": "Được đi vào nếu di chuyển chậm và đi sát mép đường bên phải",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2637,7 +2634,7 @@
     "D": "Từ 6.000.000 đồng đến 8.000.000 đồng",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K1",
       "ND_168_2024_D7_K10"
@@ -2655,7 +2652,7 @@
     "D": "Không bị trừ điểm giấy phép lái xe",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K1",
       "ND_168_2024_D7_K10",
@@ -2674,7 +2671,7 @@
     "D": "Cấm các loại xe ô tô đi qua, trừ xe mô tô hai bánh, xe gắn máy và xe được quyền ưu tiên",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2689,7 +2686,7 @@
     "D": "Được đi vào nếu phương tiện di chuyển chậm và sát mép đường",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2705,7 +2702,7 @@
     "D": "Từ 2.000.000 đồng đến 3.000.000 đồng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D6_K5"
     ],
@@ -2722,7 +2719,7 @@
     "D": "Bị trừ 06 điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D6_K5",
       "ND_168_2024_D6_K16"
@@ -2740,7 +2737,7 @@
     "D": "Cấm xe mô tô quay đầu tại vị trí đặt biển",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2755,7 +2752,7 @@
     "D": "Được đi vào nếu di chuyển chậm và sát mép đường bên phải",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2771,7 +2768,7 @@
     "D": "Từ 200.000 đồng đến 400.000 đồng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K1",
       "ND_168_2024_D7_K6"
@@ -2789,7 +2786,7 @@
     "D": "Bị trừ 06 điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6",
       "ND_168_2024_D7_K13"
@@ -2807,7 +2804,7 @@
     "D": "Chỉ dẫn phần đường dành riêng cho xe mô tô",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2822,7 +2819,7 @@
     "D": "Không điều khiển xe đi vào đoạn đường có hiệu lực của biển và phải chọn hướng khác",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2838,7 +2835,7 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6"
     ],
@@ -2855,7 +2852,7 @@
     "D": "Không bị trừ điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6",
       "ND_168_2024_D7_K13"
@@ -2873,7 +2870,7 @@
     "D": "Cấm riêng xe ô tô tải có khối lượng chuyên chở trên 3,5 tấn đi qua",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2888,7 +2885,7 @@
     "D": "Không điều khiển xe đi vào đoạn đường có hiệu lực của biển, trừ trường hợp được quyền ưu tiên",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2904,7 +2901,7 @@
     "D": "Từ 800.000 đồng đến 1.000.000 đồng",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D6_K5"
     ],
@@ -2921,7 +2918,7 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D6_K5",
       "ND_168_2024_D6_K16"
@@ -2939,7 +2936,7 @@
     "D": "Cấm các loại xe ô tô đi qua, trừ xe mô tô hai bánh, xe gắn máy và xe được quyền ưu tiên",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -2954,7 +2951,7 @@
     "D": "Được đi vào nếu di chuyển chậm và sát mép đường bên phải",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -2970,7 +2967,7 @@
     "D": "Từ 6.000.000 đồng đến 8.000.000 đồng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D6_K5"
     ],
@@ -2987,7 +2984,7 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D6_K5",
       "ND_168_2024_D6_K16"
@@ -3005,7 +3002,7 @@
     "D": "Trong khu vực dừng đón, trả khách của xe buýt",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_R412A",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4"
     ],
     "type_question": "law",
@@ -3021,7 +3018,7 @@
     "D": "Được đi vào làn BRT nếu phía trước không có xe buýt",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_R412A",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4"
     ],
     "type_question": "law",
@@ -3037,7 +3034,7 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_R412A",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4",
       "ND_168_2024_D7_K3"
     ],
@@ -3054,7 +3051,7 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_R412A",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4",
       "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K13"
@@ -3072,7 +3069,7 @@
     "D": "Làn đường dành cho xe ô tô và xe máy",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4"
     ],
     "type_question": "law",
@@ -3088,7 +3085,7 @@
     "D": "Đi trong làn đường cho phép xe máy và chỉ chuyển làn khi bảo đảm an toàn",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4"
     ],
     "type_question": "law",
@@ -3104,7 +3101,7 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4",
       "ND_168_2024_D7_K3"
     ],
@@ -3121,7 +3118,7 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4",
       "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K13"
@@ -3139,7 +3136,7 @@
     "D": "Làn đường được phân chia dành cho xe máy",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4"
     ],
     "type_question": "law",
@@ -3155,7 +3152,7 @@
     "D": "Phải chuyển sang làn ô tô khi cần vượt xe máy phía trước",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K1",
       "LUAT_36_2024_D13_K4"
     ],
@@ -3172,7 +3169,7 @@
     "D": "Từ 800.000 đồng đến 1.000.000 đồng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4",
       "ND_168_2024_D7_K3"
     ],
@@ -3189,7 +3186,7 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_R412",
+      "QCVN_41_2024_PLD_14",
       "LUAT_36_2024_D13_K4",
       "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K13"
@@ -3207,7 +3204,7 @@
     "D": "Cấm tất cả các loại phương tiện giao thông đường bộ đi vào theo chiều đặt biển, trừ xe được quyền ưu tiên",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P101"
+      "QCVN_41_2024_PLB_1"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -3222,7 +3219,7 @@
     "D": "Được đi vào nếu bật đèn cảnh báo nguy hiểm của phương tiện",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P101",
+      "QCVN_41_2024_PLB_1",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -3238,7 +3235,7 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P101",
+      "QCVN_41_2024_PLB_1",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6"
     ],
@@ -3255,7 +3252,7 @@
     "D": "Bị trừ 06 điểm giấy phép lái xe",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P101",
+      "QCVN_41_2024_PLB_1",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6",
       "ND_168_2024_D7_K13"
@@ -3340,7 +3337,7 @@
     "D": "Đi đúng vào phần đường dành cho xe máy theo quy định",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -3356,7 +3353,7 @@
     "D": "Không được điều khiển xe đi vào đoạn đường có hiệu lực của biển và phải chọn hướng đi khác",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2"
     ],
     "type_question": "law",
@@ -3372,7 +3369,7 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6"
     ],
@@ -3389,7 +3386,7 @@
     "D": "Bị trừ 06 điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "LUAT_36_2024_D11_K2",
       "ND_168_2024_D7_K6",
       "ND_168_2024_D7_K13"
@@ -5098,7 +5095,6 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "LUAT_36_2024_D18_K3",
       "LUAT_36_2024_D18_K3"
     ],
     "type_question": "law",
@@ -5991,7 +5987,7 @@
     "law": [
       "LUAT_36_2024_D12_K2",
       "LUAT_36_2024_D12_K3",
-      "QCVN_41_2024_PLI_420"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "du_lieu_khong_loi"
@@ -6232,7 +6228,6 @@
     "law": [
       "LUAT_36_2024_D18_K4",
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -6264,7 +6259,6 @@
     "D": "Từ 1.200.000 đồng đến 1.600.000 đồng.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -6280,7 +6274,6 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe.",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -6300,8 +6293,7 @@
     "law": [
       "LUAT_36_2024_D11_K4",
       "LUAT_36_2024_D11_K6",
-      "QCVN_41_2024_M10_3_3",
-      "QCVN_41_2024_PG_V7_1",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -6318,8 +6310,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -6747,7 +6738,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -6764,7 +6755,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -6811,7 +6802,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -6828,7 +6819,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -6877,8 +6868,7 @@
     "law": [
       "LUAT_36_2024_D11_K4",
       "LUAT_36_2024_D18_K4",
-      "QCVN_41_2024_PG_V7_1",
-      "QCVN_41_2024_PG_V7_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -6896,8 +6886,7 @@
     "law": [
       "LUAT_36_2024_D11_K4",
       "LUAT_36_2024_D18_K4",
-      "QCVN_41_2024_PG_V7_1",
-      "QCVN_41_2024_PG_V7_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -6945,7 +6934,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -6962,7 +6951,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7010,7 +6999,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -7027,7 +7016,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7199,7 +7188,7 @@
     "D": "Dừng xe sát mép đường bên phải theo đúng quy định",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PG_V1_3",
+      "QCVN_41_2024_PLG_1",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -7215,7 +7204,7 @@
     "D": "Được đè lên vạch khi phía đối diện không có phương tiện",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PG_V1_3"
+      "QCVN_41_2024_PLG_1"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7324,7 +7313,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -7341,7 +7330,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7577,7 +7566,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -7594,7 +7583,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7641,7 +7630,7 @@
     "D": "Đi qua vạch mắt võng khi phía trước thông thoáng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PG_V4_4",
+      "QCVN_41_2024_PLG_4",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -7657,7 +7646,7 @@
     "D": "Không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch mắt võng",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PG_V4_4"
+      "QCVN_41_2024_PLG_4"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7704,7 +7693,7 @@
     "D": "Đi đúng theo làn đường dành cho xe máy",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PG_V4_2",
+      "QCVN_41_2024_PLG_4",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -7720,7 +7709,7 @@
     "D": "Chỉ ô tô mới phải chấp hành vạch, còn xe máy được phép đi vào",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PG_V4_2"
+      "QCVN_41_2024_PLG_4"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7735,7 +7724,7 @@
     "D": "Từ 4.000.000 đồng đến 6.000.000 đồng",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PG_V4_2",
+      "QCVN_41_2024_PLG_4",
       "ND_168_2024_D7_K1",
       "ND_168_2024_D7_K10"
     ],
@@ -7833,7 +7822,7 @@
     "D": "Chuyển làn đường tại vị trí có vạch đứt cho phép",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PG_V7_1",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -7849,7 +7838,7 @@
     "D": "Chỉ cần giảm tốc độ, không bắt buộc dừng đúng vị trí của vạch",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -7898,7 +7887,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K1"
     ],
     "type_question": "law",
@@ -7915,7 +7904,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -8089,7 +8078,7 @@
     "D": "Dừng xe tại vị trí dành riêng cho phương tiện gặp sự cố",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PG_V4_2",
+      "QCVN_41_2024_PLG_4",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -8105,7 +8094,7 @@
     "D": "Phải đi theo tuyến đường được xác định, không được lấn hoặc cắt qua vùng vạch, trừ trường hợp khẩn cấp",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PG_V4_2"
+      "QCVN_41_2024_PLG_4"
     ],
     "type_question": "law",
     "type_image": "dung_qua_vach"
@@ -8311,7 +8300,6 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -8346,7 +8334,6 @@
     "law": [
       "LUAT_36_2024_D33_K1",
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -8605,8 +8592,6 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -8865,7 +8850,6 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -8897,7 +8881,6 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9060,8 +9043,6 @@
     "law": [
       "LUAT_36_2024_D33_K1",
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9094,7 +9075,6 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D33_K1",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K10"
     ],
@@ -9381,7 +9361,6 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9412,7 +9391,6 @@
     "D": "Từ 600.000 đồng đến 800.000 đồng",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9445,7 +9423,6 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9476,7 +9453,6 @@
     "D": "Từ 100.000 đồng đến 200.000 đồng",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9525,9 +9501,6 @@
     "D": "Thông thường chỉ được chở một người; một số trường hợp luật định được chở tối đa hai người, và phải đội mũ bảo hiểm đúng quy cách",
     "GT": "D",
     "law": [
-      "LUAT_36_2024_D33_K1",
-      "LUAT_36_2024_D33_K1",
-      "LUAT_36_2024_D33_K1",
       "LUAT_36_2024_D33_K1"
     ],
     "type_question": "law",
@@ -9641,7 +9614,6 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -9672,7 +9644,6 @@
     "D": "Từ 800.000 đồng đến 1.200.000 đồng",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -11955,7 +11926,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -11972,7 +11943,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12223,7 +12194,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12286,7 +12257,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12333,7 +12304,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -12350,7 +12321,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12413,7 +12384,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12476,7 +12447,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12540,7 +12511,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12603,7 +12574,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12730,7 +12701,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12795,7 +12766,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12858,7 +12829,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12921,7 +12892,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -12969,7 +12940,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1",
+      "QCVN_41_2024_PLG_2",
       "ND_168_2024_D6_K1"
     ],
     "type_question": "law",
@@ -12986,7 +12957,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13050,7 +13021,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13114,7 +13085,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13241,7 +13212,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13304,7 +13275,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13352,7 +13323,7 @@
     "law": [
       "LUAT_36_2024_D11_K4",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13369,7 +13340,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_M10_3_3"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13435,7 +13406,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13498,7 +13469,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13625,7 +13596,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13688,7 +13659,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13751,7 +13722,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K4",
-      "QCVN_41_2024_PG_V7_1"
+      "QCVN_41_2024_PLG_2"
     ],
     "type_question": "law",
     "type_image": "khong_tuan_thu_den_tin_hieu"
@@ -13799,7 +13770,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -13816,7 +13787,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -13987,7 +13958,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D6_K9"
     ],
     "type_question": "law",
@@ -14004,7 +13975,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14051,7 +14022,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14068,7 +14039,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14115,7 +14086,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14132,7 +14103,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14181,7 +14152,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14198,7 +14169,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14245,7 +14216,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14262,8 +14233,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
-      "QCVN_41_2024_PL_D_R302B"
+      "QCVN_41_2024_PLB_2",
+      "QCVN_41_2024_PLD_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14310,7 +14281,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14327,7 +14298,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14374,7 +14345,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14391,7 +14362,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14440,7 +14411,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14457,7 +14428,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14504,7 +14475,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14521,7 +14492,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14568,7 +14539,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14585,7 +14556,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14632,7 +14603,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14649,7 +14620,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14698,7 +14669,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14715,7 +14686,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14762,7 +14733,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14779,7 +14750,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14828,7 +14799,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14845,7 +14816,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14894,7 +14865,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -14911,7 +14882,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -14958,7 +14929,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D6_K9"
     ],
     "type_question": "law",
@@ -14976,7 +14947,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PL_B_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15024,7 +14995,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2",
-      "QCVN_41_2024_PL_B_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -15043,8 +15014,8 @@
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PL_B_P102",
-      "QCVN_41_2024_PL_D_R302B"
+      "QCVN_41_2024_PLB_2",
+      "QCVN_41_2024_PLD_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15215,7 +15186,7 @@
     "GT": "B",
     "law": [
       "QCVN_41_2024_D22",
-      "QCVN_41_2024_PLB_B2",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -15232,7 +15203,7 @@
     "GT": "A",
     "law": [
       "QCVN_41_2024_D22",
-      "QCVN_41_2024_PLB_B2"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15278,7 +15249,7 @@
     "D": "Chuyển làn đúng quy định tại vị trí mở dải phân cách",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_B2",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -15294,7 +15265,7 @@
     "D": "Chỉ phải giảm tốc độ và nhường đường cho phương tiện khác",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_B2"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15340,7 +15311,7 @@
     "D": "Dừng xe sát mép đường để quan sát phương tiện",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -15356,7 +15327,7 @@
     "D": "Được đi vào nếu di chuyển sát mép đường và bật đèn báo rẽ",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15403,7 +15374,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "QCVN_41_2024_PLB_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15419,7 +15390,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K2",
-      "QCVN_41_2024_PLB_P102"
+      "QCVN_41_2024_PLB_2"
     ],
     "type_question": "law",
     "type_image": "nguoc_chieu"
@@ -15434,7 +15405,7 @@
     "D": "Từ 18.000.000 đồng đến 20.000.000 đồng",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D6_K9"
     ],
     "type_question": "law",
@@ -15450,7 +15421,7 @@
     "D": "Không bị trừ điểm và không bị tước quyền sử dụng giấy phép lái xe vì chưa thể hiện hành vi đi vào theo chiều bị cấm",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P102",
+      "QCVN_41_2024_PLB_2",
       "ND_168_2024_D6_K9",
       "ND_168_2024_D6_K16"
     ],
@@ -15714,7 +15685,7 @@
     "D": "Rẽ trái tại nơi có biển báo cấm rẽ trái",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -15732,7 +15703,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -15778,7 +15749,7 @@
     "D": "Đi vào đoạn đường có biển cấm xe ô tô tải có khối lượng chuyên chở trên 5 tấn",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P106B",
+      "QCVN_41_2024_PLB_6",
       "ND_168_2024_D6_K5"
     ],
     "type_question": "law",
@@ -15796,7 +15767,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P106B"
+      "QCVN_41_2024_PLB_6"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -15910,7 +15881,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P112",
+      "QCVN_41_2024_PLB_12",
       "ND_168_2024_D10_K1"
     ],
     "type_question": "law",
@@ -15929,7 +15900,7 @@
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D30_K1",
-      "QCVN_41_2024_PLB_P112"
+      "QCVN_41_2024_PLB_12"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -15976,7 +15947,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "ND_168_2024_D6_K5"
     ],
     "type_question": "law",
@@ -15994,7 +15965,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16042,7 +16013,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123B",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -16060,7 +16031,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123B"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16107,7 +16078,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P130",
+      "QCVN_41_2024_PLB_30",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -16125,7 +16096,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P130"
+      "QCVN_41_2024_PLB_30"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16172,8 +16143,8 @@
     "D": "Chỉ hạn chế tốc độ của xe ô tô tải trong thời gian từ 06 giờ đến 22 giờ",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P106B",
-      "QCVN_41_2024_PLH_S508"
+      "QCVN_41_2024_PLB_6",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16190,8 +16161,8 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P106B",
-      "QCVN_41_2024_PLH_S508"
+      "QCVN_41_2024_PLB_6",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16207,7 +16178,7 @@
     "GT": "B",
     "law": [
       "ND_168_2024_D6_K5",
-      "QCVN_41_2024_PLB_P106B"
+      "QCVN_41_2024_PLB_6"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16238,7 +16209,7 @@
     "D": "Đi đúng tuyến đường dành riêng cho xe ô tô",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "ND_168_2024_D6_K5"
     ],
     "type_question": "law",
@@ -16256,7 +16227,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16302,7 +16273,7 @@
     "D": "Rẽ trái tại nơi có biển báo cấm rẽ trái",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -16320,7 +16291,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16366,7 +16337,7 @@
     "D": "Chuyển làn sang trái đúng quy định",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P103C",
+      "QCVN_41_2024_PLB_3",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -16384,7 +16355,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P103C"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16430,7 +16401,7 @@
     "D": "Dừng xe đúng quy định để đón hành khách",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P131",
+      "QCVN_41_2024_PLB_31",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -16448,7 +16419,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16557,7 +16528,7 @@
     "D": "Dừng xe đúng quy định để đón hành khách",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P131A",
+      "QCVN_41_2024_PLB_31",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -16575,7 +16546,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131A"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16620,7 +16591,7 @@
     "D": "Đi vào đoạn đường có biển báo cấm đối với xe ô tô",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P103A",
+      "QCVN_41_2024_PLB_3",
       "ND_168_2024_D6_K5"
     ],
     "type_question": "law",
@@ -16638,7 +16609,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P103A"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16684,8 +16655,8 @@
     "D": "Chắc chắn xe vi phạm vì mọi xe tải đều bị cấm vào đoạn đường này",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P106B",
-      "QCVN_41_2024_PLF_S508"
+      "QCVN_41_2024_PLB_6",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16702,8 +16673,8 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P106B",
-      "QCVN_41_2024_PLF_S508"
+      "QCVN_41_2024_PLB_6",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16719,8 +16690,8 @@
     "GT": "C",
     "law": [
       "ND_168_2024_D6_K5",
-      "QCVN_41_2024_PLB_P106B",
-      "QCVN_41_2024_PLF_S508"
+      "QCVN_41_2024_PLB_6",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16751,7 +16722,7 @@
     "D": "Rẽ trái tại nơi có biển báo cấm rẽ trái",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -16769,7 +16740,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16814,7 +16785,7 @@
     "D": "Đi thẳng qua nơi giao nhau theo hướng được phép",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P103C",
+      "QCVN_41_2024_PLB_3",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -16832,7 +16803,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P103C"
+      "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16877,8 +16848,8 @@
     "D": "Chắc chắn ô tô vi phạm vì biển cấm đỗ xe có hiệu lực cả ngày",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P131A",
-      "QCVN_41_2024_PLF_S508"
+      "QCVN_41_2024_PLB_31",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16895,8 +16866,8 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131A",
-      "QCVN_41_2024_PLF_S508"
+      "QCVN_41_2024_PLB_31",
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -16941,7 +16912,7 @@
     "D": "Dừng xe theo hiệu lệnh của người điều khiển giao thông",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P130",
+      "QCVN_41_2024_PLB_30",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -16959,7 +16930,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P130"
+      "QCVN_41_2024_PLB_30"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17004,7 +16975,7 @@
     "D": "Quay đầu xe tại nơi có biển báo cấm quay đầu xe",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -17022,7 +16993,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17067,7 +17038,7 @@
     "D": "Chưa đủ căn cứ kết luận xe vi phạm vì xe đang đi ở chiều đối diện với mặt biển báo được nhìn thấy trong ảnh",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P125"
+      "QCVN_41_2024_PLB_25"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17084,7 +17055,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P125"
+      "QCVN_41_2024_PLB_25"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17130,7 +17101,7 @@
     "D": "Quay đầu xe tại vị trí có biển cấm quay đầu",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17147,7 +17118,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17162,7 +17133,7 @@
     "D": "Không bị phạt tiền vì biển cấm rẽ trái không cấm phương tiện đi thẳng",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17177,7 +17148,7 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe và bị tạm giữ phương tiện",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17192,8 +17163,8 @@
     "D": "Xe vi phạm vì biển báo chỉ cho phép xe máy đỗ tại vị trí này",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P131C",
-      "QCVN_41_2024_PLB_I408"
+      "QCVN_41_2024_PLB_31",
+      "QCVN_41_2024_PLE_8"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17210,7 +17181,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131C"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17226,7 +17197,7 @@
     "GT": "C",
     "law": [
       "ND_168_2024_D6_K3",
-      "QCVN_41_2024_PLB_P131C"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17256,7 +17227,7 @@
     "D": "Dừng xe theo hiệu lệnh của người điều khiển giao thông",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P131A",
+      "QCVN_41_2024_PLB_31",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -17274,7 +17245,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131A"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17319,7 +17290,7 @@
     "D": "Dừng xe bên lề đường để quan sát biển báo",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "ND_168_2024_D7_K6"
     ],
     "type_question": "law",
@@ -17337,7 +17308,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17383,7 +17354,7 @@
     "D": "Dừng xe theo hiệu lệnh của người điều khiển giao thông",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P131A",
+      "QCVN_41_2024_PLB_31",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -17401,7 +17372,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131A"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17446,7 +17417,7 @@
     "D": "Đi thẳng qua nơi đường giao nhau theo hướng được phép",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -17464,7 +17435,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17509,7 +17480,7 @@
     "D": "Rẽ trái theo hướng được phép lưu thông",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLB_P123B",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -17527,7 +17498,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123B"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17572,7 +17543,7 @@
     "D": "Chuyển làn sang trái đúng quy định",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P104",
+      "QCVN_41_2024_PLB_4",
       "ND_168_2024_D7_K6"
     ],
     "type_question": "law",
@@ -17590,7 +17561,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17636,7 +17607,7 @@
     "D": "Đỗ xe tại nơi có biển cấm đỗ xe",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P131A",
+      "QCVN_41_2024_PLB_31",
       "ND_168_2024_D6_K3"
     ],
     "type_question": "law",
@@ -17654,7 +17625,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P131A"
+      "QCVN_41_2024_PLB_31"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17699,7 +17670,7 @@
     "D": "Dừng xe sát dải phân cách để quan sát giao thông",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P123B",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -17717,7 +17688,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123B"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17762,7 +17733,7 @@
     "D": "Dừng xe trước vạch dừng để chờ tín hiệu đèn",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -17780,7 +17751,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17825,7 +17796,7 @@
     "D": "Dừng xe trước vạch dừng để chờ tín hiệu đèn",
     "GT": "C",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -17843,7 +17814,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -17888,7 +17859,7 @@
     "D": "Rẽ trái tại nơi có biển báo cấm rẽ trái",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLB_P123A",
+      "QCVN_41_2024_PLB_23",
       "ND_168_2024_D6_K4"
     ],
     "type_question": "law",
@@ -17906,7 +17877,7 @@
     "law": [
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "QCVN_41_2024_PLB_P123A"
+      "QCVN_41_2024_PLB_23"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -18030,7 +18001,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2",
-      "QCVN_41_2024_PLD_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18076,7 +18047,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "TT_51_2024_QCVN41_PL_G_V9.3"
+      "QCVN_41_2024_PLG_4"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18092,7 +18063,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "TT_51_2024_QCVN41_PL_G_V9.3"
+      "QCVN_41_2024_PLG_4"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18139,7 +18110,7 @@
     "D": "Đi đúng hoàn toàn trong phạm vi làn đường của mình.",
     "GT": "B",
     "law": [
-      "TT_51_2024_QCVN41_PL_G_V1.3"
+      "QCVN_41_2024_PLG_1"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18155,7 +18126,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "TT_51_2024_QCVN41_PL_G_V1.3"
+      "QCVN_41_2024_PLG_1"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18201,7 +18172,7 @@
     "D": "Đi vào làn đường dành riêng cho xe ô tô.",
     "GT": "D",
     "law": [
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18217,7 +18188,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D13_K1",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18327,7 +18298,7 @@
     "D": "Đi vào đoạn đường có biển cấm xe máy.",
     "GT": "D",
     "law": [
-      "QCVN41_BIEN_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18343,7 +18314,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "TT_51_2024_QCVN41_BIEN_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18451,7 +18422,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D13_K1",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18468,7 +18439,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D13_K1",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18516,7 +18487,6 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2",
-      "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K6"
     ],
     "type_question": "law",
@@ -18533,7 +18503,6 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K4",
       "LUAT_36_2024_D11_K6"
@@ -18645,7 +18614,7 @@
     "D": "Đi vào đoạn đường có biển báo cấm xe máy.",
     "GT": "D",
     "law": [
-      "TT_51_2024_QCVN41_BIEN_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18661,7 +18630,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K2",
-      "TT_51_2024_QCVN41_BIEN_P104"
+      "QCVN_41_2024_PLB_4"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18771,7 +18740,7 @@
     "D": "Đi hoàn toàn trong phần đường theo chiều di chuyển của mình.",
     "GT": "A",
     "law": [
-      "TT_51_2024_QCVN41_PL_G_V1.3"
+      "QCVN_41_2024_PLG_1"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18787,7 +18756,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D10_K1",
-      "TT_51_2024_QCVN41_PL_G_V1.3"
+      "QCVN_41_2024_PLG_1"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18833,7 +18802,7 @@
     "D": "Đi đúng trong làn đường dành cho xe mô tô, xe gắn máy.",
     "GT": "B",
     "law": [
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18849,7 +18818,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K1",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18897,7 +18866,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D13_K1",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18913,7 +18882,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K1",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18961,7 +18930,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -18977,7 +18946,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19024,7 +18993,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19040,7 +19009,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19087,7 +19056,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19103,7 +19072,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19213,7 +19182,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19229,7 +19198,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19338,7 +19307,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19354,7 +19323,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19465,7 +19434,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19481,7 +19450,7 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19591,7 +19560,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19608,7 +19577,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19654,7 +19623,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19670,7 +19639,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_D16_R415A"
+      "QCVN_41_2024_PLD_17"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19799,7 +19768,6 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D12_K1",
       "QCVN_41_2024_PLB_27",
       "QCVN_41_2024_PLD_6"
@@ -19916,7 +19884,7 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19933,7 +19901,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19980,7 +19948,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_BIEN_R412D"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -19997,7 +19965,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_PL_D_BIEN_R412D"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -20044,7 +20012,7 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -20061,7 +20029,7 @@
     "law": [
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D13_K4",
-      "TT_51_2024_QCVN41_BIEN_R412"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "sai_lan"
@@ -20140,7 +20108,6 @@
     "GT": "C",
     "law": [
       "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -20156,7 +20123,6 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe và bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K7",
       "ND_168_2024_D7_K13"
@@ -20338,7 +20304,6 @@
     "GT": "A",
     "law": [
       "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -20354,7 +20319,6 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe do hành vi kéo theo xe khác.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K12",
@@ -20437,7 +20401,6 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20468,7 +20431,6 @@
     "D": "Từ 800.000 đồng đến 1.200.000 đồng.",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20484,7 +20446,6 @@
     "D": "Bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng.",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -20534,7 +20495,6 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng.",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20550,7 +20510,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe và tạm giữ phương tiện trong mọi trường hợp.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -20570,7 +20529,6 @@
     "law": [
       "LUAT_36_2024_D33_K1",
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20602,7 +20560,6 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20618,7 +20575,6 @@
     "D": "Bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -20637,7 +20593,6 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20668,7 +20623,6 @@
     "D": "Từ 1.200.000 đồng đến 1.800.000 đồng.",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20684,7 +20638,6 @@
     "D": "Không bị trừ điểm và không bị tước quyền sử dụng giấy phép lái xe đối với các hành vi này.",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -20703,7 +20656,6 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20734,7 +20686,6 @@
     "D": "Từ 1.200.000 đồng đến 1.800.000 đồng.",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20750,7 +20701,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe và bị tạm giữ phương tiện trong mọi trường hợp.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -20770,7 +20720,6 @@
     "law": [
       "LUAT_36_2024_D18_K4",
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20802,7 +20751,6 @@
     "D": "Từ 200.000 đồng đến 400.000 đồng.",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20818,7 +20766,6 @@
     "D": "Không bị trừ điểm và không bị tước quyền sử dụng giấy phép lái xe đối với hai hành vi này.",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -20868,7 +20815,6 @@
     "D": "Từ 400.000 đồng đến 600.000 đồng.",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -20884,7 +20830,6 @@
     "D": "Bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng.",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -21066,7 +21011,6 @@
     "GT": "D",
     "law": [
       "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -21082,7 +21026,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe do hành vi không chấp hành tín hiệu đèn; hai hành vi liên quan đến mũ bảo hiểm không làm phát sinh thêm điểm bị trừ và không bị tước quyền sử dụng giấy phép lái xe.",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K7",
       "ND_168_2024_D7_K13"
@@ -21135,8 +21078,6 @@
     "GT": "D",
     "law": [
       "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K7",
       "ND_168_2024_D7_K7"
     ],
     "type_question": "law",
@@ -21153,10 +21094,7 @@
     "GT": "D",
     "law": [
       "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K7",
-      "ND_168_2024_D7_K7",
-      "ND_168_2024_D7_K13",
       "ND_168_2024_D7_K13"
     ],
     "type_question": "law",
@@ -22134,7 +22072,6 @@
     "D": "400.000 đồng đến 600.000 đồng",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -22150,7 +22087,6 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K13"
     ],
@@ -22861,7 +22797,7 @@
     "D": "Báo hiệu làn đường hoặc đường dành riêng cho xe buýt, xe khách theo nội dung thể hiện trên biển",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLD_32"
+      "QCVN_41_2024_PLD_14"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -22893,7 +22829,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_4",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -22909,7 +22845,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -22926,7 +22862,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_4",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -22943,7 +22879,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_4",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -22973,7 +22909,7 @@
     "D": "Biển phụ chỉ áp dụng cho xe ô tô, không áp dụng cho xe mô tô",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23080,7 +23016,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_4",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23096,7 +23032,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23113,7 +23049,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_4",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23130,7 +23066,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_4",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23160,7 +23096,7 @@
     "D": "Biển cấm xe mô tô hết hiệu lực trong các khung giờ ghi trên biển phụ",
     "GT": "B",
     "law": [
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23454,7 +23390,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23515,7 +23451,7 @@
     "D": "Biển phụ chỉ thông báo giờ cao điểm, không liên quan đến hiệu lực của biển cấm",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23563,7 +23499,7 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K1",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -23624,7 +23560,7 @@
     "D": "Các biển cấm liên quan hết hiệu lực trong khung giờ ghi trên biển phụ",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "di_vao_duong_cam"
@@ -24811,7 +24747,6 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1562,
@@ -24842,7 +24777,6 @@
     "D": "4.000.000 đồng đến 6.000.000 đồng",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1564,
@@ -24858,7 +24792,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K13"
     ],
@@ -25000,7 +24933,6 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1574,
@@ -25031,7 +24963,6 @@
     "D": "4.000.000 đồng đến 6.000.000 đồng",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1576,
@@ -25047,7 +24978,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K13"
     ],
@@ -25251,7 +25181,6 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1590,
@@ -25282,7 +25211,6 @@
     "D": "4.000.000 đồng đến 6.000.000 đồng",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1592,
@@ -25298,7 +25226,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K13"
     ],
@@ -25579,7 +25506,6 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1611,
@@ -25610,7 +25536,6 @@
     "D": "800.000 đồng đến 1.200.000 đồng",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "id": 1613,
@@ -25626,7 +25551,6 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K13"
     ],
@@ -26801,7 +26725,6 @@
     "D": "800.000 đồng đến 1.200.000 đồng",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -26817,7 +26740,6 @@
     "D": "Bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -27179,7 +27101,6 @@
     "D": "600.000 đồng đến 800.000 đồng",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -27195,7 +27116,6 @@
     "D": "Bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -27495,7 +27415,6 @@
     "D": "800.000 đồng đến 1.200.000 đồng",
     "GT": "D",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -27511,7 +27430,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -27872,7 +27790,6 @@
     "D": "400.000 đồng đến 600.000 đồng",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -27888,7 +27805,6 @@
     "D": "Bị trừ 04 điểm giấy phép lái xe",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
@@ -28001,7 +27917,6 @@
     "GT": "B",
     "law": [
       "ND_168_2024_D7_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K3"
     ],
     "type_question": "law",
@@ -28017,7 +27932,6 @@
     "D": "Không bị trừ điểm giấy phép lái xe hoặc tước quyền sử dụng giấy phép lái xe theo các hành vi này",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K3",
       "ND_168_2024_D7_K12",
@@ -28066,7 +27980,6 @@
     "D": "400.000 đồng đến 600.000 đồng",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -28082,7 +27995,6 @@
     "D": "Bị trừ 02 điểm giấy phép lái xe",
     "GT": "B",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K13"
     ],
@@ -28358,7 +28270,7 @@
       "LUAT_36_2024_D18_K4",
       "ND_168_2024_D6_K3",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28474,7 +28386,7 @@
       "LUAT_36_2024_D18_K4",
       "ND_168_2024_D6_K3",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28539,7 +28451,7 @@
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D18_K4",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28556,7 +28468,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28574,7 +28486,7 @@
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D18_K4",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28592,7 +28504,7 @@
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D18_K4",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28622,7 +28534,7 @@
     "D": "Biển phụ chỉ áp dụng cho xe mô tô, không áp dụng cho xe ô tô",
     "GT": "A",
     "law": [
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28641,7 +28553,7 @@
       "LUAT_36_2024_D18_K4",
       "ND_168_2024_D6_K3",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28870,7 +28782,7 @@
       "LUAT_36_2024_D18_K4",
       "ND_168_2024_D6_K3",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28935,7 +28847,7 @@
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D18_K4",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28952,7 +28864,7 @@
     "law": [
       "LUAT_36_2024_D11_K1",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28970,7 +28882,7 @@
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D18_K4",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -28988,7 +28900,7 @@
       "LUAT_36_2024_D11_K1",
       "LUAT_36_2024_D18_K4",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -29022,7 +28934,7 @@
       "LUAT_36_2024_D18_K4",
       "ND_168_2024_D6_K3",
       "QCVN_41_2024_PLB_31",
-      "QCVN_41_2024_PLH_1"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -29084,7 +28996,7 @@
     "D": "Báo hiệu nơi người đi bộ sang ngang",
     "GT": "D",
     "law": [
-      "QCVN_41_2024_PLE_4"
+      "QCVN_41_2024_PLE_23"
     ],
     "type_question": "law",
     "type_image": "khong_the_xac_dinh"
@@ -34699,7 +34611,6 @@
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "ND_168_2024_D6_K5"
     ],
     "type_question": "law",
@@ -34715,7 +34626,6 @@
     "D": "Ô tô được đi vào nếu đi sát lề đường bên phải",
     "GT": "C",
     "law": [
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D11_K5"
     ],
     "type_question": "law",
@@ -34762,7 +34672,6 @@
     "D": "Cấm tất cả các loại xe hai bánh đi vào theo thời gian được báo hiệu",
     "GT": "A",
     "law": [
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D11_K5"
     ],
     "type_question": "law",
@@ -34778,7 +34687,6 @@
     "D": "Cảnh báo đường thường có xe tải qua lại",
     "GT": "B",
     "law": [
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D11_K5"
     ],
     "type_question": "law",
@@ -34810,7 +34718,6 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3"
     ],
     "type_question": "law",
@@ -34826,7 +34733,6 @@
     "D": "Biển cấm ô tô chỉ có hiệu lực theo nội dung được biển phụ bổ sung",
     "GT": "D",
     "law": [
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3"
     ],
@@ -34877,7 +34783,6 @@
       "LUAT_36_2024_D10_K1",
       "LUAT_36_2024_D11_K2",
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "ND_168_2024_D6_K5"
     ],
     "type_question": "law",
@@ -34893,7 +34798,6 @@
     "D": "Cấm ô tô đi vào trong khoảng thời gian ghi trên biển phụ",
     "GT": "D",
     "law": [
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D11_K5"
     ],
     "type_question": "law",
@@ -35007,7 +34911,6 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_D73"
     ],
     "type_question": "law",
@@ -35023,7 +34926,6 @@
     "D": "Biển cấm ô tô có hiệu lực theo nội dung được biển phụ thời gian bổ sung",
     "GT": "D",
     "law": [
-      "LUAT_36_2024_D11_K5",
       "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_D73"
     ],
@@ -35072,9 +34974,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35090,9 +34991,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35139,9 +35039,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35157,9 +35056,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35206,9 +35104,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35224,9 +35121,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35273,9 +35169,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35291,9 +35186,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35340,9 +35234,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35358,9 +35251,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35407,9 +35299,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35425,9 +35316,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35474,9 +35364,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35492,9 +35381,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35541,9 +35429,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35559,9 +35446,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35608,9 +35494,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35626,9 +35511,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35675,9 +35559,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35693,9 +35576,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35742,9 +35624,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35760,9 +35641,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35809,9 +35689,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35827,9 +35706,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35942,9 +35820,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -35960,9 +35837,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36009,9 +35885,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36027,9 +35902,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36076,9 +35950,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36094,9 +35967,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36143,9 +36015,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36161,9 +36032,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36276,9 +36146,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36294,9 +36163,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36343,9 +36211,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36361,9 +36228,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36410,9 +36276,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36428,9 +36293,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36477,9 +36341,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36495,9 +36358,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36610,9 +36472,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36628,9 +36489,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36677,9 +36537,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36695,9 +36554,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36810,9 +36668,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36828,9 +36685,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36877,9 +36733,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36895,9 +36750,8 @@
     "GT": "D",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36944,9 +36798,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -36962,9 +36815,8 @@
     "GT": "A",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -37011,9 +36863,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -37029,9 +36880,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -37078,9 +36928,8 @@
     "GT": "C",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -37096,9 +36945,8 @@
     "GT": "B",
     "law": [
       "LUAT_36_2024_D11_K5",
-      "LUAT_36_2024_D11_K5",
       "QCVN_41_2024_PLB_3",
-      "QCVN_41_2024_PLH_8"
+      "QCVN_41_2024_PLF_10"
     ],
     "type_question": "law",
     "type_image": "sai_bien_bao"
@@ -38225,7 +38073,6 @@
     "law": [
       "LUAT_36_2024_D33_K1",
       "LUAT_36_2024_D33_K2",
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -38257,7 +38104,6 @@
     "D": "600.000 đồng đến 800.000 đồng",
     "GT": "A",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2"
     ],
     "type_question": "law",
@@ -38273,7 +38119,6 @@
     "D": "Bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng",
     "GT": "C",
     "law": [
-      "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K2",
       "ND_168_2024_D7_K12",
       "ND_168_2024_D7_K13"
