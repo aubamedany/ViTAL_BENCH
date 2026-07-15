@@ -25,3 +25,9 @@ pillow>=10.0
 
 # --- OpenAI-compatible backend (point at a vLLM server) ---
 openai>=1.30
+
+# --- annotation UI ---
+streamlit>=1.30
+
+# --- agent/ package (VNTraffic-Agent scaffolding) ---
+pydantic>=2.0

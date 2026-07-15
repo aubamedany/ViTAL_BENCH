@@ -1,0 +1,23 @@
+{
+  "condition": "e2_rag_q",
+  "model": "mock",
+  "corpus_version": "ceec0576942d",
+  "n_questions": 30,
+  "n_graded": 30,
+  "n_correct": 12,
+  "accuracy": 0.4,
+  "abstention_rate": 0.0,
+  "n_grounding_evaluated": 30,
+  "strict_grounding_rate": 0.0,
+  "citation_precision_macro": 0.006666666666666667,
+  "citation_recall_macro": 0.016666666666666666,
+  "citation_f1_macro": 0.009523809523809525,
+  "by_type_image": {
+    "cong_kenh": {
+      "correct": 12,
+      "total": 30,
+      "accuracy": 0.4
+    }
+  },
+  "elapsed_sec": 1.8
+}
