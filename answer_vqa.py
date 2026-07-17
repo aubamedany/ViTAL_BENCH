@@ -65,11 +65,11 @@ PRESETS: Dict[str, Preset] = {
     # --- llama ---
     "llama":        Preset("meta-llama/Llama-3.2-11B-Vision-Instruct", FAMILY_LLAMA),
     # --- internvl ---
-    "internvl-8b":     Preset("OpenGVLab/InternVL3-8B", FAMILY_INTERNVL),
-    "internvl-14b": Preset("OpenGVLab/InternVL3-14B", FAMILY_INTERNVL),
-    "internvl-2b":  Preset("OpenGVLab/InternVL3-2B", FAMILY_INTERNVL),
-    "internvl-1b":  Preset("OpenGVLab/InternVL3-1B", FAMILY_INTERNVL),
-    "internvl-9b":  Preset("OpenGVLab/InternVL3-9B", FAMILY_INTERNVL),
+    "internvl-8b":     Preset("OpenGVLab/InternVL3-8B-hf", FAMILY_INTERNVL),
+    "internvl-14b": Preset("OpenGVLab/InternVL3-14B-hf", FAMILY_INTERNVL),
+    "internvl-2b":  Preset("OpenGVLab/InternVL3-2B-hf", FAMILY_INTERNVL),
+    "internvl-1b":  Preset("OpenGVLab/InternVL3-1B-hf", FAMILY_INTERNVL),
+    "internvl-9b":  Preset("OpenGVLab/InternVL3-9B-hf", FAMILY_INTERNVL),
 }
 
 OPTION_LETTERS = ("A", "B", "C", "D")
