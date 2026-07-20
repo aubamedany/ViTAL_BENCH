@@ -54,6 +54,14 @@ trong ảnh. KHÔNG đề cập đến phương án trả lời trắc nghiệm 
 """
 
 
+def build_enumerate_user_prompt(question: str) -> str:
+    return (
+        f"Câu hỏi pháp lý liên quan đến ảnh: {question.strip()}\n"
+        "Hãy liệt kê mọi thực thể trong ảnh có thể liên quan đến việc xác định vi phạm "
+        "pháp luật giao thông."
+    )
+
+
 def build_inspect_user_prompt(entity_kind: str, entity_description: str) -> str:
     return (
         f"Thực thể cần kiểm tra: {entity_kind} ({entity_description}).\n"

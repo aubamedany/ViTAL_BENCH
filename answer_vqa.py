@@ -58,18 +58,18 @@ class Preset:
 PRESETS: Dict[str, Preset] = {
     # --- priority ---
     "qwen3vl-8b":   Preset("Qwen/Qwen3-VL-8B-Instruct", FAMILY_QWEN),
-    "qwen3vl-2b":   Preset("Qwen/Qwen3-VL-2B-Instruct", FAMILY_QWEN),
     "qwen3vl-4b":   Preset("Qwen/Qwen3-VL-4B-Instruct", FAMILY_QWEN),
+    "qwen3vl-2b":   Preset("Qwen/Qwen3-VL-2B-Instruct", FAMILY_QWEN),
     "qwen2_5vl-7b":  Preset("Qwen/Qwen2.5-VL-7B-Instruct", FAMILY_QWEN),
     "qwen2_5vl-3b":  Preset("Qwen/Qwen2.5-VL-3B-Instruct", FAMILY_QWEN),
     # --- llama ---
     "llama":        Preset("meta-llama/Llama-3.2-11B-Vision-Instruct", FAMILY_LLAMA),
     # --- internvl ---
-    "internvl-8b":     Preset("OpenGVLab/InternVL3-8B", FAMILY_INTERNVL),
-    "internvl-14b": Preset("OpenGVLab/InternVL3-14B", FAMILY_INTERNVL),
-    "internvl-2b":  Preset("OpenGVLab/InternVL3-2B", FAMILY_INTERNVL),
-    "internvl-1b":  Preset("OpenGVLab/InternVL3-1B", FAMILY_INTERNVL),
-    "internvl-9b":  Preset("OpenGVLab/InternVL3-9B", FAMILY_INTERNVL),
+    "internvl-8b":     Preset("OpenGVLab/InternVL3-8B-hf", FAMILY_INTERNVL),
+    "internvl-14b": Preset("OpenGVLab/InternVL3-14B-hf", FAMILY_INTERNVL),
+    "internvl-2b":  Preset("OpenGVLab/InternVL3-2B-hf", FAMILY_INTERNVL),
+    "internvl-1b":  Preset("OpenGVLab/InternVL3-1B-hf", FAMILY_INTERNVL),
+    "internvl-9b":  Preset("OpenGVLab/InternVL3-9B-hf", FAMILY_INTERNVL),
 }
 
 OPTION_LETTERS = ("A", "B", "C", "D")

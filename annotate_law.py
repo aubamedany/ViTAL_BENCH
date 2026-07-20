@@ -15,7 +15,8 @@ import json
 from pathlib import Path
 
 import streamlit as st
-
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 ROOT = Path(__file__).parent
 DATA_PATH = ROOT / "law.json"
 OUTPUT_PATH = ROOT / "law_categories.json"

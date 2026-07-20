@@ -13,8 +13,12 @@ faiss-cpu>=1.7.4
 numpy>=1.24
 
 # --- vision-language models (local HF backend) ---
-torch>=2.1
-torchvision>=0.16          # InternVL dynamic-tiling preprocessing
+# Pinned exactly: the cluster GPU driver only supports up to CUDA 12.9, so we
+# need the +cu128 wheels. `torch>=2.10.0` resolves to the newest release
+# (currently 2.13.0+cu130 on PyPI), which fails at runtime with
+# "The NVIDIA driver on your system is too old".
+torch>=2.10.0
+torchvision>=0.25.0        # must match torch==2.10.0; InternVL dynamic-tiling preprocessing
 transformers>=4.49.0       # Qwen2.5-VL + Llama-3.2-Vision (Mllama) + InternVL3
 accelerate>=0.30
 timm>=0.9                  # InternVL vision tower
@@ -31,3 +35,8 @@ streamlit>=1.30
 
 # --- agent/ package (VNTraffic-Agent scaffolding) ---
 pydantic>=2.0
+
+# --- BM25 retrieval (agent/retrieval/bm25.py) ---
+# pyserini needs a JDK (11+) on PATH for the underlying Lucene index/search.
+pyserini>=0.22
+pyvi>=0.1.1                # Vietnamese word segmentation, required for BM25 (AGENT_PLAN.md §3.2)
