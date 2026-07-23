@@ -1,71 +1,81 @@
-"""PERCEIVE-v2 prompts — ENUMERATE + INSPECT (AGENT_PLAN.md §2.1).
+"""PERCEIVE prompt (AGENT_PLAN_v2.md §3.1) — one call, question-directed.
 
-Not given verbatim anywhere (FORMULATE_PROMPT.md only specifies FORMULATE/
-REFINE); drafted to match its house style: Vietnamese, JSON-only output,
-open-vocabulary (no closed enum for `kind`/`state` — see §2.1 "Design rules").
-Both calls are option-blind: only the image and the question ever reach them.
+The question already names the entity, so PERCEIVE looks only at what it
+asks about and predicts the violation directly, in statute register. That
+last part — `violation` phrased the way the statute would phrase it, not the
+way a person describes a scene — is the single highest-leverage instruction
+in the whole pipeline: it's the difference between a retrieval query that
+matches statute text and one that doesn't. The mapping table below is
+carried over verbatim from FORMULATE_PROMPT.md/v1's FORMULATE prompt, since
+v1's FORMULATE step (a separate LLM call) is gone in v2 — PERCEIVE now does
+that job directly.
+
+Free text, never an enum: a closed vehicle list makes `cong_kenh` (bulky
+cargo) and xe đạp điện unrepresentable and forces a wrong pick that then
+poisons the retrieval filter.
+
+Option-blind: only the image and the question ever reach this prompt.
 """
 
 from __future__ import annotations
 
-ENUMERATE_SYSTEM_PROMPT = """\
-Bạn là chuyên gia phân tích ảnh giao thông đường bộ Việt Nam phục vụ mục đích pháp lý.
-Nhiệm vụ: liệt kê MỌI thực thể trong ảnh có thể liên quan đến việc xác định vi phạm
-pháp luật giao thông — đây là bước trích xuất YẾU TỐ PHÁP LÝ (chủ thể, hành vi, hoàn
-cảnh), không phải mô tả ảnh chung chung.
+PERCEIVE_SYSTEM_PROMPT = """\
+Bạn là chuyên gia pháp luật giao thông đường bộ Việt Nam phân tích ảnh phục vụ mục
+đích pháp lý. Câu hỏi đã cho biết cần nhìn vào đâu — CHỈ tập trung vào chủ thể/đối
+tượng mà câu hỏi nhắc đến, không mô tả toàn bộ ảnh.
 
-Các loại thực thể sau chỉ là VÍ DỤ MINH HỌA, KHÔNG PHẢI danh sách đầy đủ — hãy dùng
-đúng từ ngữ của riêng bạn cho bất cứ thực thể nào bạn quan sát được, kể cả khi nó
-không khớp với các ví dụ dưới đây:
-- phương tiện (loại xe, số lượng người trên xe, hàng hóa chở theo)
-- biển báo, vạch kẻ đường, đèn tín hiệu
-- người đi bộ, người điều khiển phương tiện (trang bị bảo hộ, tư thế)
-- vật cản, chướng ngại vật, phần đường/làn đường
+NHIỆM VỤ: xác định chủ thể câu hỏi hỏi về, quan sát trạng thái thực tế của chủ thể
+đó trong ảnh, và dự đoán hành vi vi phạm (nếu có) BẰNG VĂN PHONG CỦA VĂN BẢN PHÁP LUẬT.
 
-QUY TẮC:
-1. KHÔNG dùng danh sách đóng — gọi tên thực thể bằng từ ngữ tự nhiên của bạn.
-2. Với mỗi thực thể, giải thích NGẮN GỌN vì sao nó có thể liên quan đến pháp luật
-   giao thông (trường "legally_relevant_because"). Một thực thể không giải thích
-   được lý do liên quan sẽ bị loại khỏi bước truy vấn sau, nhưng vẫn được ghi log.
-3. Gán "confidence" trung thực (0.0–1.0) cho từng thực thể — thực thể không chắc
-   chắn (mơ hồ, bị che khuất, khó nhìn rõ) phải có confidence thấp.
-4. KHÔNG suy đoán các chi tiết bạn không thể nhìn thấy trong ảnh.
+QUY TẮC VIẾT "violation" — QUAN TRỌNG NHẤT:
+Phải dùng đúng từ ngữ của văn bản pháp luật, KHÔNG dùng từ ngữ đời thường. Đây là câu
+truy vấn sẽ dùng để tìm điều khoản, nên sai văn phong = không tìm được luật:
+- "xe máy"            → "xe mô tô, xe gắn máy"
+- "vượt đèn đỏ"       → "không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+- "đi ngược chiều"    → "đi ngược chiều của đường một chiều, đi ngược chiều trên
+                         đường có biển 'Cấm đi ngược chiều'"
+- "chở đồ cồng kềnh"  → "xếp hàng hóa trên xe vượt quá chiều rộng giá đèo hàng,
+                         vượt quá chiều cao quy định"
+- "đi sai làn"        → "đi không đúng phần đường hoặc làn đường quy định"
+- "dừng quá vạch"     → "không chấp hành vạch kẻ đường; vạch chỉ vị trí dừng lại"
+- "không đội mũ"      → "không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai
+                         đúng quy cách"
+- "bằng lái"          → "giấy phép lái xe"; "bị trừ điểm bằng" → "trừ điểm giấy phép lái xe"
+
+QUY TẮC KHÁC:
+1. KHÔNG dùng danh sách đóng cho "vehicle" — dùng đúng từ ngữ bạn quan sát được
+   (kể cả khi nó không khớp các ví dụ trên, ví dụ "xe đạp điện").
+2. Nếu KHÔNG có vi phạm nào, "violation" PHẢI là null — đừng bịa ra vi phạm.
+3. "confidence" trung thực (0.0–1.0); chi tiết mơ hồ, bị che khuất phải có confidence thấp.
+4. KHÔNG suy đoán chi tiết không nhìn thấy được trong ảnh.
 5. TUYỆT ĐỐI KHÔNG đề cập đến bất kỳ phương án trả lời trắc nghiệm nào — bạn sẽ
    không được cung cấp phương án nào, chỉ có ảnh và câu hỏi.
+6. "observed" CHỈ mô tả trạng thái của chủ thể/đối tượng đang xét — MỘT câu ngắn,
+   KHÔNG phải mô tả toàn cảnh. Bỏ qua thời tiết, giao thông xung quanh, người/xe khác
+   không liên quan đến hành vi đang xét. Ví dụ SAI (quá nhiều nhiễu): "đường phố đông
+   đúc, nhiều xe cộ qua lại, người đi bộ, biển báo ở phía xa, xe máy màu đỏ không đội
+   mũ bảo hiểm". Ví dụ ĐÚNG: "người điều khiển xe mô tô không đội mũ bảo hiểm".
+7. Nếu chủ thể đang thực hiện NHIỀU hành vi vi phạm ĐỒNG THỜI (ví dụ vừa không chấp
+   hành đèn tín hiệu vừa không đội mũ bảo hiểm cùng lúc) — đặc biệt khi câu hỏi hỏi
+   về TỔNG mức phạt hoặc tổng hậu quả — hãy liệt kê TẤT CẢ các hành vi đó trong
+   "violation", MỖI hành vi một cụm theo văn phong pháp luật, phân cách bằng dấu chấm
+   phẩy ";". Với câu hỏi chỉ hỏi về MỘT hành vi cụ thể, "violation" vẫn chỉ nêu một
+   hành vi duy nhất — không liệt kê thêm hành vi không liên quan đến câu hỏi.
 
 ĐỊNH DẠNG ĐẦU RA — JSON, không giải thích thêm:
 {
-  "entities": [
-    {"kind": "...", "description": "...", "confidence": 0.0,
-     "legally_relevant_because": "..."}
-  ],
-  "observed_behavior": "...",
-  "scene_notes": "..."
+  "focus": "chủ thể/đối tượng câu hỏi hỏi về",
+  "vehicle": "loại phương tiện, hoặc null nếu không áp dụng",
+  "observed": "những gì thực sự thấy trong ảnh, văn phong tự nhiên",
+  "violation": "hành vi vi phạm bằng văn phong pháp luật, hoặc null nếu không vi phạm",
+  "confidence": 0.0
 }
 """
 
-INSPECT_SYSTEM_PROMPT = """\
-Bạn đang kiểm tra một thực thể cụ thể trong ảnh giao thông để phục vụ mục đích pháp lý.
-Chỉ trả lời về thực thể được nêu tên bên dưới, dựa trên những gì thực sự nhìn thấy
-trong ảnh. KHÔNG đề cập đến phương án trả lời trắc nghiệm nào.
 
-ĐỊNH DẠNG ĐẦU RA — JSON, không giải thích thêm:
-{"state": "...", "confidence": 0.0}
-"""
-
-
-def build_enumerate_user_prompt(question: str) -> str:
+def build_perceive_user_prompt(question: str) -> str:
     return (
-        f"Câu hỏi pháp lý liên quan đến ảnh: {question.strip()}\n"
-        "Hãy liệt kê mọi thực thể trong ảnh có thể liên quan đến việc xác định vi phạm "
-        "pháp luật giao thông."
-    )
-
-
-def build_inspect_user_prompt(entity_kind: str, entity_description: str) -> str:
-    return (
-        f"Thực thể cần kiểm tra: {entity_kind} ({entity_description}).\n"
-        "Thuộc tính pháp lý quan trọng nhất của thực thể này là gì "
-        "(ví dụ: trạng thái đèn tín hiệu, có đội mũ bảo hiểm hay không, "
-        "mã biển báo, vị trí so với vạch kẻ đường)?"
+        f"Câu hỏi: {question.strip()}\n"
+        "Hãy xác định chủ thể câu hỏi hỏi về, quan sát trạng thái thực tế của chủ thể "
+        "đó trong ảnh, và dự đoán hành vi vi phạm (nếu có) theo văn phong pháp luật."
     )

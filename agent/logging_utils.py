@@ -1,16 +1,16 @@
-"""Per-item JSONL logging (AGENT_PLAN.md §7) — the leakage table, budget curve,
-and retrieval-vs-reasoning decomposition are all built from these logs, not
-from re-runs.
+"""Per-item JSONL logging — the leakage table and retrieval-vs-reasoning
+decomposition are built from these logs, not from re-runs.
 """
 
 from __future__ import annotations
 
 import json
+from dataclasses import asdict
 from pathlib import Path
 from typing import Any
 
 from agent.pipeline import Phase1Trace
-from agent.schemas import LegalDetermination, Selection
+from agent.schemas import RetrievedChunk, Selection
 
 
 def build_log_record(
@@ -20,7 +20,7 @@ def build_log_record(
     corpus_version: str,
     seed: int,
     trace: Phase1Trace | None,
-    determination: LegalDetermination | None,
+    retrieved: list[RetrievedChunk],
     selection: Selection | None,
     gold_answer: str | None,
     gold_citations_raw: list[str],
@@ -35,10 +35,13 @@ def build_log_record(
         "model": model,
         "corpus_version": corpus_version,
         "seed": seed,
-        "scene": trace.scene.model_dump() if trace else None,
-        "iterations": trace.iterations if trace else [],
+        "perception": trace.perception.model_dump() if trace else None,
+        "queries": trace.queries if trace else [],
+        "iterations": [asdict(it) for it in trace.iterations] if trace else [],
+        "iterations_used": trace.iterations_used if trace else 0,
+        "retry_used": trace.retry_used if trace else False,
         "stop_reason": trace.stop_reason if trace else None,
-        "determination": determination.model_dump() if determination else None,
+        "retrieved_chunk_ids": [c.chunk_id for c in retrieved],
         "selection": selection.model_dump() if selection else None,
         "gold_answer": gold_answer,
         "gold_citations_raw": gold_citations_raw,

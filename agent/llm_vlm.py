@@ -1,22 +1,20 @@
-"""VLMLLMClient — real model backend for agent.llm.LLMClient (AGENT_PLAN.md
-§2), adapting answer_vqa.VLM (the same model wrapper run.sh/answer_vqa.py use
-for qwen3vl/llama/internvl) to the seven-method Protocol the agent pipeline
-talks to. Nothing in agent/pipeline.py changes to use this instead of
-MockLLM — that swappability is the point (§1 "training-free" + the module
-docstring in agent/llm.py).
+"""VLMLLMClient — real model backend for agent.llm.LLMClient (AGENT_PLAN_v2.md
+§2-3.4), adapting answer_vqa.VLM (the same model wrapper run_100.sh/answer_vqa.py
+use for qwen3vl/llama/internvl) to the three-method Protocol the agent
+pipeline talks to. Nothing in agent/pipeline.py changes to use this instead of
+MockLLM — that swappability is the point.
 
-Only ENUMERATE ever receives the image (I1: FORMULATE/REFINE/ASSESS/EMIT are
-text-only; SELECT is the only place options ever appear, and it never sees
-the image or a retriever either, per I3).
+PERCEIVE and SELECT both receive the image (PERCEIVE always, SELECT because
+it now re-examines the image alongside the retrieved statute text); ASSESS is
+text-only (it only ever sees perception's output, never re-looks at pixels).
+SELECT is the only call that ever sees the options.
 
-Real model JSON is unreliable, especially at small scale (§10: "small models
-will fight the schema"). Every call goes through `_chat_json`, which retries
-once with an explicit schema reminder (§8 failure-mode table: "Retry x2 with
-schema reminder") before falling back to a safe empty/degenerate structure —
-the pipeline's own guards (entity confidence gate, citation closure, REFINE's
-early-stop) are designed to absorb a degenerate response rather than crash.
-`parse_failure_count` is exposed so a run can report the parse-failure rate
-per model, itself a finding per §10.
+Real model JSON is unreliable, especially at small scale. Every call goes
+through `_chat_json`, which retries once with an explicit schema reminder
+before falling back to a safe empty/degenerate structure — the pipeline's own
+guards (citation closure) are designed to absorb a degenerate response rather
+than crash. `parse_failure_count` is exposed so a run can report the
+parse-failure rate per model.
 """
 
 from __future__ import annotations
@@ -34,37 +32,35 @@ if str(ROOT) not in sys.path:
 from answer_vqa import PRESETS, VLM  # noqa: E402  (heavy import, deferred to call time by caller)
 
 from agent.prompts.assess import ASSESS_SYSTEM_PROMPT, build_assess_user_prompt
-from agent.prompts.emit import EMIT_SYSTEM_PROMPT, build_emit_user_prompt
-from agent.prompts.formulate import (
-    FORMULATE_FEWSHOT,
-    FORMULATE_SYSTEM_PROMPT,
-    build_formulate_user_prompt,
-    build_refine_suffix,
-)
-from agent.prompts.perceive import (
-    ENUMERATE_SYSTEM_PROMPT,
-    INSPECT_SYSTEM_PROMPT,
-    build_enumerate_user_prompt,
-    build_inspect_user_prompt,
-)
+from agent.prompts.perceive import PERCEIVE_SYSTEM_PROMPT, build_perceive_user_prompt
 from agent.prompts.select import SELECT_SYSTEM_PROMPT, build_select_user_prompt
-from agent.schemas import LegalDetermination, LegalEntity, RetrievedChunk, SceneDescription
+from agent.schemas import Perception, RetrievedChunk
 
-_VALID_INTENTS = {
-    "behavior_identification",
-    "required_behavior",
-    "penalty_amount",
-    "supplementary_consequence",
-}
-_VALID_SLOTS = {"violated_behavior", "penalty", "supplementary", "required_behavior"}
 _VALID_MATCH_QUALITY = {"exact", "partial", "poor"}
 
 _JSON_BLOCK_RE = re.compile(r"\{.*\}", re.DOTALL)
 _FENCE_RE = re.compile(r"^```(?:json)?\s*|\s*```$", re.IGNORECASE)
 _JSON_REMINDER = "\n\nCHỈ TRẢ LỜI ĐÚNG ĐỊNH DẠNG JSON NHƯ TRÊN, không thêm chữ nào khác, không dùng markdown."
 
-DEFAULT_JSON_MAX_NEW_TOKENS = 640
-DEFAULT_MAX_CHUNK_CHARS = 800
+
+# Observed on qwen3vl-2b (logs/agent/e4_agent/qwen3vl-2b.json): the model's
+# free-text "reasoning"/"reason" field (first in the schema, generated before
+# answer/citation/match_quality) alone runs up to 470 tokens for legitimate
+# non-degenerate cases -- the full JSON for that record came to 507/512,
+# right at the old ceiling. Any reasoning slightly longer got the response
+# truncated before the closing fields, producing invalid JSON that fell back
+# to an arbitrary answer pick on 42% of that run's samples. 1024 gives
+# roughly 2x headroom over the longest observed legitimate response.
+DEFAULT_JSON_MAX_NEW_TOKENS = 1024
+# A khoản chunk is self-contained: it carries the penalty range AND every
+# điểm sub-item (AGENT_PLAN_v2.md §3.3) — often 8-12 bullets enumerating
+# unrelated behaviors under one fine bracket. Truncating too aggressively
+# silently breaks that guarantee: at the old default of 800, 38% of the
+# corpus's chunks got cut off mid-bullet, discarding whichever điểm happened
+# to sit later in the list — including, in one observed case, the exact
+# "mang vác vật cồng kềnh" (bulky-cargo) bullet a "cong_kenh" item needed.
+# 3500 covers ~95% of chunks (measured on law_db.json) without truncation.
+DEFAULT_MAX_CHUNK_CHARS = 3500
 
 
 def _extract_json(text: str) -> Optional[dict]:
@@ -92,110 +88,66 @@ def _extract_json(text: str) -> Optional[dict]:
 # --------------------------------------------------------------------------- #
 
 
-def _sanitize_enumerate(raw: dict) -> dict:
-    entities = []
-    for e in raw.get("entities", []) if isinstance(raw, dict) else []:
-        if not isinstance(e, dict) or not e.get("kind"):
-            continue
-        try:
-            confidence = float(e.get("confidence", 0.0))
-        except (TypeError, ValueError):
-            confidence = 0.0
-        entities.append(
-            {
-                "kind": str(e["kind"]),
-                "description": str(e.get("description", "")),
-                "state": e.get("state") if isinstance(e.get("state"), str) else None,
-                "confidence": max(0.0, min(1.0, confidence)),
-                "legally_relevant_because": str(e.get("legally_relevant_because", "")),
-            }
-        )
-    return {
-        "entities": entities,
-        "observed_behavior": str(raw.get("observed_behavior", "")) if isinstance(raw, dict) else "",
-        "scene_notes": raw.get("scene_notes") if isinstance(raw, dict) and isinstance(raw.get("scene_notes"), str) else None,
-    }
-
-
-def _sanitize_queries(raw: dict) -> dict:
-    queries = []
-    for q in raw.get("queries", []) if isinstance(raw, dict) else []:
-        if not isinstance(q, dict) or not q.get("text"):
-            continue
-        intent = q.get("intent") if q.get("intent") in _VALID_INTENTS else "behavior_identification"
-        queries.append(
-            {
-                "text": str(q["text"]),
-                "type": q.get("type", ""),
-                "intent": intent,
-                "vehicle_mentioned": q.get("vehicle_mentioned") if isinstance(q.get("vehicle_mentioned"), str) else None,
-            }
-        )
-    return {"queries": queries}
-
-
-def _sanitize_slot_evidence(raw: dict, required_slots: list[str]) -> dict:
-    evidence = []
-    for item in raw.get("slot_evidence", []) if isinstance(raw, dict) else []:
-        if not isinstance(item, dict) or item.get("slot") not in _VALID_SLOTS:
-            continue
-        evidence.append(
-            {
-                "slot": item["slot"],
-                "filled": bool(item.get("filled")),
-                "supporting_chunk_id": item.get("supporting_chunk_id") if isinstance(item.get("supporting_chunk_id"), str) else None,
-                "justification": str(item.get("justification", "")),
-            }
-        )
-    return {"slot_evidence": evidence}
-
-
-def _int_or_none(v) -> Optional[int]:
-    if v is None:
-        return None
-    try:
-        return int(v)
-    except (TypeError, ValueError):
-        return None
-
-
-def _sanitize_determination(raw: dict, observed_behavior: str) -> dict:
+def _sanitize_perception(raw: dict) -> dict:
     if not isinstance(raw, dict):
         raw = {}
-    provisions = [p for p in raw.get("applicable_provisions", []) if isinstance(p, str)]
     try:
-        confidence = float(raw.get("confidence", 0.5))
+        confidence = max(0.0, min(1.0, float(raw.get("confidence", 0.0))))
     except (TypeError, ValueError):
-        confidence = 0.5
-    confidence = max(0.0, min(1.0, confidence))
-    violated_behavior = raw.get("violated_behavior")
-    if not isinstance(violated_behavior, str) or not violated_behavior.strip():
-        violated_behavior = observed_behavior or None
+        confidence = 0.0
+    violation = raw.get("violation")
+    if not isinstance(violation, str) or not violation.strip():
+        violation = None
+    vehicle = raw.get("vehicle")
+    if not isinstance(vehicle, str) or not vehicle.strip():
+        vehicle = None
     return {
-        "violated_behavior": violated_behavior,
-        "applicable_provisions": provisions,
-        "penalty_min_vnd": _int_or_none(raw.get("penalty_min_vnd")),
-        "penalty_max_vnd": _int_or_none(raw.get("penalty_max_vnd")),
-        "supplementary_consequences": [s for s in raw.get("supplementary_consequences", []) if isinstance(s, str)],
-        "reasoning": str(raw.get("reasoning", "")),
+        "focus": str(raw.get("focus", "")),
+        "vehicle": vehicle,
+        "observed": str(raw.get("observed", "")),
+        "violation": violation,
         "confidence": confidence,
-        "insufficient_evidence": bool(raw.get("insufficient_evidence", not provisions)),
     }
 
 
-def _sanitize_selection(raw: dict, options: dict[str, str]) -> dict:
+def _sanitize_assessment(raw: dict) -> dict:
+    if not isinstance(raw, dict):
+        raw = {}
+    sufficient = bool(raw.get("sufficient", False))
+    refined_query = raw.get("refined_query")
+    if not isinstance(refined_query, str) or not refined_query.strip():
+        refined_query = None
+    if sufficient:
+        refined_query = None  # ignore a redundant refined_query when already sufficient
+    return {"reason": str(raw.get("reason", "")), "sufficient": sufficient, "refined_query": refined_query}
+
+
+def _sanitize_selection(raw: dict, options: dict[str, str], retrieved_ids: set[str]) -> dict:
     if not isinstance(raw, dict):
         raw = {}
     answer = raw.get("answer")
     if answer not in options:
-        return {"answer": next(iter(options)), "match_quality": "poor", "rationale": str(raw.get("rationale", ""))}
+        return {
+            "reasoning": str(raw.get("reasoning", "")),
+            "answer": next(iter(options)),
+            "citation": None,
+            "match_quality": "poor",
+        }
     quality = raw.get("match_quality") if raw.get("match_quality") in _VALID_MATCH_QUALITY else "partial"
-    return {"answer": answer, "match_quality": quality, "rationale": str(raw.get("rationale", ""))}
+    citation = raw.get("citation")
+    if not isinstance(citation, str) or citation not in retrieved_ids:
+        citation = None
+    return {
+        "reasoning": str(raw.get("reasoning", "")),
+        "answer": answer,
+        "citation": citation,
+        "match_quality": quality,
+    }
 
 
 class VLMLLMClient:
     """Real backend: wraps answer_vqa.VLM (loaded once) and drives it through
-    all seven LLMClient calls as JSON-only chat turns."""
+    all three LLMClient calls as JSON-only chat turns."""
 
     def __init__(
         self,
@@ -251,7 +203,7 @@ class VLMLLMClient:
 
     def _chat_json(self, system: str, user: str, image_path: Path | None, fallback: dict) -> dict:
         prompt = user
-        for _ in range(3):  # 1 initial attempt + 2 schema-reminder retries (§8)
+        for _ in range(3):  # 1 initial attempt + 2 schema-reminder retries
             raw_text = self._chat(system, prompt, image_path)
             parsed = _extract_json(raw_text)
             if parsed is not None:
@@ -264,87 +216,43 @@ class VLMLLMClient:
     # LLMClient Protocol
     # ----------------------------------------------------------------- #
 
-    def enumerate_entities(self, image_path: Path, question: str) -> dict:
-        fallback = {"entities": [], "observed_behavior": "", "scene_notes": None}
-        raw = self._chat_json(ENUMERATE_SYSTEM_PROMPT, build_enumerate_user_prompt(question), image_path, fallback)
-        return _sanitize_enumerate(raw)
-
-    def inspect_entity(self, entity_kind: str, entity_description: str) -> dict:
-        # NOTE: the LLMClient Protocol doesn't thread image_path through this
-        # call, and agent/pipeline.py's perceive() doesn't call it today
-        # (single-pass ENUMERATE only, see AGENT_PLAN.md §2.1's two-step
-        # design vs. the current one-step implementation). Implemented for
-        # protocol completeness / a future two-step PERCEIVE; text-only.
-        fallback = {"state": entity_description, "confidence": 0.3}
-        raw = self._chat_json(INSPECT_SYSTEM_PROMPT, build_inspect_user_prompt(entity_kind, entity_description), None, fallback)
-        if not isinstance(raw, dict) or "state" not in raw:
-            return fallback
-        try:
-            confidence = max(0.0, min(1.0, float(raw.get("confidence", 0.3))))
-        except (TypeError, ValueError):
-            confidence = 0.3
-        return {"state": str(raw.get("state", entity_description)), "confidence": confidence}
-
-    def formulate_queries(self, entities: list[LegalEntity], question: str) -> dict:
-        system = FORMULATE_SYSTEM_PROMPT + "\n" + FORMULATE_FEWSHOT
-        fallback = {"queries": []}
-        raw = self._chat_json(system, build_formulate_user_prompt(entities, question), None, fallback)
-        return _sanitize_queries(raw)
-
-    def refine_queries(
-        self,
-        entities: list[LegalEntity],
-        question: str,
-        unfilled_slots: list[str],
-        found_citations: list[str],
-        tried_queries: list[str],
-    ) -> dict:
-        system = FORMULATE_SYSTEM_PROMPT + "\n" + FORMULATE_FEWSHOT
-        user = build_formulate_user_prompt(entities, question) + "\n\n" + build_refine_suffix(
-            unfilled_slots, found_citations, tried_queries
-        )
-        fallback = {"queries": []}
-        raw = self._chat_json(system, user, None, fallback)
-        return _sanitize_queries(raw)
+    def perceive(self, image_path: Path, question: str) -> dict:
+        fallback = {"focus": "", "vehicle": None, "observed": "", "violation": None, "confidence": 0.2}
+        raw = self._chat_json(PERCEIVE_SYSTEM_PROMPT, build_perceive_user_prompt(question), image_path, fallback)
+        return _sanitize_perception(raw)
 
     def assess(
         self,
         question: str,
-        observed_behavior: str,
-        required_slots: list[str],
+        perception: Perception,
         retrieved: list[RetrievedChunk],
+        queries_tried: list[str],
     ) -> dict:
         truncated = [c.model_copy(update={"content": c.content[: self.max_chunk_chars]}) for c in retrieved]
-        user = build_assess_user_prompt(question, observed_behavior, required_slots, truncated)
-        fallback = {
-            "slot_evidence": [
-                {"slot": s, "filled": False, "supporting_chunk_id": None, "justification": ""} for s in required_slots
-            ]
-        }
-        raw = self._chat_json(ASSESS_SYSTEM_PROMPT, user, None, fallback)
-        return _sanitize_slot_evidence(raw, required_slots)
+        user = build_assess_user_prompt(question, perception, truncated, queries_tried)
+        # Fallback favors STOPPING the loop (sufficient=True), not retrying: a
+        # model that just failed to produce valid JSON here is unlikely to
+        # succeed against a harder prompt (a longer chunk list) on retry —
+        # let SELECT's own poor-match-quality path absorb the degraded case.
+        fallback = {"reason": "(loi phan tich JSON - dung vong lap)", "sufficient": True, "refined_query": None}
+        raw = self._chat_json(ASSESS_SYSTEM_PROMPT, user, None, fallback)  # text-only: Phase 1, no image
+        return _sanitize_assessment(raw)
 
-    def emit_determination(
-        self, question: str, scene: SceneDescription, retrieved: list[RetrievedChunk], iterations_used: int
+    def select(
+        self,
+        question: str,
+        retrieved: list[RetrievedChunk],
+        options: dict[str, str],
+        image_path: Path,
     ) -> dict:
         truncated = [c.model_copy(update={"content": c.content[: self.max_chunk_chars]}) for c in retrieved]
-        user = build_emit_user_prompt(question, scene, truncated)
+        user = build_select_user_prompt(question, truncated, options)
         fallback = {
-            "violated_behavior": scene.observed_behavior or None,
-            "applicable_provisions": [],
-            "penalty_min_vnd": None,
-            "penalty_max_vnd": None,
-            "supplementary_consequences": [],
             "reasoning": "(khong the tao ket luan do loi phan tich JSON)",
-            "confidence": 0.2,
-            "insufficient_evidence": True,
+            "answer": next(iter(options)),
+            "citation": None,
+            "match_quality": "poor",
         }
-        raw = self._chat_json(EMIT_SYSTEM_PROMPT, user, None, fallback)
-        result = _sanitize_determination(raw, scene.observed_behavior)
-        result["iterations_used"] = iterations_used
-        return result
-
-    def select(self, determination: LegalDetermination, options: dict[str, str]) -> dict:
-        fallback = {"answer": next(iter(options)), "match_quality": "poor", "rationale": "(loi phan tich JSON)"}
-        raw = self._chat_json(SELECT_SYSTEM_PROMPT, build_select_user_prompt(determination, options), None, fallback)
-        return _sanitize_selection(raw, options)
+        raw = self._chat_json(SELECT_SYSTEM_PROMPT, user, image_path, fallback)
+        retrieved_ids = {c.chunk_id for c in retrieved}
+        return _sanitize_selection(raw, options, retrieved_ids)

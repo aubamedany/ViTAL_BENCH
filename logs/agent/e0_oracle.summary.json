@@ -1,23 +1,79 @@
 {
   "condition": "e0_oracle",
-  "model": "mock",
+  "model": "qwen3vl-4b",
+  "llm_backend": "vlm",
+  "llm_parse_failures": 2,
+  "llm_parse_failure_rate": 0.0008285004142502071,
   "corpus_version": "ceec0576942d",
-  "n_questions": 5,
-  "n_graded": 5,
-  "n_correct": 1,
-  "accuracy": 0.2,
-  "abstention_rate": 0.0,
-  "n_grounding_evaluated": 5,
-  "strict_grounding_rate": 1.0,
-  "citation_precision_macro": 1.0,
-  "citation_recall_macro": 1.0,
-  "citation_f1_macro": 1.0,
+  "n_questions": 2414,
+  "n_graded": 2414,
+  "k": 3,
+  "max_iterations": 2,
+  "mcq_acc": 0.7887323943661971,
+  "pick_longest_acc": 0.5414250207125103,
+  "grounded_acc": 0.7096106048053024,
+  "divergence": 0.10031512605042017,
+  "retry_rate": 0.0,
+  "avg_iterations_used": 0.0,
+  "stop_reason_distribution": {
+    "oracle_retrieval": 2414
+  },
   "by_type_image": {
     "cong_kenh": {
-      "correct": 1,
-      "total": 5,
-      "accuracy": 0.2
+      "total": 184,
+      "mcq_acc": 0.7010869565217391,
+      "grounded_acc": 0.6358695652173914
+    },
+    "di_vao_duong_cam": {
+      "total": 198,
+      "mcq_acc": 0.8737373737373737,
+      "grounded_acc": 0.8282828282828283
+    },
+    "du_lieu_khong_loi": {
+      "total": 236,
+      "mcq_acc": 0.961864406779661,
+      "grounded_acc": 0.7584745762711864
+    },
+    "dung_qua_vach": {
+      "total": 132,
+      "mcq_acc": 0.696969696969697,
+      "grounded_acc": 0.6439393939393939
+    },
+    "khong_mu_bao_hiem": {
+      "total": 313,
+      "mcq_acc": 0.7124600638977636,
+      "grounded_acc": 0.6389776357827476
+    },
+    "khong_the_xac_dinh": {
+      "total": 180,
+      "mcq_acc": 0.9166666666666666,
+      "grounded_acc": 0.7722222222222223
+    },
+    "khong_tuan_thu_den_tin_hieu": {
+      "total": 444,
+      "mcq_acc": 0.722972972972973,
+      "grounded_acc": 0.6779279279279279
+    },
+    "nguoc_chieu": {
+      "total": 120,
+      "mcq_acc": 0.7583333333333333,
+      "grounded_acc": 0.7333333333333333
+    },
+    "sai_bien_bao": {
+      "total": 327,
+      "mcq_acc": 0.8501529051987767,
+      "grounded_acc": 0.7951070336391437
+    },
+    "sai_lan": {
+      "total": 204,
+      "mcq_acc": 0.7450980392156863,
+      "grounded_acc": 0.6862745098039216
+    },
+    "tong_hop": {
+      "total": 76,
+      "mcq_acc": 0.6973684210526315,
+      "grounded_acc": 0.5263157894736842
     }
   },
-  "elapsed_sec": 0.0
+  "elapsed_sec": 28872.6
 }

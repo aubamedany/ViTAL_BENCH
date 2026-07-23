@@ -35,6 +35,7 @@ streamlit>=1.30
 
 # --- agent/ package (VNTraffic-Agent scaffolding) ---
 pydantic>=2.0
+tqdm>=4.60                  # agent/cli.py progress bar with live accuracy
 
 # --- BM25 retrieval (agent/retrieval/bm25.py) ---
 # pyserini needs a JDK (11+) on PATH for the underlying Lucene index/search.

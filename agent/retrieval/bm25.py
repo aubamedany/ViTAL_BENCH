@@ -54,7 +54,6 @@ class BM25Retriever:
         query: RetrievalQuery,
         corpus: Corpus,
         k: int,
-        iteration: int,
         as_of: str | None = None,
     ) -> list[RetrievedChunk]:
         q_text = segment(query.text).strip()
@@ -83,7 +82,6 @@ class BM25Retriever:
                 citation=chunk.title,
                 content=chunk.text,
                 score=score,
-                retrieved_at_iteration=iteration,
             )
             for score, _, chunk in scored[:k]
         ]

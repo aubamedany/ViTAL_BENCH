@@ -1,0 +1,79 @@
+{
+  "condition": "e0_oracle",
+  "model": "qwen3vl-4b",
+  "llm_backend": "vlm",
+  "llm_parse_failures": 40,
+  "llm_parse_failure_rate": 0.016570008285004142,
+  "corpus_version": "ceec0576942d",
+  "n_questions": 2414,
+  "n_graded": 2414,
+  "k": 3,
+  "max_iterations": 2,
+  "mcq_acc": 0.8218724109362054,
+  "pick_longest_acc": 0.5414250207125103,
+  "grounded_acc": 0.7315658657829329,
+  "divergence": 0.10987903225806452,
+  "retry_rate": 0.0,
+  "avg_iterations_used": 0.0,
+  "stop_reason_distribution": {
+    "oracle_retrieval": 2414
+  },
+  "by_type_image": {
+    "cong_kenh": {
+      "total": 184,
+      "mcq_acc": 0.7228260869565217,
+      "grounded_acc": 0.7065217391304348
+    },
+    "di_vao_duong_cam": {
+      "total": 198,
+      "mcq_acc": 0.8838383838383839,
+      "grounded_acc": 0.8333333333333334
+    },
+    "du_lieu_khong_loi": {
+      "total": 236,
+      "mcq_acc": 0.9491525423728814,
+      "grounded_acc": 0.6652542372881356
+    },
+    "dung_qua_vach": {
+      "total": 132,
+      "mcq_acc": 0.7651515151515151,
+      "grounded_acc": 0.6212121212121212
+    },
+    "khong_mu_bao_hiem": {
+      "total": 313,
+      "mcq_acc": 0.7763578274760383,
+      "grounded_acc": 0.65814696485623
+    },
+    "khong_the_xac_dinh": {
+      "total": 180,
+      "mcq_acc": 0.8555555555555555,
+      "grounded_acc": 0.7333333333333333
+    },
+    "khong_tuan_thu_den_tin_hieu": {
+      "total": 444,
+      "mcq_acc": 0.8130630630630631,
+      "grounded_acc": 0.795045045045045
+    },
+    "nguoc_chieu": {
+      "total": 120,
+      "mcq_acc": 0.75,
+      "grounded_acc": 0.7083333333333334
+    },
+    "sai_bien_bao": {
+      "total": 327,
+      "mcq_acc": 0.8960244648318043,
+      "grounded_acc": 0.8409785932721713
+    },
+    "sai_lan": {
+      "total": 204,
+      "mcq_acc": 0.7843137254901961,
+      "grounded_acc": 0.6519607843137255
+    },
+    "tong_hop": {
+      "total": 76,
+      "mcq_acc": 0.6578947368421053,
+      "grounded_acc": 0.631578947368421
+    }
+  },
+  "elapsed_sec": 32286.5
+}

@@ -41,6 +41,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from tqdm import tqdm
+
 # --------------------------------------------------------------------------- #
 # Model presets (short name -> checkpoint + adapter family). All ≤14B.
 # --------------------------------------------------------------------------- #
@@ -339,7 +341,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     n_graded = 0
     t0 = time.time()
 
-    for i, rec in enumerate(records, 1):
+    progress = tqdm(records, total=len(records), unit="q", desc=f"{model_tag}:{args.type}")
+    for rec in progress:
         img = resolve_image_path(rec["image"], data_root)
         pred: Optional[str] = None
         raw = ""
@@ -374,22 +377,21 @@ def main(argv: Optional[List[str]] = None) -> int:
 
         # per-sample log: image path, id, question, options, GT, prediction
         if not args.quiet:
-            print(f"[{i}/{len(records)}] id={rec.get('id')}", flush=True)
-            print(f"  image   : {rec['image']}")
-            print(f"  question: {rec['question'].strip()}")
+            progress.write(f"[{rec.get('id')}]")
+            progress.write(f"  image   : {rec['image']}")
+            progress.write(f"  question: {rec['question'].strip()}")
             for L in option_letters(include_e):
                 if L == "E" and "E" not in rec:
                     text = DEFAULT_E_TEXT
                 else:
                     text = rec[L].strip()
-                print(f"  {L}: {text}")
-            print(f"  GT: {gt}   pred: {pred}")
+                progress.write(f"  {L}: {text}")
+            progress.write(f"  GT: {gt}   pred: {pred}")
 
-        if i % 25 == 0 or i == len(records):
-            acc = (n_correct / n_graded) if n_graded else 0.0
-            rate = i / (time.time() - t0)
-            print(f"[{i}/{len(records)}] acc={acc:.3f} "
-                  f"({n_correct}/{n_graded}) {rate:.2f} q/s", flush=True)
+        if n_graded:
+            progress.set_postfix(acc=f"{n_correct / n_graded:.3f}", refresh=False)
+
+    progress.close()
 
     # ------------------------------------------------------------------ #
     # Breakdowns

@@ -1,90 +1,63 @@
-"""ASSESS prompt — structured SufficiencyReport (AGENT_PLAN.md §2.1).
+"""ASSESS prompt (AGENT_PLAN_v2.md §3.4) — the sufficiency judgment + query
+refinement for agent/pipeline.py's run_phase1 refine loop. Merges what v1
+split into ASSESS+REFINE into a single call, and drops v1's SufficiencyReport
+/ per-slot-chunk-attribution machinery in favor of a holistic judgment.
 
-Deliberately not a bare "sufficient: true/false": ASSESS names, for each
-required slot, the specific chunk_id that supplies it, so its own accuracy is
-checkable post-hoc against the chunk text (ASSESS precision, §7). The final
-`overall_sufficient` is *derived* in code from the slot evidence, never taken
-verbatim from the LLM — that is the point of the upgrade over a self-reported
-boolean, so this module's parser recomputes it rather than trusting the field.
-Option-blind: only the question, scene, and retrieved chunks are shown.
+Text-only: does NOT re-look at the image. Perception happens exactly once,
+before the loop starts; this call only ever sees perception's *output*
+(violation/vehicle), never pixels.
+
+Option-blind: question, perception fields, retrieved chunk text, and prior
+query texts reach this prompt — never `options`.
 """
 
 from __future__ import annotations
 
-from agent.schemas import RetrievedChunk, SlotEvidence, SufficiencyReport
-
-# Query intent -> the SufficiencyReport slot it is meant to fill (§2.1 ASSESS).
-INTENT_TO_SLOT: dict[str, str] = {
-    "behavior_identification": "violated_behavior",
-    "required_behavior": "required_behavior",
-    "penalty_amount": "penalty",
-    "supplementary_consequence": "supplementary",
-}
+from agent.schemas import Perception, RetrievedChunk
 
 ASSESS_SYSTEM_PROMPT = """\
 Bạn là chuyên gia pháp luật giao thông đường bộ Việt Nam. Nhiệm vụ: đánh giá xem các
-điều khoản đã truy xuất có đủ để trả lời câu hỏi pháp lý hay không — CHỈ dựa trên nội
-dung các điều khoản được cung cấp, KHÔNG được suy đoán nội dung không có trong đó.
+điều khoản đã truy xuất có đủ để xác định hành vi vi phạm và (nếu câu hỏi hỏi mức
+phạt) mức phạt hay chưa.
 
-Với MỖI mục trong danh sách "các nội dung cần có" bên dưới, hãy xác định:
-- mục đó đã được điều khoản nào đáp ứng (ghi rõ chunk_id), nếu có
-- trích dẫn/diễn giải ngắn gọn phần nội dung trong điều khoản đó chứng minh điều này
-
-Nếu KHÔNG điều khoản nào trong danh sách đáp ứng được một mục, đánh dấu mục đó là
-chưa đáp ứng (filled: false, supporting_chunk_id: null).
-
-KHÔNG được tự nhận định "đủ hay không đủ" một cách chung chung — chỉ báo cáo bằng
-chứng cho từng mục cụ thể. TUYỆT ĐỐI KHÔNG đề cập phương án trả lời trắc nghiệm nào.
+QUY TẮC:
+1. CHỈ dựa vào nội dung điều khoản được cung cấp, không dùng kiến thức khác.
+2. Nếu CHƯA đủ, đề xuất MỘT truy vấn MỚI để tìm điều khoản còn thiếu. Truy vấn PHẢI
+   dùng đúng văn phong pháp luật (như: "vượt đèn đỏ" → "không chấp hành hiệu lệnh của
+   đèn tín hiệu giao thông"; "không đội mũ" → "không đội mũ bảo hiểm hoặc đội mũ bảo
+   hiểm không cài quai đúng quy cách") — truy vấn sai văn phong sẽ không tìm được luật.
+3. Truy vấn mới PHẢI khác các truy vấn đã thử, nhắm đúng vào nội dung còn thiếu
+   (hành vi vi phạm, hoặc mức phạt, hoặc hình thức xử phạt bổ sung).
+4. Nếu câu hỏi hỏi về hình thức xử phạt bổ sung (trừ điểm, tước quyền sử dụng giấy
+   phép lái xe): các điều khoản về hậu quả bổ sung THAM CHIẾU CHÉO đến điểm/khoản CỤ
+   THỂ của điều khoản định nghĩa hành vi (ví dụ "áp dụng đối với điểm b khoản 3"). CHỈ
+   coi là "đủ" khi đã có CẢ (a) điều khoản xác định hành vi thuộc điểm/khoản nào, VÀ
+   (b) điều khoản về hậu quả bổ sung nêu rõ danh sách điểm/khoản mà nó áp dụng — thiếu
+   một trong hai thì CHƯA đủ, kể cả khi đã có điều khoản nêu số điểm cho MỘT hành vi
+   khác.
+5. Nếu đã đủ, "refined_query" PHẢI là null.
+6. TUYỆT ĐỐI KHÔNG đề cập đến bất kỳ phương án trả lời trắc nghiệm nào — bạn sẽ
+   không được cung cấp phương án nào.
 
 ĐỊNH DẠNG ĐẦU RA — JSON, không giải thích thêm:
-{
-  "slot_evidence": [
-    {"slot": "...", "filled": true, "supporting_chunk_id": "...", "justification": "..."}
-  ]
-}
+{"reason": "lý do ngắn gọn", "sufficient": true|false,
+ "refined_query": "truy vấn mới, hoặc null nếu đã đủ"}
 """
 
 
 def build_assess_user_prompt(
     question: str,
-    observed_behavior: str,
-    required_slots: list[str],
+    perception: Perception,
     retrieved: list[RetrievedChunk],
+    queries_tried: list[str],
 ) -> str:
     chunk_lines = [f"[{c.chunk_id}] {c.content}" for c in retrieved]
     return (
         f"Câu hỏi: {question.strip()}\n"
-        f"Hành vi quan sát được: {observed_behavior}\n"
-        f"Các nội dung cần có: {', '.join(required_slots)}\n\n"
-        "Các điều khoản đã truy xuất:\n" + "\n".join(chunk_lines)
-    )
-
-
-def parse_assess_output(
-    raw_json: dict, required_slots: list[str], retrieved_ids: set[str]
-) -> SufficiencyReport:
-    """Recompute overall_sufficient/unfilled_slots from slot evidence rather
-    than trusting any self-reported flag (§2.1). A slot claimed `filled` whose
-    `supporting_chunk_id` isn't actually in the retrieved set is downgraded to
-    unfilled — the LLM cannot claim sufficiency via a chunk it wasn't shown."""
-    evidence: list[SlotEvidence] = []
-    for item in raw_json.get("slot_evidence", []):
-        chunk_id = item.get("supporting_chunk_id")
-        filled = bool(item.get("filled")) and chunk_id in retrieved_ids
-        evidence.append(
-            SlotEvidence(
-                slot=item["slot"],
-                filled=filled,
-                supporting_chunk_id=chunk_id if filled else None,
-                justification=item.get("justification", ""),
-            )
-        )
-
-    filled_slots = {e.slot for e in evidence if e.filled}
-    unfilled = [s for s in required_slots if s not in filled_slots]
-    return SufficiencyReport(
-        required_slots=required_slots,
-        slot_evidence=evidence,
-        overall_sufficient=len(unfilled) == 0,
-        unfilled_slots=unfilled,
+        f"Hành vi vi phạm dự đoán: {perception.violation or '(không có)'}\n"
+        f"Phương tiện: {perception.vehicle or '(không xác định)'}\n\n"
+        "Các điều khoản đã truy xuất:\n"
+        + ("\n".join(chunk_lines) if chunk_lines else "(chưa truy xuất được điều khoản nào)")
+        + "\n\nCác truy vấn đã thử (không đề xuất lại nguyên văn):\n"
+        + ("\n".join(f"- {q}" for q in queries_tried) if queries_tried else "(chưa có)")
     )

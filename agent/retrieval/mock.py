@@ -1,13 +1,10 @@
-"""MockRetriever — deterministic lexical-overlap stand-in for R-BM25/R-BGE/etc.
+"""MockRetriever — deterministic lexical-overlap stand-in for R-BM25/etc.
 
-AGENT_PLAN.md §3.2 makes retriever choice an empirical question answered by
-experiment R, comparing BM25/BGE-M3/e5/Vietnamese-encoder/hybrid behind one
-`Retriever` interface. This module is *not* one of those candidates — it is a
-zero-dependency, fully deterministic scorer whose only job is to let the rest
-of the pipeline (FORMULATE -> RETRIEVE -> ASSESS -> REFINE loop, logging,
-citation closure) be built and tested against the real law_db.json corpus
-before any embedding model or BM25 index is wired in. Swap it for a real
-retriever without touching pipeline.py — that swappability is the point.
+A zero-dependency, fully deterministic scorer whose only job is to let the
+rest of the pipeline (FORMULATE -> RETRIEVE -> SELECT, logging, citation
+closure) be built and tested against the real law_db.json corpus without any
+embedding model or BM25 index wired in. Swap it for a real retriever without
+touching pipeline.py — that swappability is the point.
 """
 
 from __future__ import annotations
@@ -42,7 +39,6 @@ class MockRetriever:
         query: RetrievalQuery,
         corpus: Corpus,
         k: int,
-        iteration: int,
         as_of: str | None = None,
     ) -> list[RetrievedChunk]:
         candidates = apply_hard_filters(corpus.chunks, query, as_of)
@@ -66,7 +62,6 @@ class MockRetriever:
                 citation=chunk.title,
                 content=chunk.text,
                 score=score,
-                retrieved_at_iteration=iteration,
             )
             for score, _, chunk in scored[:k]
         ]
