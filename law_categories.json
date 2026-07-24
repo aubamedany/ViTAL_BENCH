@@ -1998,5 +1998,7661 @@
   {
     "id": 500,
     "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 501,
+    "category": "Violation identification"
+  },
+  {
+    "id": 502,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 503,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 504,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 505,
+    "category": "Violation identification"
+  },
+  {
+    "id": 506,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 507,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 508,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 509,
+    "category": "Violation identification"
+  },
+  {
+    "id": 510,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 511,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 512,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 513,
+    "category": "Violation identification"
+  },
+  {
+    "id": 514,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 515,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 516,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 517,
+    "category": "Violation identification"
+  },
+  {
+    "id": 518,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 519,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 520,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 521,
+    "category": "Violation identification"
+  },
+  {
+    "id": 522,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 523,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 524,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 525,
+    "category": "Violation identification"
+  },
+  {
+    "id": 526,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 527,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 528,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 529,
+    "category": "Violation identification"
+  },
+  {
+    "id": 530,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 531,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 532,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 533,
+    "category": "Violation identification"
+  },
+  {
+    "id": 534,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 535,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 536,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 537,
+    "category": "Violation identification"
+  },
+  {
+    "id": 538,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 539,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 540,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 541,
+    "category": "Violation identification"
+  },
+  {
+    "id": 542,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 543,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 544,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 545,
+    "category": "Violation identification"
+  },
+  {
+    "id": 546,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 547,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 548,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 549,
+    "category": "Violation identification"
+  },
+  {
+    "id": 550,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 551,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 552,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 553,
+    "category": "Violation identification"
+  },
+  {
+    "id": 554,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 555,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 556,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 557,
+    "category": "Violation identification"
+  },
+  {
+    "id": 558,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 559,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 560,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 561,
+    "category": "Violation identification"
+  },
+  {
+    "id": 562,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 563,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 564,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 565,
+    "category": "Violation identification"
+  },
+  {
+    "id": 566,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 567,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 568,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 569,
+    "category": "Violation identification"
+  },
+  {
+    "id": 570,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 571,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 572,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 573,
+    "category": "Violation identification"
+  },
+  {
+    "id": 574,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 575,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 576,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 577,
+    "category": "Violation identification"
+  },
+  {
+    "id": 578,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 579,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 580,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 581,
+    "category": "Violation identification"
+  },
+  {
+    "id": 582,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 583,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 584,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 585,
+    "category": "Violation identification"
+  },
+  {
+    "id": 586,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 587,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 588,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 589,
+    "category": "Violation identification"
+  },
+  {
+    "id": 590,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 591,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 592,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 593,
+    "category": "Violation identification"
+  },
+  {
+    "id": 594,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 595,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 596,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 597,
+    "category": "Violation identification"
+  },
+  {
+    "id": 598,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 599,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 600,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 601,
+    "category": "Violation identification"
+  },
+  {
+    "id": 602,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 603,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 604,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 605,
+    "category": "Violation identification"
+  },
+  {
+    "id": 606,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 607,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 608,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 609,
+    "category": "Violation identification"
+  },
+  {
+    "id": 610,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 611,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 612,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 613,
+    "category": "Violation identification"
+  },
+  {
+    "id": 614,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 615,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 616,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 617,
+    "category": "Violation identification"
+  },
+  {
+    "id": 618,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 619,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 620,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 621,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 622,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 623,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 624,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 625,
+    "category": "Violation identification"
+  },
+  {
+    "id": 626,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 627,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 628,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 629,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 630,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 631,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 632,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 633,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 634,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 635,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 636,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 637,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 638,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 639,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 640,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 641,
+    "category": "Violation identification"
+  },
+  {
+    "id": 642,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 643,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 644,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 645,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 646,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 647,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 648,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 649,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 650,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 651,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 652,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 653,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 654,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 655,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 656,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 657,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 658,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 659,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 660,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 661,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 662,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 663,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 664,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 665,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 666,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 667,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 668,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 669,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 670,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 671,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 672,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 673,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 674,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 675,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 676,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 677,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 678,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 679,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 680,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 681,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 682,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 683,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 684,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 685,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 686,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 687,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 688,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 689,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 690,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 691,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 692,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 693,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 694,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 695,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 696,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 697,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 698,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 699,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 700,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 701,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 702,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 703,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 704,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 705,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 706,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 707,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 708,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 709,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 710,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 711,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 712,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 713,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 714,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 715,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 716,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 717,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 718,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 719,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 720,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 721,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 722,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 723,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 724,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 725,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 726,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 727,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 728,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 729,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 730,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 731,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 732,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 733,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 734,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 735,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 736,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 737,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 738,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 739,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 740,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 741,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 742,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 743,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 744,
+    "category": "Violation identification"
+  },
+  {
+    "id": 745,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 746,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 747,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 748,
+    "category": "Violation identification"
+  },
+  {
+    "id": 749,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 750,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 751,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 752,
+    "category": "Violation identification"
+  },
+  {
+    "id": 753,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 754,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 755,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 756,
+    "category": "Violation identification"
+  },
+  {
+    "id": 757,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 758,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 759,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 760,
+    "category": "Violation identification"
+  },
+  {
+    "id": 761,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 762,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 763,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 764,
+    "category": "Violation identification"
+  },
+  {
+    "id": 765,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 766,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 767,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 768,
+    "category": "Violation identification"
+  },
+  {
+    "id": 769,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 770,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 771,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 772,
+    "category": "Violation identification"
+  },
+  {
+    "id": 773,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 774,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 775,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 776,
+    "category": "Violation identification"
+  },
+  {
+    "id": 777,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 778,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 779,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 780,
+    "category": "Violation identification"
+  },
+  {
+    "id": 781,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 782,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 783,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 784,
+    "category": "Violation identification"
+  },
+  {
+    "id": 785,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 786,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 787,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 788,
+    "category": "Violation identification"
+  },
+  {
+    "id": 789,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 790,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 791,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 792,
+    "category": "Violation identification"
+  },
+  {
+    "id": 793,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 794,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 795,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 796,
+    "category": "Violation identification"
+  },
+  {
+    "id": 797,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 798,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 799,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 800,
+    "category": "Violation identification"
+  },
+  {
+    "id": 801,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 802,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 803,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 804,
+    "category": "Violation identification"
+  },
+  {
+    "id": 805,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 806,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 807,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 808,
+    "category": "Violation identification"
+  },
+  {
+    "id": 809,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 810,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 811,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 812,
+    "category": "Violation identification"
+  },
+  {
+    "id": 813,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 814,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 815,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 816,
+    "category": "Violation identification"
+  },
+  {
+    "id": 817,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 818,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 819,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 820,
+    "category": "Violation identification"
+  },
+  {
+    "id": 821,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 822,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 823,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 824,
+    "category": "Violation identification"
+  },
+  {
+    "id": 825,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 826,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 827,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 828,
+    "category": "Violation identification"
+  },
+  {
+    "id": 829,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 830,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 831,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 832,
+    "category": "Violation identification"
+  },
+  {
+    "id": 833,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 834,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 835,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 836,
+    "category": "Violation identification"
+  },
+  {
+    "id": 837,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 838,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 839,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 840,
+    "category": "Violation identification"
+  },
+  {
+    "id": 841,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 842,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 843,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 844,
+    "category": "Violation identification"
+  },
+  {
+    "id": 845,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 846,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 847,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 848,
+    "category": "Violation identification"
+  },
+  {
+    "id": 849,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 850,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 851,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 852,
+    "category": "Violation identification"
+  },
+  {
+    "id": 853,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 854,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 855,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 856,
+    "category": "Violation identification"
+  },
+  {
+    "id": 857,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 858,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 859,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 860,
+    "category": "Violation identification"
+  },
+  {
+    "id": 861,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 862,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 863,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 864,
+    "category": "Violation identification"
+  },
+  {
+    "id": 865,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 866,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 867,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 868,
+    "category": "Violation identification"
+  },
+  {
+    "id": 869,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 870,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 871,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 872,
+    "category": "Violation identification"
+  },
+  {
+    "id": 873,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 874,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 875,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 876,
+    "category": "Violation identification"
+  },
+  {
+    "id": 877,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 878,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 879,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 880,
+    "category": "Violation identification"
+  },
+  {
+    "id": 881,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 882,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 883,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 884,
+    "category": "Violation identification"
+  },
+  {
+    "id": 885,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 886,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 887,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 888,
+    "category": "Violation identification"
+  },
+  {
+    "id": 889,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 890,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 891,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 892,
+    "category": "Violation identification"
+  },
+  {
+    "id": 893,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 894,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 895,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 896,
+    "category": "Violation identification"
+  },
+  {
+    "id": 897,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 898,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 899,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 900,
+    "category": "Violation identification"
+  },
+  {
+    "id": 901,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 902,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 903,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 904,
+    "category": "Violation identification"
+  },
+  {
+    "id": 905,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 906,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 907,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 908,
+    "category": "Violation identification"
+  },
+  {
+    "id": 909,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 910,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 911,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 912,
+    "category": "Violation identification"
+  },
+  {
+    "id": 913,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 914,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 915,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 916,
+    "category": "Violation identification"
+  },
+  {
+    "id": 917,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 918,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 919,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 920,
+    "category": "Violation identification"
+  },
+  {
+    "id": 921,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 922,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 923,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 924,
+    "category": "Violation identification"
+  },
+  {
+    "id": 925,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 926,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 927,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 928,
+    "category": "Violation identification"
+  },
+  {
+    "id": 929,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 930,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 931,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 932,
+    "category": "Violation identification"
+  },
+  {
+    "id": 933,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 934,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 935,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 936,
+    "category": "Violation identification"
+  },
+  {
+    "id": 937,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 938,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 939,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 940,
+    "category": "Violation identification"
+  },
+  {
+    "id": 941,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 942,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 943,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 944,
+    "category": "Violation identification"
+  },
+  {
+    "id": 945,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 946,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 947,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 948,
+    "category": "Violation identification"
+  },
+  {
+    "id": 949,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 950,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 951,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 952,
+    "category": "Violation identification"
+  },
+  {
+    "id": 953,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 954,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 955,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 956,
+    "category": "Violation identification"
+  },
+  {
+    "id": 957,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 958,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 959,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 960,
+    "category": "Violation identification"
+  },
+  {
+    "id": 961,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 962,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 963,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 964,
+    "category": "Violation identification"
+  },
+  {
+    "id": 965,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 966,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 967,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 968,
+    "category": "Violation identification"
+  },
+  {
+    "id": 969,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 970,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 971,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 972,
+    "category": "Violation identification"
+  },
+  {
+    "id": 973,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 974,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 975,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 976,
+    "category": "Violation identification"
+  },
+  {
+    "id": 977,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 978,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 979,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 980,
+    "category": "Violation identification"
+  },
+  {
+    "id": 981,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 982,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 983,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 984,
+    "category": "Violation identification"
+  },
+  {
+    "id": 985,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 986,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 987,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 988,
+    "category": "Violation identification"
+  },
+  {
+    "id": 989,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 990,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 991,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 992,
+    "category": "Violation identification"
+  },
+  {
+    "id": 993,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 994,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 995,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 996,
+    "category": "Violation identification"
+  },
+  {
+    "id": 997,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 998,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 999,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1000,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1001,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1002,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1003,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1004,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1005,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1006,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1007,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1008,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1009,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1010,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1011,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1012,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1013,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1014,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1015,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1016,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1017,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1018,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1019,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1020,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1021,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1022,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1023,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1024,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1025,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1026,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1027,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1028,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1029,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1030,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1031,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1032,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1033,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1034,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1035,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1036,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1037,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1038,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1039,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1040,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1041,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1042,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1043,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1044,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1045,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1046,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1047,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1048,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1049,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1050,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1051,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1052,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1053,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1054,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1055,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1056,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1057,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1058,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1059,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1060,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1061,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1062,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1063,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1064,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1065,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1066,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1067,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1068,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1069,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1070,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1071,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1072,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1073,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1074,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1075,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1076,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1077,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1078,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1079,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1080,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1081,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1082,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1083,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1084,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1085,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1086,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1087,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1088,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1089,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1090,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1091,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1092,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1093,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1094,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1095,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1096,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1097,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1098,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1099,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1100,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1101,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1102,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1103,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1104,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1105,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1106,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1107,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1108,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1109,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1110,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1111,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1112,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1113,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1114,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1115,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1116,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1117,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1118,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1119,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1120,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1121,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1122,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1123,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1124,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1125,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1126,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1127,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1128,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1129,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1130,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1131,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1132,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1133,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1134,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1135,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1136,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1137,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1138,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1139,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1140,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1141,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1142,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1143,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1144,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1145,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1146,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1147,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1148,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1149,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1150,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1151,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1152,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1153,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1154,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1155,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1156,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1157,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1158,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1159,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1160,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1161,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1162,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1163,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1164,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1165,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1166,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1167,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1168,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1169,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1170,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1171,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1172,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1173,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1174,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1175,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1176,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1177,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1178,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1179,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1180,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1181,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1182,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1183,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1184,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1185,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1186,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1187,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1188,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1189,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1190,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1191,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1192,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1193,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1194,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1195,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1196,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1197,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1198,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1199,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1200,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1201,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1202,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1203,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1204,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1205,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1206,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1207,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1208,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1209,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1210,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1211,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1212,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1213,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1214,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1215,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1216,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1217,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1218,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1219,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1220,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1221,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1222,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1223,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1224,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1225,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1226,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1227,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1228,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1229,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1230,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1231,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1232,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1233,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1234,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1235,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1236,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1237,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1238,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1239,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1240,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1241,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1242,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1243,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1244,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1245,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1246,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1247,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1248,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1249,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1250,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1251,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1252,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1253,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1254,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1255,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1256,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1257,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1258,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1259,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1260,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1261,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1262,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1263,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1264,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1265,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1266,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1267,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1268,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1269,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1270,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1271,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1272,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1273,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1274,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1275,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1276,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1277,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1278,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1279,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1280,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1281,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1282,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1283,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1284,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1285,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1286,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1287,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1288,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1289,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1290,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1291,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1292,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1293,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1294,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1295,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1296,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1297,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1298,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1299,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1300,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1301,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1302,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1303,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1304,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1305,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1306,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1307,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1308,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1309,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1310,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1311,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1312,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1313,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1314,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1315,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1316,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1317,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1318,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1319,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1320,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1321,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1322,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1323,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1324,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1325,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1326,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1327,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1328,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1329,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1330,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1331,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1332,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1333,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1334,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1335,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1336,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1337,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1338,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1339,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1340,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1341,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1342,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1343,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1344,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1345,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1346,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1347,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1348,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1349,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1350,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1351,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1352,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1353,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1354,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1355,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1356,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1357,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1358,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1359,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1360,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1361,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1362,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1363,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1364,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1365,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1366,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1367,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1368,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1369,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1370,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1371,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1372,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1373,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1374,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1375,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1376,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1377,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1378,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1379,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1380,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1381,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1382,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1383,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1384,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1385,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1386,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1387,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1388,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1389,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1390,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1391,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1392,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1393,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1394,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1395,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1396,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1397,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1398,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1399,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1400,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1401,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1402,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1403,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1404,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1405,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1406,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1407,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1408,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1409,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1410,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1411,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1412,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1413,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1414,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1415,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1416,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1417,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1418,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1419,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1420,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1421,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1422,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1423,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1424,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1425,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1426,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1427,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1428,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1429,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1430,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1431,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1432,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1433,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1434,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1435,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1436,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1437,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1438,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1439,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1440,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1441,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1442,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1443,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1444,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1445,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1446,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1447,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1448,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1449,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1450,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1451,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1452,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1453,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1454,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1455,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1456,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1457,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1458,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1459,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1460,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1461,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1462,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1463,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1464,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1465,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1466,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1467,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1468,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1469,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1470,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1471,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1472,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1473,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1474,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1475,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1476,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1477,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1478,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1479,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1480,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1481,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1482,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1483,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1484,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1485,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1486,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1487,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1488,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1489,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1490,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1491,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1492,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1493,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1494,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1495,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1496,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1497,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1498,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1499,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1500,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1501,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1502,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1503,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1504,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1505,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1506,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1507,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1508,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1509,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1510,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1511,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1512,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1513,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1514,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1515,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1516,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1517,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1518,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1519,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1520,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1521,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1522,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1523,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1524,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1525,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1526,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1527,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1528,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1529,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1530,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1531,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1532,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1533,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1534,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1535,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1536,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1537,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1538,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1539,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1540,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1541,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1542,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1543,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1544,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1545,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1546,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1547,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1548,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1549,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1550,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1551,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1552,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1553,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1554,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1555,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1556,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1557,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1558,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1559,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1560,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1561,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1562,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1563,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1564,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1565,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1566,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1567,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1568,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1569,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1570,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1571,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1572,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1573,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1574,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1575,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1576,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1577,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1578,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1579,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1580,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1581,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1582,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1583,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1584,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1585,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1586,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1587,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1588,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1589,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1590,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1591,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1592,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1593,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1594,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1595,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1596,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1597,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1598,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1599,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1600,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1601,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1602,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1603,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1604,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1605,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1606,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1607,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1608,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1609,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1610,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1611,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1612,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1613,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1614,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1615,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1616,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1617,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1618,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1619,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1620,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1621,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1622,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1623,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1624,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1625,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1626,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1627,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1628,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1629,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1630,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1631,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1632,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1633,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1634,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1635,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1636,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1637,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1638,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1639,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1640,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1641,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1642,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1643,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1644,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1645,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1646,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1647,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1648,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1649,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1650,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1651,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1652,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1653,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1654,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1655,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1656,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1657,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1658,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1659,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1660,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1661,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1662,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1663,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1664,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1665,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1666,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1667,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1668,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1669,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1670,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1671,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1672,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1673,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1674,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1675,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1676,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1677,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1678,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1679,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1680,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1681,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1682,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1683,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1684,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1685,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1686,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1687,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1688,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1689,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1690,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1691,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1692,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1693,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1694,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1695,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1696,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1697,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1698,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1699,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1700,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1701,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1702,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1703,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1704,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1705,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1706,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1707,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1708,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1709,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1710,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1711,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1712,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1713,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1714,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1715,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1716,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1717,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1718,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1719,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1720,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1721,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1722,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1723,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1724,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1725,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1726,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1727,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1728,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1729,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1730,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1731,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1732,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1733,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1734,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1735,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1736,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1737,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1738,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1739,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1740,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1741,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1742,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1743,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1744,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1745,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1746,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1747,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1748,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1749,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1750,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1751,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1752,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1753,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1754,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1755,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1756,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1757,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1758,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1759,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1760,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1761,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1762,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1763,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1764,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1765,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1766,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1767,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1768,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1769,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1770,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1771,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1772,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1773,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1774,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1775,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1776,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1777,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1778,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1779,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1780,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1781,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1782,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1783,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1784,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1785,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1786,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1787,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1788,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1789,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1790,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1791,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1792,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1793,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1794,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1795,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1796,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1797,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1798,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1799,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1800,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1801,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1802,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1803,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1804,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1805,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1806,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1807,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1808,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1809,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1810,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1811,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1812,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1813,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1814,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1815,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1816,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1817,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1818,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1819,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1820,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1821,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1822,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1823,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1824,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1825,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1826,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1827,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1828,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1829,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1830,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 1831,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1832,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1833,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1834,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1835,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1836,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1837,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1838,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1839,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1840,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1841,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1842,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1843,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1844,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1845,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1846,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1847,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1848,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1849,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1850,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1851,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1852,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1853,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1854,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1855,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1856,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1857,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1858,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1859,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1860,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1861,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1862,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1863,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1864,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1865,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1866,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1867,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1868,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1869,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1870,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1871,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1872,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1873,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1874,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1875,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1876,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1877,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1878,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1879,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1880,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1881,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1882,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1883,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1884,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1885,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1886,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1887,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1888,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1889,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1890,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1891,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1892,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1893,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1894,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1895,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1896,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1897,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1898,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1899,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1900,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1901,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1902,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1903,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1904,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1905,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1906,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1907,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1908,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1909,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1910,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1911,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1912,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1913,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1914,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1915,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1916,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1917,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1918,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1919,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1920,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1921,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1922,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1923,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1924,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1925,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1926,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1927,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1928,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1929,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1930,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1931,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1932,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1933,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1934,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1935,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1936,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1937,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1938,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1939,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1940,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1941,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1942,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1943,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1944,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1945,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1946,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1947,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1948,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1949,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1950,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1951,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1952,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1953,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1954,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1955,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1956,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1957,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1958,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1959,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1960,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1961,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1962,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1963,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1964,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1965,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1966,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1967,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1968,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1969,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1970,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1971,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1972,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1973,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1974,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1975,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1976,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1977,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1978,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1979,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1980,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1981,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1982,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1983,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1984,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1985,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1986,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1987,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1988,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1989,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1990,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1991,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1992,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1993,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1994,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1995,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1996,
+    "category": "Violation identification"
+  },
+  {
+    "id": 1997,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1998,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 1999,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2000,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2001,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2002,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2003,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2004,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2005,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2006,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2007,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2008,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2009,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2010,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2011,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2012,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2013,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2014,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2015,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2016,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2017,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2018,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2019,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2020,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2021,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2022,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2023,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2024,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2025,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2026,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2027,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2028,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2029,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2030,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2031,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2032,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2033,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2034,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2035,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2036,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2037,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2038,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2039,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2040,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2041,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2042,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2043,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2044,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2045,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2046,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2047,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2048,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2049,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2050,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2051,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2052,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2053,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2054,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2055,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2056,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2057,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2058,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2059,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2060,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2061,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2062,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2063,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2064,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2065,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2066,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2067,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2068,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2069,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2070,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2071,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2072,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2073,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2074,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2075,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2076,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2077,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2078,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2079,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2080,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2081,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2082,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2083,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2084,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2085,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2086,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2087,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2088,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2089,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2090,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2091,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2092,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2093,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2094,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2095,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2096,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2097,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2098,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2099,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2100,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2101,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2102,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2103,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2104,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2105,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2106,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2107,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2108,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2109,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2110,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2111,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2112,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2113,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2114,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2115,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2116,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2117,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2118,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2119,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2120,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2121,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2122,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2123,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2124,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2125,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2126,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2127,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2128,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2129,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2130,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2131,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2132,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2133,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2134,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2135,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2136,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2137,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2138,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2139,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2140,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2141,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2142,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2143,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2144,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2145,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2146,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2147,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2148,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2149,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2150,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2151,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2152,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2153,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2154,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2155,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2156,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2157,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2158,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2159,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2160,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2161,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2162,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2163,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2164,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2165,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2166,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2167,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2168,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2169,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2170,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2171,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2172,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2173,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2174,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2175,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2176,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2177,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2178,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2179,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2180,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2181,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2182,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2183,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2184,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2185,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2186,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2187,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2188,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2189,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2190,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2191,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2192,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2193,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2194,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2195,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2196,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2197,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2198,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2199,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2200,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2201,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2202,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2203,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2204,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2205,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2206,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2207,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2208,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2209,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2210,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2211,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2212,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2213,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2214,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2215,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2216,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2217,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2218,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2219,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2220,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2221,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2222,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2223,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2224,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2225,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2226,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2227,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2228,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2229,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2230,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2231,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2232,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2233,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2234,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2235,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2236,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2237,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2238,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2239,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2240,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2241,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2242,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2243,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2244,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2245,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2246,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2247,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2248,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2249,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2250,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2251,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2252,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2253,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2254,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2255,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2256,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2257,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2258,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2259,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2260,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2261,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2262,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2263,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2264,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2265,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2266,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2267,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2268,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2269,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2270,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2271,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2272,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2273,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2274,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2275,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2276,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2277,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2278,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2279,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2280,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2281,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2282,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2283,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2284,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2285,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2286,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2287,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2288,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2289,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2290,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2291,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2292,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2293,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2294,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2295,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2296,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2297,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2298,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2299,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2300,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2301,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2302,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2303,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2304,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2305,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2306,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2307,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2308,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2309,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2310,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2311,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2312,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2313,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2314,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2315,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2316,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2317,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2318,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2319,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2320,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2321,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2322,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2323,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2324,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2325,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2326,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2327,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2328,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2329,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2330,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2331,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2332,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2333,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2334,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2335,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2336,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2337,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2338,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
+    "id": 2339,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2340,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2341,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2342,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2343,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2344,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2345,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2346,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2347,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2348,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2349,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2350,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2351,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2352,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2353,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2354,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2355,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2356,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2357,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2358,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2359,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2360,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2361,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2362,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2363,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2364,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2365,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2366,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2367,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2368,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2369,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2370,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2371,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2372,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2373,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2374,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2375,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2376,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2377,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2378,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2379,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2380,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2381,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2382,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2383,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2384,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2385,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2386,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2387,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2388,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2389,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2390,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2391,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2392,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2393,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2394,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2395,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2396,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2397,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2398,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2399,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2400,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2401,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2402,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2403,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2404,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2405,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2406,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2407,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2408,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2409,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2410,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2411,
+    "category": "Violation identification"
+  },
+  {
+    "id": 2412,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2413,
+    "category": "Regulation Application"
+  },
+  {
+    "id": 2414,
+    "category": "Regulation Application"
   }
 ]
