@@ -1,4 +1,4 @@
-"""LLM client interface, the I1 option-blindness guard, and MockLLM.
+"""LLM client interface, the I1 retrieval-blindness guard, and MockLLM.
 
 `LLMClient` is the swappable seam for the real backend (agent/llm_vlm.py
 adapts answer_vqa.py's VLM class to it). `MockLLM` is a deterministic,
@@ -17,8 +17,12 @@ from typing import Protocol
 from agent.schemas import Perception, RetrievedChunk
 
 # --------------------------------------------------------------------------- #
-# I1 — option-blindness guard: the retrieval query is built from the image
-# and the question only, never from the options (AGENT_PLAN_v2.md §1).
+# I1 — option-blindness guard, now scoped to e0/e1/e2 only (AGENT_PLAN_v2.md
+# §1). As of v2.5, e4_agent's PERCEIVE, ASSESS, and FORMULATE's query text
+# all legitimately see `options` — this guard no longer applies to any of
+# e4_agent's calls. It still fires for e0/e1/e2's `perceive()` calls and e2's
+# naive-RAG query (e3_rag_qo is the deliberate, guard-skipped leakage probe;
+# see _run_naive_rag), which remain the option-blind comparison points.
 # --------------------------------------------------------------------------- #
 
 _assertion_count = 0
@@ -67,12 +71,14 @@ def assert_no_option_leakage(prompt: str, options: dict[str, str] | None) -> Non
 # LLMClient protocol — PERCEIVE (image, once), ASSESS (text-only, up to
 # max_iterations-1 times, the refine loop), SELECT (image + statute text,
 # once). FORMULATE is string assembly and RETRIEVE has no LLM
-# (agent/pipeline.py).
+# (agent/pipeline.py). `options` is optional on perceive()/assess(): e4_agent
+# passes it (v2.4, options visible from Phase 1 on); e0/e1/e2's calls omit it
+# and stay option-blind, unchanged.
 # --------------------------------------------------------------------------- #
 
 
 class LLMClient(Protocol):
-    def perceive(self, image_path: Path, question: str) -> dict: ...
+    def perceive(self, image_path: Path, question: str, options: dict[str, str] | None = None) -> dict: ...
 
     def assess(
         self,
@@ -80,6 +86,7 @@ class LLMClient(Protocol):
         perception: Perception,
         retrieved: list[RetrievedChunk],
         queries_tried: list[str],
+        options: dict[str, str] | None = None,
     ) -> dict: ...
 
     def select(
@@ -174,7 +181,10 @@ class MockLLM:
     agent/pipeline.py changes.
     """
 
-    def perceive(self, image_path: Path, question: str) -> dict:
+    def perceive(self, image_path: Path, question: str, options: dict[str, str] | None = None) -> dict:
+        # `options` accepted for Protocol conformance and ignored: this stub
+        # reads the folder-name hint, not real pixels or option text — see
+        # module docstring.
         type_image = Path(image_path).parent.name
         hint = _TYPE_IMAGE_HINTS.get(type_image)
         if hint is None:
@@ -187,6 +197,7 @@ class MockLLM:
         perception: Perception,
         retrieved: list[RetrievedChunk],
         queries_tried: list[str],
+        options: dict[str, str] | None = None,
     ) -> dict:
         basis = perception.violation or perception.observed or perception.focus
         best_overlap = max((_overlap(basis, c.content) for c in retrieved), default=0.0)

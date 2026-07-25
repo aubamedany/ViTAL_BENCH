@@ -9,7 +9,8 @@
     "D": "Chở hàng hóa nằm hoàn toàn trong giới hạn cho phép của xe",
     "GT": "B",
     "law": [
-      "LUAT_36_2024_D33_K3"
+      "LUAT_36_2024_D33_K3",
+      "LUAT_36_2024_D33_K5"
     ],
     "type_question": "law",
     "type_image": "cong_kenh"

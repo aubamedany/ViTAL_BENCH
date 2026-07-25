@@ -1,0 +1,79 @@
+{
+  "condition": "e0_oracle",
+  "model": "qwen2_5vl-3b",
+  "llm_backend": "vlm",
+  "llm_parse_failures": 3,
+  "llm_parse_failure_rate": 0.0012427506213753107,
+  "corpus_version": "b923cf54a32a",
+  "n_questions": 2414,
+  "n_graded": 2414,
+  "k": 3,
+  "max_iterations": 2,
+  "mcq_acc": 0.6731565865782932,
+  "pick_longest_acc": 0.5414250207125103,
+  "grounded_acc": 0.07042253521126761,
+  "divergence": 0.8953846153846153,
+  "retry_rate": 0.0,
+  "avg_iterations_used": 0.0,
+  "stop_reason_distribution": {
+    "oracle_retrieval": 2414
+  },
+  "by_type_image": {
+    "cong_kenh": {
+      "total": 184,
+      "mcq_acc": 0.7336956521739131,
+      "grounded_acc": 0.010869565217391304
+    },
+    "di_vao_duong_cam": {
+      "total": 198,
+      "mcq_acc": 0.7222222222222222,
+      "grounded_acc": 0.20707070707070707
+    },
+    "du_lieu_khong_loi": {
+      "total": 236,
+      "mcq_acc": 0.6864406779661016,
+      "grounded_acc": 0.09745762711864407
+    },
+    "dung_qua_vach": {
+      "total": 132,
+      "mcq_acc": 0.6515151515151515,
+      "grounded_acc": 0.0
+    },
+    "khong_mu_bao_hiem": {
+      "total": 313,
+      "mcq_acc": 0.6805111821086262,
+      "grounded_acc": 0.012779552715654952
+    },
+    "khong_the_xac_dinh": {
+      "total": 180,
+      "mcq_acc": 0.7166666666666667,
+      "grounded_acc": 0.21666666666666667
+    },
+    "khong_tuan_thu_den_tin_hieu": {
+      "total": 444,
+      "mcq_acc": 0.6486486486486487,
+      "grounded_acc": 0.0
+    },
+    "nguoc_chieu": {
+      "total": 120,
+      "mcq_acc": 0.6916666666666667,
+      "grounded_acc": 0.05
+    },
+    "sai_bien_bao": {
+      "total": 327,
+      "mcq_acc": 0.6574923547400612,
+      "grounded_acc": 0.1559633027522936
+    },
+    "sai_lan": {
+      "total": 204,
+      "mcq_acc": 0.6568627450980392,
+      "grounded_acc": 0.014705882352941176
+    },
+    "tong_hop": {
+      "total": 76,
+      "mcq_acc": 0.4868421052631579,
+      "grounded_acc": 0.013157894736842105
+    }
+  },
+  "elapsed_sec": 19187.4
+}

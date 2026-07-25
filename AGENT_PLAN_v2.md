@@ -1,14 +1,27 @@
 # AGENT_PLAN.md — ViTAL-Agent (simplified)
 
-**v2.3 · 2026-07-22** · Replaces v2.2. v2.1 replaced the retry-once heuristic with a
+**v2.8 · 2026-07-23** · Replaces v2.7. v2.1 replaced the retry-once heuristic with a
 bounded, LLM-judged refine loop, and made SELECT multimodal. v2.2 was a correctness
-pass on FORMULATE/SELECT for total-fine and point-deduction questions. v2.3 adds an
-explicit cross-referencing discipline to both ASSESS and SELECT: NĐ 168's
-supplementary-sanction khoản (trừ điểm/tước quyền) reference *specific* điểm/khoản of
-the behavior-defining article, not the whole khoản — SELECT must check whether the
-observed behavior's specific điểm is actually named before applying that consequence,
-and ASSESS must not declare "sufficient" without both the behavior-defining chunk and
-the cross-referencing consequence chunk in hand (§3.4, §4).
+pass on FORMULATE/SELECT for total-fine and point-deduction questions. v2.3 added an
+explicit cross-referencing discipline to both ASSESS and SELECT. v2.4 exposed
+`options` to PERCEIVE and ASSESS (steering/judging only, never answering). v2.5
+removed the option wall for e4_agent entirely: FORMULATE's retrieval-query text is
+now options-enriched too — every query BM25 actually sees includes some form of the
+option content, appended after the perception-grounded violation phrase. §1 below is
+kept as a record of what's *no longer* guaranteed and what still differs from
+e3_rag_qo (the query stays perception-grounded, not raw question+options);
+option-leakage into retrieval is an accepted tradeoff, not an open concern to keep
+re-flagging — query quality (does the query find the right law at all) is the
+priority. v2.6 was a query-quality pass on `formulate()`'s first round: vehicle
+stated in every query, consequence-query suffix matching what the question actually
+asks (trừ điểm / tước quyền / mức phạt, not always "mức phạt"), no-violation fallback
+on `perception.focus` instead of `perception.observed` (scene register, injected
+non-statute noise). v2.7 extended those same three fixes to the refine loop's rebuilt
+query (previously only round 0 got them) and tightened the ASSESS prompt itself to
+ask for the same three things directly. **v2.8 changes WHAT gets folded in from
+`options`**: not the full raw option sentences anymore, but just their distinguishing
+number+unit fragments ("02 điểm", "01 tháng đến 03 tháng") when the options differ by
+a quantity — see §3.2.
 
 ---
 
@@ -27,39 +40,43 @@ Net effect vs. v1: still **4–6 LLM calls per item → 2–3ish**, easier to de
 
 ---
 
-## 1. The one invariant that matters
+## 1. The option wall — what it was, and what's left of it after v2.5
 
-> **The retrieval query is built from the image and the question only. Never from the options.**
+**Original invariant (v1–v2.4):**
 
-Everything else in this document is negotiable. This is not.
+> The retrieval query is built from the image and the question only. Never from the options.
 
-Why: on the legal tier the correct option is uniquely the longest 49% of the time, and picking the longest scores 53.7%. A retriever that sees the options will embed the correct option's text, fetch the statute that matches it, and then "confirm" it. That looks like retrieval working. It is the answer key leaking into the pipeline.
+Why this mattered: on the legal tier the correct option is uniquely the longest 49% of the time, and picking the longest scores 53.7%. A retriever that sees the options will embed the correct option's text, fetch the statute that matches it, and then "confirm" it. That looks like retrieval working. It is the answer key leaking into the pipeline. `e3_rag_qo` (§5) exists specifically to demonstrate this failure mode as a controlled comparison against `e4_agent`.
 
-Enforced structurally: **Phase-1 functions never receive the options as an argument.** Not a prompt instruction — a function signature.
+**v2.5 change:** `formulate()` now appends the MCQ option text to every query it builds (§3.2), by explicit request — the same mechanism `e3_rag_qo` uses for its leakage probe. **This means e4_agent's retrieval query is no longer built option-blind.** The invariant above no longer holds for e4_agent.
 
-**Note on SELECT (§4):** passing retrieved statute text into SELECT does *not* break this. The chunks were chosen before any option was visible. The wall protects *retrieval*, not *reading*.
+**What's still different from `e3_rag_qo`, and why the two conditions aren't identical:** e4's query is `perception.violation` (visually grounded, statute-register, possibly fanned out per violation) + option text, refined over up to `max_iterations` rounds by an options-aware ASSESS. e3's query is the raw question text + option text, single-pass, no perception step. So e4_agent is now best read as "perception-grounded retrieval, options-enriched, with a refine loop" rather than "retrieval that never sees the answer key." That's a real, defensible method — but it is a **different research question** than the one §5's E3-vs-E4 comparison was built to answer ("does hiding options from retrieval avoid the leakage failure mode"). With this change, that specific claim can no longer be made from e4_agent's numbers: an accuracy gain in e4_agent over e2/e0 could now come from the same "find the answer without finding the law" effect e3 is meant to isolate, not from better retrieval or reasoning. If the paper still wants that claim, it needs either (a) an `e5_agent_qo`-style split — keep an *actual* option-blind e4 variant alongside this one — or (b) a citation-quality analysis (does the cited chunk actually justify the option, independent of whether the option text happened to be in the query) to distinguish genuine grounding from confirmation. Neither is implemented here; flagging it is as far as this document goes.
+
+**Note on SELECT (§4):** SELECT reasoning over retrieved statute text was never the concern — the risk was always in what got retrieved, not what got read after.
 
 ---
 
 ## 2. Pipeline
 
 ```
-image + question
+image + question + options
       │
       ▼
  ① PERCEIVE   → what's in the image, focused on what the question asks about
       │          + predicted violation. Runs ONCE — never re-run below.
+      │          (sees options — steers attention only, never answers)
       ▼
  ② FORMULATE  → 1 query in statute language (2 if penalty asked)
-      │
+      │          (v2.5: query text = perception.violation + option text — no
+      │           longer option-blind; see §1)
       ▼
  ③ RETRIEVE   → top-k chunks from the law corpus (BM25 + filters)
       │
       ▼
- ④ ASSESS     → enough to answer? if not, refine the query and loop back to ③
+ ④ ASSESS     → enough to answer (incl. enough to distinguish the options)?
+      │            if not, refine the query and loop back to ③
       │            (query only — perception is not re-run; capped at max_iterations)
-      │
-      ═════ OPTION WALL ═════
+      │            (sees options — judges sufficiency only, never answers)
       ▼
  ⑤ SELECT     → reason over (image + statute chunks + question + options) → letter + citation
 ```
@@ -68,7 +85,7 @@ Three LLM calls in the common path at the default `max_iterations=2` (PERCEIVE, 
 
 ---
 
-## 3. Phase 1 (option-blind)
+## 3. Phase 1 (options-aware throughout, as of v2.5 — see §1)
 
 ### 3.1 PERCEIVE — question-directed, one call
 
@@ -92,6 +109,8 @@ Two rules worth keeping from v1:
 
 If `violation` is None, the agent is claiming no violation. Carry that through — the benchmark has a `du_lieu_khong_loi` category and this is the correct behaviour there.
 
+**Options, as of v2.4.** The four MCQ options are attached to the PERCEIVE prompt now, purely to help the model decide which visible detail is load-bearing when two options hinge on different ones (e.g. two different fine brackets, two different điểm). The prompt is explicit that this is not permission to answer or to describe something not actually visible. `violation`/`vehicle` still have to come from the image — but as of v2.5, FORMULATE no longer ignores options when building the query (§3.2, §1).
+
 ### 3.2 FORMULATE — one query per violation
 
 Each question usually targets exactly one violation type, so generate **one** query, not a spread across intents.
@@ -99,15 +118,39 @@ Each question usually targets exactly one violation type, so generate **one** qu
 **Exception: "total" questions.** A question can ask for the *total* fine/consequence across several violations happening at once (e.g. running a red light *and* no helmet, same frame). For those, PERCEIVE names every violation in `violation`, semicolon-separated (§3.1), and FORMULATE issues one query pair *per named violation* — otherwise RETRIEVE only ever finds the one violation the base query's lexical match happens to favor, and SELECT is left guessing at a "total" it can't actually compute.
 
 ```
-for v in split(perception.violation, ";"):
-    query = v                                       # already in statute language
+vehicle_clause = perception.vehicle + " "            # v2.6: natural-language form, not the filter slug
+option_text = join(options.values())                 # v2.5: appended to every query below
+if perception.violation:
+    behaviors = split(perception.violation, ";")
+else:
+    behaviors = [perception.focus]                    # v2.6: NOT perception.observed — see below
+
+for v in behaviors:
+    query = vehicle_clause + v + " " + option_text     # v already in statute language
     if question asks for a fine/penalty/consequence:
-        query2 = v + " mức phạt " + vehicle          # NĐ 168 is where penalties live
+        focus_phrase = penalty_focus_phrase(question)  # v2.6: "trừ điểm giấy phép lái xe" /
+                                                         #   "tước quyền sử dụng giấy phép lái xe" /
+                                                         #   "mức phạt tiền" — whichever the question asks
+        query2 = vehicle_clause + v + " " + focus_phrase + " " + option_text   # NĐ 168 is where these live
 ```
 
 SELECT then sums the per-violation fine ranges it finds among the retrieved chunks (min+min, max+max) rather than reporting one violation's range as if it were the total — see §4.
 
 **Implementation note:** since `violation` is already statute-phrased, FORMULATE is mostly string assembly — fold it into the PERCEIVE call's output and skip the separate LLM call. That's the third call saved.
+
+**Options, as of v2.5.** `formulate()` appends the joined option text to every query it builds, including the query rebuilt from ASSESS's `refined_query` on each refine-loop iteration. The query is still anchored on `perception.violation` first — options are additive, not a replacement — but this is the same mechanism `e3_rag_qo` uses for its leakage probe, applied on top of a perception-grounded base instead of raw question text. See §1 for what this does and doesn't preserve about the option-wall claim.
+
+**Query-quality fixes, v2.6.** Found by reading real query text end-to-end for a specific item (a "trừ điểm" question about carrying bulky cargo):
+
+- **Vehicle stated explicitly, every query.** Previously only the penalty query included `vehicle`; the base query relied on `vehicle_filter` alone. Statute headings themselves are often keyed by vehicle type ("người điều khiển xe mô tô, xe gắn máy... vi phạm quy tắc giao thông"), so leaving it out of the query text was leaving lexical signal on the table. Note this is the natural-language form (`perception.vehicle`, e.g. "xe mô tô") — `normalize_vehicle()`'s output (e.g. `"xe_mo_to"`) is a filter slug, never a real token, and putting it in the query text would search for a string that can't match anything post-segmentation.
+- **Consequence phrase matches the actual question.** The penalty query used to always append the literal text "mức phạt" (fine amount), even for "trừ điểm" (point-deduction) or "tước quyền" (license-suspension) questions — biasing BM25 toward fine-bracket chunks instead of the point-deduction/suspension chunk that actually answers the question. `_penalty_focus_phrase()` now picks the right phrase per question type.
+- **No-violation fallback uses `focus`, not `observed`.** When `perception.violation` is `None`, FORMULATE used to fall back to `perception.observed` — but `observed` is deliberately scene/natural register (§3.1: "văn phong tự nhiên"), the opposite of what a statute-matching query needs. It could inject descriptive noise (e.g. a mention of cargo size or color) that never appears anywhere in the actual legal text. `perception.focus` (the topic the question is about, e.g. "mũ bảo hiểm") is shorter and closer to statute vocabulary.
+
+**v2.7 — same fixes, every round.** v2.6 only touched `formulate()`'s first round; the refine loop's rebuilt query (built from ASSESS's `refined_query`, §3.4) didn't get the vehicle prefix or the consequence-focus phrase. Both now go through one shared `_build_query_text(core, vehicle_clause, option_text, focus_phrase)` helper, so a round-2+ query is built exactly the same way as round 0's — the only thing that changes between rounds is where `core` comes from (`perception.violation` fragment vs. ASSESS's `refined_query`).
+
+**v2.8 — extract the option SIGNAL, not the option TEXT.** Up through v2.7, `option_text` was just `" ".join(options.values())` — all four option sentences, verbatim, appended to every query. For options that differ by a quantity (fine amount, point count, license-suspension duration), the four options mostly share generic boilerplate phrasing: e.g. "Bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng" and "Bị trừ 02 điểm giấy phép lái xe" both repeat "giấy phép lái xe" and similar consequence-clause phrasing that *also appears verbatim in many unrelated statute provisions* elsewhere in the corpus — not just the one this item is actually about. Dumping all four full sentences amplified that shared boilerplate rather than the one thing that actually distinguishes the options: the number. This is exactly what let an unrelated `xe_dau_keo` (trailer) provision, `ND_168_2024_D32_K18`, outscore the correct chunk on a real item — the wrong chunk happened to also contain a "01 tháng đến 03 tháng" suspension clause, matching one of the options by coincidence.
+
+`_extract_option_signal(options)` fixes this by pulling out just the number+unit fragments per option ("02 điểm", "04 điểm", "01 tháng", "03 tháng", "4.000.000 đồng") via regex and using those instead of the full sentences — compact, and precisely the discriminating fact a retrieved chunk needs to state. When no option contains a number at all (behavior-identification questions, where the options describe different *acts* — "chở người đứng trên giá đèo hàng" vs. "dùng xe kéo theo phương tiện khác" — rather than different quantities of the same consequence), there's nothing to extract this way; it falls back to the full option text, since in that case the option text itself *is* the distinguishing content, not noise wrapped around a number.
 
 ### 3.3 RETRIEVE
 
@@ -149,6 +192,16 @@ same `vehicle_filter`/`doc_boost` computed once from `perception` — never re-a
 the LLM) and loop back to RETRIEVE. Otherwise stop (`no_new_query`). Bounded by
 `max_iterations` (default 2).
 
+**Prompt-level reinforcement, v2.7.** On top of the deterministic rebuild above, the
+ASSESS system prompt itself now instructs the model to write `refined_query` starting
+with the vehicle type, phrased to match the question's actual focus (mức phạt tiền /
+trừ điểm giấy phép lái xe / tước quyền sử dụng giấy phép lái xe / plain behavior — not
+a generic default), and free of scene-descriptive detail (color, size, surroundings)
+that wouldn't appear in a legal text. The deterministic rebuild guarantees the vehicle
+prefix and consequence suffix regardless; the prompt change is aimed at the part that
+can't be enforced deterministically — the *core* phrase ASSESS proposes for what's
+still missing.
+
 Right before SELECT, truncate the accumulated pool to `MAX_CONTEXT_CHUNKS` (6),
 sorted by score — "don't retrieve a lot of chunks" has to hold for what SELECT
 actually sees, not just for `k` on a single call, since chunks accumulate across
@@ -157,13 +210,21 @@ iterations.
 This replaces v1's `SufficiencyReport`: no `required_slots`, no per-chunk attribution,
 no slot-level tracking — a holistic judgment, still one call, not two.
 
+**Options, as of v2.4.** ASSESS also receives `options` now, used only to judge
+sufficiency against a sharper bar than "enough law in general": are the retrieved
+chunks enough to *distinguish* between the specific options given, not just enough to
+describe the violation. It still never picks a letter — `refined_query` is the only
+thing it's allowed to produce besides the sufficiency judgment.
+
 ---
 
 ## 4. Phase 2 — SELECT
 
 Give the model the **image**, the retrieved statute text, the question, and the
 options. Ask it to reason from the image and the law to the answer, and to name the
-provision it used.
+provision it used. As of v2.4, SELECT is no longer the *only* step that sees
+`options` (PERCEIVE and ASSESS do too, §1/§3.1/§3.4) — but it remains the only step
+that's allowed to actually choose one.
 
 ```python
 class Selection(BaseModel):
@@ -250,4 +311,6 @@ Ablations, in priority order:
 
 In order: the refine loop (back to a retry-once heuristic) → the penalty second query → the vehicle filter. Each is an optimization.
 
-**Never cut:** the option wall (§1), citation closure (§4), or grounded accuracy (§6). Those three are the paper.
+**Never cut:** citation closure (§4) or grounded accuracy (§6) — and if the E3-vs-E4
+leakage claim (§1) is still wanted for the paper, don't cut re-adding a genuinely
+option-blind e4 variant to make that comparison valid again either.

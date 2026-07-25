@@ -7,7 +7,10 @@ MockLLM — that swappability is the point.
 PERCEIVE and SELECT both receive the image (PERCEIVE always, SELECT because
 it now re-examines the image alongside the retrieved statute text); ASSESS is
 text-only (it only ever sees perception's output, never re-looks at pixels).
-SELECT is the only call that ever sees the options.
+As of v2.4, `options` is visible from PERCEIVE onward (AGENT_PLAN_v2.md §1) —
+the option wall now sits in front of RETRIEVAL, not in front of the whole
+Phase-1 model. PERCEIVE/ASSESS use options only to steer attention/judge
+sufficiency, never to pick an answer; only SELECT actually chooses a letter.
 
 Real model JSON is unreliable, especially at small scale. Every call goes
 through `_chat_json`, which retries once with an explicit schema reminder
@@ -216,9 +219,10 @@ class VLMLLMClient:
     # LLMClient Protocol
     # ----------------------------------------------------------------- #
 
-    def perceive(self, image_path: Path, question: str) -> dict:
+    def perceive(self, image_path: Path, question: str, options: dict[str, str] | None = None) -> dict:
         fallback = {"focus": "", "vehicle": None, "observed": "", "violation": None, "confidence": 0.2}
-        raw = self._chat_json(PERCEIVE_SYSTEM_PROMPT, build_perceive_user_prompt(question), image_path, fallback)
+        prompt = build_perceive_user_prompt(question, options)
+        raw = self._chat_json(PERCEIVE_SYSTEM_PROMPT, prompt, image_path, fallback)
         return _sanitize_perception(raw)
 
     def assess(
@@ -227,9 +231,10 @@ class VLMLLMClient:
         perception: Perception,
         retrieved: list[RetrievedChunk],
         queries_tried: list[str],
+        options: dict[str, str] | None = None,
     ) -> dict:
         truncated = [c.model_copy(update={"content": c.content[: self.max_chunk_chars]}) for c in retrieved]
-        user = build_assess_user_prompt(question, perception, truncated, queries_tried)
+        user = build_assess_user_prompt(question, perception, truncated, queries_tried, options)
         # Fallback favors STOPPING the loop (sufficient=True), not retrying: a
         # model that just failed to produce valid JSON here is unlikely to
         # succeed against a harder prompt (a longer chunk list) on retry —

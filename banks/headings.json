@@ -1,0 +1,1061 @@
+{
+  "Phạm vi điều chỉnh": [
+    "LUAT_36_2024_D1_K0",
+    "ND_168_2024_D1_K1",
+    "ND_168_2024_D1_K2"
+  ],
+  "Giải thích từ ngữ": [
+    "LUAT_36_2024_D2_K1",
+    "LUAT_36_2024_D2_K2",
+    "LUAT_36_2024_D2_K3",
+    "LUAT_36_2024_D2_K4",
+    "LUAT_36_2024_D2_K5",
+    "LUAT_36_2024_D2_K6",
+    "LUAT_36_2024_D2_K7",
+    "LUAT_36_2024_D2_K8",
+    "LUAT_36_2024_D2_K9",
+    "LUAT_36_2024_D2_K10",
+    "LUAT_36_2024_D2_K11",
+    "LUAT_36_2024_D2_K12",
+    "LUAT_36_2024_D2_K13",
+    "LUAT_36_2024_D2_K14"
+  ],
+  "Nguyên tắc bảo đảm trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D3_K1",
+    "LUAT_36_2024_D3_K2",
+    "LUAT_36_2024_D3_K3",
+    "LUAT_36_2024_D3_K4",
+    "LUAT_36_2024_D3_K5",
+    "LUAT_36_2024_D3_K6",
+    "LUAT_36_2024_D3_K7"
+  ],
+  "Chính sách của Nhà nước về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D4_K1",
+    "LUAT_36_2024_D4_K2",
+    "LUAT_36_2024_D4_K3",
+    "LUAT_36_2024_D4_K4",
+    "LUAT_36_2024_D4_K5",
+    "LUAT_36_2024_D4_K6"
+  ],
+  "Tuyên truyền, phổ biến pháp luật về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D5_K1",
+    "LUAT_36_2024_D5_K2",
+    "LUAT_36_2024_D5_K3",
+    "LUAT_36_2024_D5_K4",
+    "LUAT_36_2024_D5_K5",
+    "LUAT_36_2024_D5_K6",
+    "LUAT_36_2024_D5_K7"
+  ],
+  "Giáo dục kiến thức pháp luật về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D6_K1",
+    "LUAT_36_2024_D6_K2",
+    "LUAT_36_2024_D6_K3"
+  ],
+  "Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D7_K1",
+    "LUAT_36_2024_D7_K2",
+    "LUAT_36_2024_D7_K3"
+  ],
+  "Hợp tác quốc tế về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D8_K1",
+    "LUAT_36_2024_D8_K2",
+    "LUAT_36_2024_D8_K3"
+  ],
+  "Các hành vi bị nghiêm cấm": [
+    "LUAT_36_2024_D9_K1",
+    "LUAT_36_2024_D9_K2",
+    "LUAT_36_2024_D9_K3",
+    "LUAT_36_2024_D9_K4",
+    "LUAT_36_2024_D9_K5",
+    "LUAT_36_2024_D9_K6",
+    "LUAT_36_2024_D9_K7",
+    "LUAT_36_2024_D9_K8",
+    "LUAT_36_2024_D9_K9",
+    "LUAT_36_2024_D9_K10",
+    "LUAT_36_2024_D9_K11",
+    "LUAT_36_2024_D9_K12",
+    "LUAT_36_2024_D9_K13",
+    "LUAT_36_2024_D9_K14",
+    "LUAT_36_2024_D9_K15",
+    "LUAT_36_2024_D9_K16",
+    "LUAT_36_2024_D9_K17",
+    "LUAT_36_2024_D9_K18",
+    "LUAT_36_2024_D9_K19",
+    "LUAT_36_2024_D9_K20",
+    "LUAT_36_2024_D9_K21",
+    "LUAT_36_2024_D9_K22",
+    "LUAT_36_2024_D9_K23",
+    "LUAT_36_2024_D9_K24",
+    "LUAT_36_2024_D9_K25",
+    "LUAT_36_2024_D9_K26",
+    "LUAT_36_2024_D9_K27",
+    "LUAT_36_2024_D9_K28"
+  ],
+  "Quy tắc chung": [
+    "LUAT_36_2024_D10_K1",
+    "LUAT_36_2024_D10_K2",
+    "LUAT_36_2024_D10_K3"
+  ],
+  "Chấp hành báo hiệu đường bộ": [
+    "LUAT_36_2024_D11_K1",
+    "LUAT_36_2024_D11_K2",
+    "LUAT_36_2024_D11_K3",
+    "LUAT_36_2024_D11_K4",
+    "LUAT_36_2024_D11_K5",
+    "LUAT_36_2024_D11_K6",
+    "LUAT_36_2024_D11_K7",
+    "LUAT_36_2024_D11_K8",
+    "LUAT_36_2024_D11_K9",
+    "LUAT_36_2024_D11_K10",
+    "LUAT_36_2024_D11_K11",
+    "LUAT_36_2024_D11_K12",
+    "LUAT_36_2024_D11_K13",
+    "LUAT_36_2024_D11_K14"
+  ],
+  "Chấp hành quy định về tốc độ và khoảng cách giữa các xe": [
+    "LUAT_36_2024_D12_K1",
+    "LUAT_36_2024_D12_K2",
+    "LUAT_36_2024_D12_K3",
+    "LUAT_36_2024_D12_K4"
+  ],
+  "Sử dụng làn đường": [
+    "LUAT_36_2024_D13_K1",
+    "LUAT_36_2024_D13_K2",
+    "LUAT_36_2024_D13_K3",
+    "LUAT_36_2024_D13_K4"
+  ],
+  "Vượt xe và nhường đường cho xe xin vượt": [
+    "LUAT_36_2024_D14_K1",
+    "LUAT_36_2024_D14_K2",
+    "LUAT_36_2024_D14_K3",
+    "LUAT_36_2024_D14_K4",
+    "LUAT_36_2024_D14_K5",
+    "LUAT_36_2024_D14_K6"
+  ],
+  "Chuyển hướng xe": [
+    "LUAT_36_2024_D15_K1",
+    "LUAT_36_2024_D15_K2",
+    "LUAT_36_2024_D15_K3",
+    "LUAT_36_2024_D15_K4"
+  ],
+  "Lùi xe": [
+    "LUAT_36_2024_D16_K1",
+    "LUAT_36_2024_D16_K2"
+  ],
+  "Tránh xe đi ngược chiều": [
+    "LUAT_36_2024_D17_K1",
+    "LUAT_36_2024_D17_K2"
+  ],
+  "Dừng xe, đỗ xe": [
+    "LUAT_36_2024_D18_K1",
+    "LUAT_36_2024_D18_K2",
+    "LUAT_36_2024_D18_K3",
+    "LUAT_36_2024_D18_K4",
+    "LUAT_36_2024_D18_K5",
+    "LUAT_36_2024_D18_K6",
+    "LUAT_36_2024_D18_K7"
+  ],
+  "Mở cửa xe": [
+    "LUAT_36_2024_D19_K1",
+    "LUAT_36_2024_D19_K2"
+  ],
+  "Sử dụng đèn": [
+    "LUAT_36_2024_D20_K1",
+    "LUAT_36_2024_D20_K2",
+    "LUAT_36_2024_D20_K3"
+  ],
+  "Sử dụng tín hiệu còi": [
+    "LUAT_36_2024_D21_K1",
+    "LUAT_36_2024_D21_K2"
+  ],
+  "Nhường đường tại nơi đường giao nhau": [
+    "LUAT_36_2024_D22_K1",
+    "LUAT_36_2024_D22_K2",
+    "LUAT_36_2024_D22_K3"
+  ],
+  "Qua phà, qua cầu phao": [
+    "LUAT_36_2024_D23_K1",
+    "LUAT_36_2024_D23_K2",
+    "LUAT_36_2024_D23_K3",
+    "LUAT_36_2024_D23_K4"
+  ],
+  "Giao thông tại đường ngang, cầu chung đường sắt": [
+    "LUAT_36_2024_D24_K1",
+    "LUAT_36_2024_D24_K2",
+    "LUAT_36_2024_D24_K3"
+  ],
+  "Giao thông trên đường cao tốc": [
+    "LUAT_36_2024_D25_K1",
+    "LUAT_36_2024_D25_K2",
+    "LUAT_36_2024_D25_K3"
+  ],
+  "Giao thông trong hầm đường bộ": [
+    "LUAT_36_2024_D26_K1",
+    "LUAT_36_2024_D26_K2",
+    "LUAT_36_2024_D26_K3"
+  ],
+  "Xe ưu tiên": [
+    "LUAT_36_2024_D27_K1",
+    "LUAT_36_2024_D27_K2",
+    "LUAT_36_2024_D27_K3",
+    "LUAT_36_2024_D27_K4",
+    "LUAT_36_2024_D27_K5",
+    "LUAT_36_2024_D27_K6",
+    "LUAT_36_2024_D27_K7"
+  ],
+  "Trường hợp chở người trên xe ô tô chở hàng": [
+    "LUAT_36_2024_D28_K1",
+    "LUAT_36_2024_D28_K2"
+  ],
+  "Xe kéo xe, xe kéo rơ moóc và xe ô tô đầu kéo kéo sơ mi rơ moóc": [
+    "LUAT_36_2024_D29_K1",
+    "LUAT_36_2024_D29_K2",
+    "LUAT_36_2024_D29_K3"
+  ],
+  "Người đi bộ; trẻ em, phụ nữ mang thai, người già yếu, người khuyết tật, người mất năng lực hành vi dân sự tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D30_K1",
+    "LUAT_36_2024_D30_K2"
+  ],
+  "Người điều khiển, người được chở, hàng hóa xếp trên xe thô sơ": [
+    "LUAT_36_2024_D31_K1",
+    "LUAT_36_2024_D31_K2",
+    "LUAT_36_2024_D31_K3",
+    "LUAT_36_2024_D31_K4",
+    "LUAT_36_2024_D31_K5"
+  ],
+  "Người điều khiển, dẫn dắt vật nuôi, điều khiển xe vật nuôi kéo đi trên đường bộ": [
+    "LUAT_36_2024_D32_K1",
+    "LUAT_36_2024_D32_K2",
+    "LUAT_36_2024_D32_K3"
+  ],
+  "Người lái xe, người được chở, hàng hóa xếp trên xe mô tô, xe gắn máy": [
+    "LUAT_36_2024_D33_K1",
+    "LUAT_36_2024_D33_K2",
+    "LUAT_36_2024_D33_K3",
+    "LUAT_36_2024_D33_K4",
+    "LUAT_36_2024_D33_K5"
+  ],
+  "Phân loại phương tiện giao thông đường bộ": [
+    "LUAT_36_2024_D34_K1",
+    "LUAT_36_2024_D34_K2",
+    "LUAT_36_2024_D34_K3",
+    "LUAT_36_2024_D34_K4",
+    "LUAT_36_2024_D34_K5",
+    "LUAT_36_2024_D34_K6"
+  ],
+  "Điều kiện phương tiện tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D35_K1",
+    "LUAT_36_2024_D35_K2",
+    "LUAT_36_2024_D35_K3",
+    "LUAT_36_2024_D35_K4",
+    "LUAT_36_2024_D35_K5",
+    "LUAT_36_2024_D35_K6"
+  ],
+  "Biển số xe": [
+    "LUAT_36_2024_D36_K1",
+    "LUAT_36_2024_D36_K2",
+    "LUAT_36_2024_D36_K3",
+    "LUAT_36_2024_D36_K4"
+  ],
+  "Đấu giá biển số xe": [
+    "LUAT_36_2024_D37_K1",
+    "LUAT_36_2024_D37_K2",
+    "LUAT_36_2024_D37_K3",
+    "LUAT_36_2024_D37_K4",
+    "LUAT_36_2024_D37_K5",
+    "LUAT_36_2024_D37_K6",
+    "LUAT_36_2024_D37_K7"
+  ],
+  "Quyền và nghĩa vụ của người trúng đấu giá biển số xe": [
+    "LUAT_36_2024_D38_K1",
+    "LUAT_36_2024_D38_K2",
+    "LUAT_36_2024_D38_K3"
+  ],
+  "Cấp, thu hồi chứng nhận đăng ký xe và biển số xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D39_K1",
+    "LUAT_36_2024_D39_K2",
+    "LUAT_36_2024_D39_K3",
+    "LUAT_36_2024_D39_K4",
+    "LUAT_36_2024_D39_K5",
+    "LUAT_36_2024_D39_K6",
+    "LUAT_36_2024_D39_K7",
+    "LUAT_36_2024_D39_K8"
+  ],
+  "Niên hạn sử dụng của xe cơ giới": [
+    "LUAT_36_2024_D40_K1",
+    "LUAT_36_2024_D40_K2",
+    "LUAT_36_2024_D40_K3",
+    "LUAT_36_2024_D40_K4"
+  ],
+  "Bảo đảm chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong nhập khẩu, sản xuất, lắp ráp": [
+    "LUAT_36_2024_D41_K1",
+    "LUAT_36_2024_D41_K2",
+    "LUAT_36_2024_D41_K3",
+    "LUAT_36_2024_D41_K4",
+    "LUAT_36_2024_D41_K5",
+    "LUAT_36_2024_D41_K6",
+    "LUAT_36_2024_D41_K7",
+    "LUAT_36_2024_D41_K8"
+  ],
+  "Bảo đảm an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D42_K1",
+    "LUAT_36_2024_D42_K2",
+    "LUAT_36_2024_D42_K3",
+    "LUAT_36_2024_D42_K4",
+    "LUAT_36_2024_D42_K5",
+    "LUAT_36_2024_D42_K6"
+  ],
+  "Trách nhiệm của cơ sở đăng kiểm, chủ xe cơ giới, xe máy chuyên dùng và người điều khiển xe cơ giới, xe máy chuyên dùng": [
+    "LUAT_36_2024_D43_K1",
+    "LUAT_36_2024_D43_K2"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với phương tiện vận tải đường bộ trong đô thị": [
+    "LUAT_36_2024_D44_K1",
+    "LUAT_36_2024_D44_K2",
+    "LUAT_36_2024_D44_K3",
+    "LUAT_36_2024_D44_K4",
+    "LUAT_36_2024_D44_K5"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe ô tô vận chuyển hành khách": [
+    "LUAT_36_2024_D45_K1",
+    "LUAT_36_2024_D45_K2"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe ô tô chở trẻ em mầm non, học sinh": [
+    "LUAT_36_2024_D46_K1",
+    "LUAT_36_2024_D46_K2",
+    "LUAT_36_2024_D46_K3",
+    "LUAT_36_2024_D46_K4",
+    "LUAT_36_2024_D46_K5",
+    "LUAT_36_2024_D46_K6"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ trong vận chuyển hành khách, hàng hóa bằng xe mô tô, xe gắn máy, xe thô sơ": [
+    "LUAT_36_2024_D47_K1",
+    "LUAT_36_2024_D47_K2"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe bốn bánh có gắn động cơ vận chuyển hành khách, hàng hóa": [
+    "LUAT_36_2024_D48_K1",
+    "LUAT_36_2024_D48_K2"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe ô tô vận chuyển hàng hóa": [
+    "LUAT_36_2024_D49_K1",
+    "LUAT_36_2024_D49_K2"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với phương tiện giao thông đường bộ vận chuyển động vật sống, thực phẩm tươi sống": [
+    "LUAT_36_2024_D50_K1",
+    "LUAT_36_2024_D50_K2"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với phương tiện giao thông đường bộ vận chuyển hàng hoá nguy hiểm": [
+    "LUAT_36_2024_D51_K1",
+    "LUAT_36_2024_D51_K2",
+    "LUAT_36_2024_D51_K3",
+    "LUAT_36_2024_D51_K4",
+    "LUAT_36_2024_D51_K5",
+    "LUAT_36_2024_D51_K6"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành trên đường bộ": [
+    "LUAT_36_2024_D52_K1",
+    "LUAT_36_2024_D52_K2",
+    "LUAT_36_2024_D52_K3",
+    "LUAT_36_2024_D52_K4",
+    "LUAT_36_2024_D52_K5",
+    "LUAT_36_2024_D52_K6",
+    "LUAT_36_2024_D52_K7",
+    "LUAT_36_2024_D52_K8",
+    "LUAT_36_2024_D52_K9"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe vận chuyển hàng siêu trường, siêu trọng": [
+    "LUAT_36_2024_D53_K1",
+    "LUAT_36_2024_D53_K2",
+    "LUAT_36_2024_D53_K3",
+    "LUAT_36_2024_D53_K4",
+    "LUAT_36_2024_D53_K5",
+    "LUAT_36_2024_D53_K6",
+    "LUAT_36_2024_D53_K7"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với xe cứu hộ giao thông đường bộ": [
+    "LUAT_36_2024_D54_K1",
+    "LUAT_36_2024_D54_K2",
+    "LUAT_36_2024_D54_K3"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với trường hợp xe ô tô của người nước ngoài đăng ký tại nước ngoài có tay lái ở bên phải tham gia giao thông tại Việt Nam; xe cơ giới nước ngoài do người nước ngoài đưa vào Việt Nam du lịch": [
+    "LUAT_36_2024_D55_K1",
+    "LUAT_36_2024_D55_K2",
+    "LUAT_36_2024_D55_K3",
+    "LUAT_36_2024_D55_K4"
+  ],
+  "Điều kiện của người điều khiển phương tiện tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D56_K1",
+    "LUAT_36_2024_D56_K2",
+    "LUAT_36_2024_D56_K3",
+    "LUAT_36_2024_D56_K4",
+    "LUAT_36_2024_D56_K5"
+  ],
+  "Giấy phép lái xe": [
+    "LUAT_36_2024_D57_K1",
+    "LUAT_36_2024_D57_K2",
+    "LUAT_36_2024_D57_K3",
+    "LUAT_36_2024_D57_K4",
+    "LUAT_36_2024_D57_K5",
+    "LUAT_36_2024_D57_K6",
+    "LUAT_36_2024_D57_K7",
+    "LUAT_36_2024_D57_K8",
+    "LUAT_36_2024_D57_K9"
+  ],
+  "Điểm của giấy phép lái xe": [
+    "LUAT_36_2024_D58_K1",
+    "LUAT_36_2024_D58_K2",
+    "LUAT_36_2024_D58_K3",
+    "LUAT_36_2024_D58_K4",
+    "LUAT_36_2024_D58_K5",
+    "LUAT_36_2024_D58_K6"
+  ],
+  "Tuổi, sức khỏe của người điều khiển phương tiện tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D59_K1",
+    "LUAT_36_2024_D59_K2",
+    "LUAT_36_2024_D59_K3"
+  ],
+  "Đào tạo lái xe": [
+    "LUAT_36_2024_D60_K1",
+    "LUAT_36_2024_D60_K2",
+    "LUAT_36_2024_D60_K3",
+    "LUAT_36_2024_D60_K4",
+    "LUAT_36_2024_D60_K5",
+    "LUAT_36_2024_D60_K6",
+    "LUAT_36_2024_D60_K7",
+    "LUAT_36_2024_D60_K8"
+  ],
+  "Sát hạch lái xe": [
+    "LUAT_36_2024_D61_K1",
+    "LUAT_36_2024_D61_K2",
+    "LUAT_36_2024_D61_K3",
+    "LUAT_36_2024_D61_K4",
+    "LUAT_36_2024_D61_K5",
+    "LUAT_36_2024_D61_K6",
+    "LUAT_36_2024_D61_K7"
+  ],
+  "Cấp, đổi, cấp lại và thu hồi giấy phép lái xe": [
+    "LUAT_36_2024_D62_K1",
+    "LUAT_36_2024_D62_K2",
+    "LUAT_36_2024_D62_K3",
+    "LUAT_36_2024_D62_K4",
+    "LUAT_36_2024_D62_K5",
+    "LUAT_36_2024_D62_K6",
+    "LUAT_36_2024_D62_K7"
+  ],
+  "Đào tạo, kiểm tra cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ cho người điều khiển xe máy chuyên dùng": [
+    "LUAT_36_2024_D63_K1",
+    "LUAT_36_2024_D63_K2",
+    "LUAT_36_2024_D63_K3",
+    "LUAT_36_2024_D63_K4",
+    "LUAT_36_2024_D63_K5"
+  ],
+  "Thời gian làm việc của người lái xe ô tô kinh doanh vận tải và vận tải nội bộ": [
+    "LUAT_36_2024_D64_K1",
+    "LUAT_36_2024_D64_K2"
+  ],
+  "Hoạt động tuần tra, kiểm soát về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D65_K1",
+    "LUAT_36_2024_D65_K2",
+    "LUAT_36_2024_D65_K3",
+    "LUAT_36_2024_D65_K4",
+    "LUAT_36_2024_D65_K5",
+    "LUAT_36_2024_D65_K6",
+    "LUAT_36_2024_D65_K7",
+    "LUAT_36_2024_D65_K8"
+  ],
+  "Căn cứ dừng phương tiện tham gia giao thông đường bộ để kiểm tra, kiểm soát": [
+    "LUAT_36_2024_D66_K1",
+    "LUAT_36_2024_D66_K2",
+    "LUAT_36_2024_D66_K3",
+    "LUAT_36_2024_D66_K4"
+  ],
+  "Biện pháp phát hiện vi phạm pháp luật về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D67_K1",
+    "LUAT_36_2024_D67_K2",
+    "LUAT_36_2024_D67_K3",
+    "LUAT_36_2024_D67_K4",
+    "LUAT_36_2024_D67_K5",
+    "LUAT_36_2024_D67_K6",
+    "LUAT_36_2024_D67_K7"
+  ],
+  "Huy động người, phương tiện, thiết bị dân sự trong trường hợp cấp bách": [
+    "LUAT_36_2024_D68_K1",
+    "LUAT_36_2024_D68_K2",
+    "LUAT_36_2024_D68_K3"
+  ],
+  "Di chuyển phương tiện vi phạm dừng, đỗ trên đường bộ gây cản trở, ùn tắc giao thông hoặc nguy cơ dẫn đến tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D69_K1",
+    "LUAT_36_2024_D69_K2",
+    "LUAT_36_2024_D69_K3",
+    "LUAT_36_2024_D69_K4"
+  ],
+  "Trang bị, sử dụng phương tiện, thiết bị, vũ khí, công cụ hỗ trợ khi tuần tra, kiểm soát": [
+    "LUAT_36_2024_D70_K1",
+    "LUAT_36_2024_D70_K2",
+    "LUAT_36_2024_D70_K3"
+  ],
+  "Hệ thống giám sát bảo đảm an ninh, trật tự, an toàn giao thông đường bộ; hệ thống quản lý dữ liệu thiết bị giám sát hành trình và thiết bị ghi nhận hình ảnh người lái xe; hệ thống thiết bị kỹ thuật nghiệp vụ kiểm tra tải trọng xe cơ giới": [
+    "LUAT_36_2024_D71_K1",
+    "LUAT_36_2024_D71_K2",
+    "LUAT_36_2024_D71_K3",
+    "LUAT_36_2024_D71_K4"
+  ],
+  "Quyền và trách nhiệm của người điều khiển phương tiện tham gia giao thông đường bộ": [
+    "LUAT_36_2024_D72_K1",
+    "LUAT_36_2024_D72_K2"
+  ],
+  "Ngăn chặn hành vi không chấp hành yêu cầu kiểm tra, kiểm soát, cản trở, chống người thi hành công vụ": [
+    "LUAT_36_2024_D73_K1",
+    "LUAT_36_2024_D73_K2"
+  ],
+  "Chỉ huy, điều khiển giao thông đường bộ": [
+    "LUAT_36_2024_D74_K1",
+    "LUAT_36_2024_D74_K2",
+    "LUAT_36_2024_D74_K3"
+  ],
+  "Trung tâm chỉ huy giao thông": [
+    "LUAT_36_2024_D75_K1",
+    "LUAT_36_2024_D75_K2",
+    "LUAT_36_2024_D75_K3",
+    "LUAT_36_2024_D75_K4",
+    "LUAT_36_2024_D75_K5"
+  ],
+  "Giải quyết tình huống đột xuất gây mất trật tự, an toàn giao thông trên đường bộ": [
+    "LUAT_36_2024_D76_K1",
+    "LUAT_36_2024_D76_K2",
+    "LUAT_36_2024_D76_K3"
+  ],
+  "Bảo đảm trật tự, an toàn giao thông đường bộ đối với trường hợp sử dụng tạm thời lòng đường, vỉa hè vào mục đích khác": [
+    "LUAT_36_2024_D77_K1",
+    "LUAT_36_2024_D77_K2",
+    "LUAT_36_2024_D77_K3",
+    "LUAT_36_2024_D77_K4"
+  ],
+  "Giải quyết, khắc phục ùn tắc giao thông": [
+    "LUAT_36_2024_D78_K1",
+    "LUAT_36_2024_D78_K2"
+  ],
+  "Kiến nghị về trật tự, an toàn giao thông đường bộ đối với công trình đường bộ": [
+    "LUAT_36_2024_D79_K1",
+    "LUAT_36_2024_D79_K2"
+  ],
+  "Trách nhiệm của người điều khiển phương tiện tham gia giao thông đường bộ gây ra tai nạn giao thông đường bộ, người liên quan và người có mặt tại hiện trường vụ tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D80_K1",
+    "LUAT_36_2024_D80_K2",
+    "LUAT_36_2024_D80_K3",
+    "LUAT_36_2024_D80_K4"
+  ],
+  "Phát hiện, tiếp nhận, xử lý tin báo tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D81_K1",
+    "LUAT_36_2024_D81_K2",
+    "LUAT_36_2024_D81_K3",
+    "LUAT_36_2024_D81_K4",
+    "LUAT_36_2024_D81_K5",
+    "LUAT_36_2024_D81_K6"
+  ],
+  "Cứu nạn, cứu hộ khi xảy ra vụ tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D82_K1",
+    "LUAT_36_2024_D82_K2",
+    "LUAT_36_2024_D82_K3",
+    "LUAT_36_2024_D82_K4",
+    "LUAT_36_2024_D82_K5"
+  ],
+  "Điều tra, giải quyết tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D83_K1",
+    "LUAT_36_2024_D83_K2",
+    "LUAT_36_2024_D83_K3",
+    "LUAT_36_2024_D83_K4"
+  ],
+  "Thống kê tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D84_K1",
+    "LUAT_36_2024_D84_K2",
+    "LUAT_36_2024_D84_K3",
+    "LUAT_36_2024_D84_K4",
+    "LUAT_36_2024_D84_K5"
+  ],
+  "Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ": [
+    "LUAT_36_2024_D85_K1",
+    "LUAT_36_2024_D85_K2",
+    "LUAT_36_2024_D85_K3",
+    "LUAT_36_2024_D85_K4",
+    "LUAT_36_2024_D85_K5"
+  ],
+  "Nội dung quản lý nhà nước về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D86_K1",
+    "LUAT_36_2024_D86_K2",
+    "LUAT_36_2024_D86_K3",
+    "LUAT_36_2024_D86_K4",
+    "LUAT_36_2024_D86_K5",
+    "LUAT_36_2024_D86_K6",
+    "LUAT_36_2024_D86_K7",
+    "LUAT_36_2024_D86_K8",
+    "LUAT_36_2024_D86_K9",
+    "LUAT_36_2024_D86_K10",
+    "LUAT_36_2024_D86_K11",
+    "LUAT_36_2024_D86_K12",
+    "LUAT_36_2024_D86_K13"
+  ],
+  "Trách nhiệm quản lý nhà nước về trật tự, an toàn giao thông đường bộ": [
+    "LUAT_36_2024_D87_K1",
+    "LUAT_36_2024_D87_K2",
+    "LUAT_36_2024_D87_K3",
+    "LUAT_36_2024_D87_K4",
+    "LUAT_36_2024_D87_K5",
+    "LUAT_36_2024_D87_K6",
+    "LUAT_36_2024_D87_K7",
+    "LUAT_36_2024_D87_K8"
+  ],
+  "Hiệu lực thi hành": [
+    "LUAT_36_2024_D88_K1",
+    "LUAT_36_2024_D88_K2",
+    "LUAT_36_2024_D88_K3",
+    "LUAT_36_2024_D88_K4",
+    "ND_168_2024_D53_K1",
+    "ND_168_2024_D53_K2"
+  ],
+  "Quy định chuyển tiếp": [
+    "LUAT_36_2024_D89_K1",
+    "LUAT_36_2024_D89_K2",
+    "LUAT_36_2024_D89_K3",
+    "LUAT_36_2024_D89_K4",
+    "LUAT_36_2024_D89_K5",
+    "LUAT_36_2024_D89_K6",
+    "LUAT_36_2024_D89_K7"
+  ],
+  "Đối tượng áp dụng": [
+    "ND_168_2024_D2_K1",
+    "ND_168_2024_D2_K2",
+    "ND_168_2024_D2_K3",
+    "ND_168_2024_D2_K4",
+    "ND_168_2024_D2_K5"
+  ],
+  "Hình thức xử phạt vi phạm hành chính, biện pháp khắc phục hậu quả; thu hồi giấy phép, chứng chỉ hành nghề": [
+    "ND_168_2024_D3_K1",
+    "ND_168_2024_D3_K2",
+    "ND_168_2024_D3_K3",
+    "ND_168_2024_D3_K4"
+  ],
+  "Thời hiệu xử phạt vi phạm hành chính; hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện": [
+    "ND_168_2024_D4_K1",
+    "ND_168_2024_D4_K2",
+    "ND_168_2024_D4_K3"
+  ],
+  "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn": [
+    "ND_168_2024_D5_K1",
+    "ND_168_2024_D5_K2",
+    "ND_168_2024_D5_K3",
+    "ND_168_2024_D5_K4",
+    "ND_168_2024_D5_K5",
+    "ND_168_2024_D5_K6",
+    "ND_168_2024_D5_K7"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ": [
+    "ND_168_2024_D6_K1",
+    "ND_168_2024_D6_K2",
+    "ND_168_2024_D6_K3",
+    "ND_168_2024_D6_K4",
+    "ND_168_2024_D6_K5",
+    "ND_168_2024_D6_K6",
+    "ND_168_2024_D6_K7",
+    "ND_168_2024_D6_K8",
+    "ND_168_2024_D6_K9",
+    "ND_168_2024_D6_K10",
+    "ND_168_2024_D6_K11",
+    "ND_168_2024_D6_K12",
+    "ND_168_2024_D6_K13",
+    "ND_168_2024_D6_K14",
+    "ND_168_2024_D6_K15",
+    "ND_168_2024_D6_K16"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ": [
+    "ND_168_2024_D7_K1",
+    "ND_168_2024_D7_K2",
+    "ND_168_2024_D7_K3",
+    "ND_168_2024_D7_K4",
+    "ND_168_2024_D7_K5",
+    "ND_168_2024_D7_K6",
+    "ND_168_2024_D7_K7",
+    "ND_168_2024_D7_K8",
+    "ND_168_2024_D7_K9",
+    "ND_168_2024_D7_K10",
+    "ND_168_2024_D7_K11",
+    "ND_168_2024_D7_K12",
+    "ND_168_2024_D7_K13"
+  ],
+  "Xử phạt người điều khiển xe máy chuyên dùng vi phạm quy tắc giao thông đường bộ": [
+    "ND_168_2024_D8_K1",
+    "ND_168_2024_D8_K2",
+    "ND_168_2024_D8_K3",
+    "ND_168_2024_D8_K4",
+    "ND_168_2024_D8_K5",
+    "ND_168_2024_D8_K6",
+    "ND_168_2024_D8_K7",
+    "ND_168_2024_D8_K8",
+    "ND_168_2024_D8_K9"
+  ],
+  "Xử phạt người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ": [
+    "ND_168_2024_D9_K1",
+    "ND_168_2024_D9_K2",
+    "ND_168_2024_D9_K3",
+    "ND_168_2024_D9_K4",
+    "ND_168_2024_D9_K5"
+  ],
+  "Xử phạt người đi bộ vi phạm quy tắc giao thông đường bộ": [
+    "ND_168_2024_D10_K1",
+    "ND_168_2024_D10_K2"
+  ],
+  "Xử phạt người điều khiển, dẫn dắt vật nuôi, điều khiển xe vật nuôi kéo vi phạm quy tắc giao thông đường bộ": [
+    "ND_168_2024_D11_K1",
+    "ND_168_2024_D11_K2",
+    "ND_168_2024_D11_K3"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe các hành vi vi phạm khác về quy tắc giao thông đường bộ; sử dụng lòng đường, vỉa hè vào mục đích khác": [
+    "ND_168_2024_D12_K1",
+    "ND_168_2024_D12_K2",
+    "ND_168_2024_D12_K3",
+    "ND_168_2024_D12_K4",
+    "ND_168_2024_D12_K5",
+    "ND_168_2024_D12_K6",
+    "ND_168_2024_D12_K7",
+    "ND_168_2024_D12_K8",
+    "ND_168_2024_D12_K9",
+    "ND_168_2024_D12_K10",
+    "ND_168_2024_D12_K11",
+    "ND_168_2024_D12_K12",
+    "ND_168_2024_D12_K13",
+    "ND_168_2024_D12_K14",
+    "ND_168_2024_D12_K15",
+    "ND_168_2024_D12_K16",
+    "ND_168_2024_D12_K17"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo), xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông": [
+    "ND_168_2024_D13_K1",
+    "ND_168_2024_D13_K2",
+    "ND_168_2024_D13_K3",
+    "ND_168_2024_D13_K4",
+    "ND_168_2024_D13_K5",
+    "ND_168_2024_D13_K6",
+    "ND_168_2024_D13_K7",
+    "ND_168_2024_D13_K8",
+    "ND_168_2024_D13_K9",
+    "ND_168_2024_D13_K10",
+    "ND_168_2024_D13_K11",
+    "ND_168_2024_D13_K12",
+    "ND_168_2024_D13_K13"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông": [
+    "ND_168_2024_D14_K1",
+    "ND_168_2024_D14_K2",
+    "ND_168_2024_D14_K3",
+    "ND_168_2024_D14_K4",
+    "ND_168_2024_D14_K5",
+    "ND_168_2024_D14_K6",
+    "ND_168_2024_D14_K7",
+    "ND_168_2024_D14_K8"
+  ],
+  "Xử phạt người điều khiển xe thô sơ vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông": [
+    "ND_168_2024_D15_K1",
+    "ND_168_2024_D15_K2"
+  ],
+  "Xử phạt người điều khiển xe máy chuyên dùng (kể cả rơ moóc được kéo theo) vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông": [
+    "ND_168_2024_D16_K1",
+    "ND_168_2024_D16_K2",
+    "ND_168_2024_D16_K3",
+    "ND_168_2024_D16_K4",
+    "ND_168_2024_D16_K5",
+    "ND_168_2024_D16_K6"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô vi phạm quy định về bảo vệ môi trường khi tham gia giao thông": [
+    "ND_168_2024_D17_K1",
+    "ND_168_2024_D17_K2",
+    "ND_168_2024_D17_K3",
+    "ND_168_2024_D17_K4",
+    "ND_168_2024_D17_K5"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe các hành vi vi phạm quy định về điều kiện của người điều khiển xe cơ giới": [
+    "ND_168_2024_D18_K1",
+    "ND_168_2024_D18_K2",
+    "ND_168_2024_D18_K3",
+    "ND_168_2024_D18_K4",
+    "ND_168_2024_D18_K5",
+    "ND_168_2024_D18_K6",
+    "ND_168_2024_D18_K7",
+    "ND_168_2024_D18_K8",
+    "ND_168_2024_D18_K9",
+    "ND_168_2024_D18_K10",
+    "ND_168_2024_D18_K11",
+    "ND_168_2024_D18_K12"
+  ],
+  "Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe máy chuyên dùng": [
+    "ND_168_2024_D19_K1",
+    "ND_168_2024_D19_K2"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách vi phạm quy định về bảo đảm trật tự, an toàn giao thông": [
+    "ND_168_2024_D20_K1",
+    "ND_168_2024_D20_K2",
+    "ND_168_2024_D20_K3",
+    "ND_168_2024_D20_K4",
+    "ND_168_2024_D20_K5",
+    "ND_168_2024_D20_K6",
+    "ND_168_2024_D20_K7",
+    "ND_168_2024_D20_K8",
+    "ND_168_2024_D20_K9",
+    "ND_168_2024_D20_K10"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô tải, máy kéo (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vận chuyển hàng hóa vi phạm quy định về bảo đảm trật tự, an toàn giao thông đường bộ với xe ô tô vận chuyển hàng hóa": [
+    "ND_168_2024_D21_K1",
+    "ND_168_2024_D21_K2",
+    "ND_168_2024_D21_K3",
+    "ND_168_2024_D21_K4",
+    "ND_168_2024_D21_K5",
+    "ND_168_2024_D21_K6",
+    "ND_168_2024_D21_K7",
+    "ND_168_2024_D21_K8",
+    "ND_168_2024_D21_K9",
+    "ND_168_2024_D21_K10",
+    "ND_168_2024_D21_K11",
+    "ND_168_2024_D21_K12",
+    "ND_168_2024_D21_K13"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng": [
+    "ND_168_2024_D22_K1",
+    "ND_168_2024_D22_K2",
+    "ND_168_2024_D22_K3",
+    "ND_168_2024_D22_K4",
+    "ND_168_2024_D22_K5",
+    "ND_168_2024_D22_K6"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về vận chuyển hàng hóa nguy hiểm": [
+    "ND_168_2024_D23_K1",
+    "ND_168_2024_D23_K2",
+    "ND_168_2024_D23_K3",
+    "ND_168_2024_D23_K4",
+    "ND_168_2024_D23_K5",
+    "ND_168_2024_D23_K6",
+    "ND_168_2024_D23_K7"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về vận chuyển động vật sống, thực phẩm tươi sống": [
+    "ND_168_2024_D24_K1",
+    "ND_168_2024_D24_K2",
+    "ND_168_2024_D24_K3"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe vệ sinh môi trường, xe ô tô chở phế thải thực hiện hành vi vi phạm quy định về hoạt động vận tải trong đô thị": [
+    "ND_168_2024_D25_K1",
+    "ND_168_2024_D25_K2"
+  ],
+  "Xử phạt các hành vi vi phạm quy định về trật tự, an toàn giao thông đường bộ trong vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ": [
+    "ND_168_2024_D26_K1",
+    "ND_168_2024_D26_K2",
+    "ND_168_2024_D26_K3",
+    "ND_168_2024_D26_K4",
+    "ND_168_2024_D26_K5",
+    "ND_168_2024_D26_K6",
+    "ND_168_2024_D26_K7",
+    "ND_168_2024_D26_K8",
+    "ND_168_2024_D26_K9",
+    "ND_168_2024_D26_K10",
+    "ND_168_2024_D26_K11",
+    "ND_168_2024_D26_K12",
+    "ND_168_2024_D26_K13",
+    "ND_168_2024_D26_K14"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh": [
+    "ND_168_2024_D27_K1",
+    "ND_168_2024_D27_K2",
+    "ND_168_2024_D27_K3",
+    "ND_168_2024_D27_K4"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ": [
+    "ND_168_2024_D28_K1",
+    "ND_168_2024_D28_K2",
+    "ND_168_2024_D28_K3",
+    "ND_168_2024_D28_K4"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe cứu hộ giao thông đường bộ": [
+    "ND_168_2024_D29_K1",
+    "ND_168_2024_D29_K2",
+    "ND_168_2024_D29_K3",
+    "ND_168_2024_D29_K4"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe cứu thương": [
+    "ND_168_2024_D30_K1",
+    "ND_168_2024_D30_K2",
+    "ND_168_2024_D30_K3"
+  ],
+  "Xử phạt hành vi sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ; sản xuất, mua, bán biển số xe trái phép": [
+    "ND_168_2024_D31_K1",
+    "ND_168_2024_D31_K2",
+    "ND_168_2024_D31_K3",
+    "ND_168_2024_D31_K4"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe đối với chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ": [
+    "ND_168_2024_D32_K1",
+    "ND_168_2024_D32_K2",
+    "ND_168_2024_D32_K3",
+    "ND_168_2024_D32_K4",
+    "ND_168_2024_D32_K5",
+    "ND_168_2024_D32_K6",
+    "ND_168_2024_D32_K7",
+    "ND_168_2024_D32_K8",
+    "ND_168_2024_D32_K9",
+    "ND_168_2024_D32_K10",
+    "ND_168_2024_D32_K11",
+    "ND_168_2024_D32_K12",
+    "ND_168_2024_D32_K13",
+    "ND_168_2024_D32_K14",
+    "ND_168_2024_D32_K15",
+    "ND_168_2024_D32_K16",
+    "ND_168_2024_D32_K17",
+    "ND_168_2024_D32_K18",
+    "ND_168_2024_D32_K19",
+    "ND_168_2024_D32_K20",
+    "ND_168_2024_D32_K21"
+  ],
+  "Xử phạt hành khách đi xe vi phạm quy định về trật tự, an toàn giao thông": [
+    "ND_168_2024_D33_K1",
+    "ND_168_2024_D33_K2",
+    "ND_168_2024_D33_K3",
+    "ND_168_2024_D33_K4"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển quá khổ giới hạn, xe quá tải trọng, xe bánh xích lưu hành đường bộ (kể cả xe ô tô chở hành khách)": [
+    "ND_168_2024_D34_K1",
+    "ND_168_2024_D34_K2",
+    "ND_168_2024_D34_K3",
+    "ND_168_2024_D34_K4",
+    "ND_168_2024_D34_K5",
+    "ND_168_2024_D34_K6",
+    "ND_168_2024_D34_K7"
+  ],
+  "Xử phạt, trừ điểm giấy phép lái xe đối với người đua xe trái phép, tổ chức đua xe, xúi giục, cổ vũ đua xe trái phép": [
+    "ND_168_2024_D35_K1",
+    "ND_168_2024_D35_K2",
+    "ND_168_2024_D35_K3",
+    "ND_168_2024_D35_K4"
+  ],
+  "Xử phạt người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa": [
+    "ND_168_2024_D36_K1",
+    "ND_168_2024_D36_K2"
+  ],
+  "Xử phạt người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài": [
+    "ND_168_2024_D37_K1",
+    "ND_168_2024_D37_K2",
+    "ND_168_2024_D37_K3",
+    "ND_168_2024_D37_K4",
+    "ND_168_2024_D37_K5",
+    "ND_168_2024_D37_K6",
+    "ND_168_2024_D37_K7"
+  ],
+  "Xử phạt người điều khiển phương tiện đăng ký hoạt động trong Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế": [
+    "ND_168_2024_D38_K1",
+    "ND_168_2024_D38_K2",
+    "ND_168_2024_D38_K3",
+    "ND_168_2024_D38_K4",
+    "ND_168_2024_D38_K5"
+  ],
+  "Xử phạt các hành vi vi phạm quy định về đào tạo, sát hạch lái xe": [
+    "ND_168_2024_D39_K1",
+    "ND_168_2024_D39_K2",
+    "ND_168_2024_D39_K3",
+    "ND_168_2024_D39_K4",
+    "ND_168_2024_D39_K5",
+    "ND_168_2024_D39_K6",
+    "ND_168_2024_D39_K7",
+    "ND_168_2024_D39_K8",
+    "ND_168_2024_D39_K9",
+    "ND_168_2024_D39_K10"
+  ],
+  "Xử phạt các hành vi vi phạm quy định về hoạt động đăng kiểm xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới": [
+    "ND_168_2024_D40_K1",
+    "ND_168_2024_D40_K2",
+    "ND_168_2024_D40_K3",
+    "ND_168_2024_D40_K4",
+    "ND_168_2024_D40_K5",
+    "ND_168_2024_D40_K6"
+  ],
+  "Phân định thẩm quyền xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ": [
+    "ND_168_2024_D41_K1",
+    "ND_168_2024_D41_K2",
+    "ND_168_2024_D41_K3",
+    "ND_168_2024_D41_K4",
+    "ND_168_2024_D41_K5"
+  ],
+  "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp": [
+    "ND_168_2024_D42_K1",
+    "ND_168_2024_D42_K2",
+    "ND_168_2024_D42_K3"
+  ],
+  "Thẩm quyền xử phạt của Công an nhân dân": [
+    "ND_168_2024_D43_K1",
+    "ND_168_2024_D43_K2",
+    "ND_168_2024_D43_K3",
+    "ND_168_2024_D43_K4",
+    "ND_168_2024_D43_K5",
+    "ND_168_2024_D43_K6"
+  ],
+  "Thẩm quyền xử phạt của Thanh tra chuyên ngành": [
+    "ND_168_2024_D44_K1",
+    "ND_168_2024_D44_K2",
+    "ND_168_2024_D44_K3",
+    "ND_168_2024_D44_K4"
+  ],
+  "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả": [
+    "ND_168_2024_D45_K1",
+    "ND_168_2024_D45_K2",
+    "ND_168_2024_D45_K3"
+  ],
+  "Thẩm quyền lập biên bản vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ": [
+    "ND_168_2024_D46_K1",
+    "ND_168_2024_D46_K2"
+  ],
+  "Thủ tục xử phạt, nguyên tắc xử phạt đối với chủ phương tiện, người điều khiển phương tiện vi phạm quy định liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ": [
+    "ND_168_2024_D47_K1",
+    "ND_168_2024_D47_K2",
+    "ND_168_2024_D47_K3",
+    "ND_168_2024_D47_K4",
+    "ND_168_2024_D47_K5",
+    "ND_168_2024_D47_K6",
+    "ND_168_2024_D47_K7",
+    "ND_168_2024_D47_K8",
+    "ND_168_2024_D47_K9",
+    "ND_168_2024_D47_K10",
+    "ND_168_2024_D47_K11",
+    "ND_168_2024_D47_K12"
+  ],
+  "Tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm": [
+    "ND_168_2024_D48_K1",
+    "ND_168_2024_D48_K2",
+    "ND_168_2024_D48_K3",
+    "ND_168_2024_D48_K4"
+  ],
+  "Dữ liệu về điểm, trừ điểm, phục hồi điểm giấy phép lái xe": [
+    "ND_168_2024_D49_K0"
+  ],
+  "Nguyên tắc, thẩm quyền, trình tự, thủ tục trừ điểm giấy phép lái xe": [
+    "ND_168_2024_D50_K1",
+    "ND_168_2024_D50_K2",
+    "ND_168_2024_D50_K3"
+  ],
+  "Thẩm quyền, trình tự, thủ tục phục hồi điểm giấy phép lái xe": [
+    "ND_168_2024_D51_K1",
+    "ND_168_2024_D51_K2",
+    "ND_168_2024_D51_K3"
+  ],
+  "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng": [
+    "ND_168_2024_D52_K1",
+    "ND_168_2024_D52_K2",
+    "ND_168_2024_D52_K3",
+    "ND_168_2024_D52_K4",
+    "ND_168_2024_D52_K5",
+    "ND_168_2024_D52_K6",
+    "ND_168_2024_D52_K7",
+    "ND_168_2024_D52_K8",
+    "ND_168_2024_D52_K9"
+  ],
+  "Điều khoản chuyển tiếp": [
+    "ND_168_2024_D54_K1",
+    "ND_168_2024_D54_K2"
+  ],
+  "Trách nhiệm thi hành": [
+    "ND_168_2024_D55_K0"
+  ]
+}

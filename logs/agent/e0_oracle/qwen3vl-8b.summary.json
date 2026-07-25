@@ -1,0 +1,79 @@
+{
+  "condition": "e0_oracle",
+  "model": "qwen3vl-8b",
+  "llm_backend": "vlm",
+  "llm_parse_failures": 18,
+  "llm_parse_failure_rate": 0.007456503728251864,
+  "corpus_version": "7ee6e71fdac6",
+  "n_questions": 2414,
+  "n_graded": 2414,
+  "k": 3,
+  "max_iterations": 2,
+  "mcq_acc": 0.8554266777133389,
+  "pick_longest_acc": 0.5414250207125103,
+  "grounded_acc": 0.727837613918807,
+  "divergence": 0.14915254237288136,
+  "retry_rate": 0.0,
+  "avg_iterations_used": 0.0,
+  "stop_reason_distribution": {
+    "oracle_retrieval": 2414
+  },
+  "by_type_image": {
+    "cong_kenh": {
+      "total": 184,
+      "mcq_acc": 0.842391304347826,
+      "grounded_acc": 0.7663043478260869
+    },
+    "di_vao_duong_cam": {
+      "total": 198,
+      "mcq_acc": 0.9191919191919192,
+      "grounded_acc": 0.8686868686868687
+    },
+    "du_lieu_khong_loi": {
+      "total": 236,
+      "mcq_acc": 0.9449152542372882,
+      "grounded_acc": 0.5466101694915254
+    },
+    "dung_qua_vach": {
+      "total": 132,
+      "mcq_acc": 0.7803030303030303,
+      "grounded_acc": 0.6590909090909091
+    },
+    "khong_mu_bao_hiem": {
+      "total": 313,
+      "mcq_acc": 0.8146964856230032,
+      "grounded_acc": 0.6389776357827476
+    },
+    "khong_the_xac_dinh": {
+      "total": 180,
+      "mcq_acc": 0.9111111111111111,
+      "grounded_acc": 0.7722222222222223
+    },
+    "khong_tuan_thu_den_tin_hieu": {
+      "total": 444,
+      "mcq_acc": 0.8220720720720721,
+      "grounded_acc": 0.8040540540540541
+    },
+    "nguoc_chieu": {
+      "total": 120,
+      "mcq_acc": 0.7916666666666666,
+      "grounded_acc": 0.7666666666666667
+    },
+    "sai_bien_bao": {
+      "total": 327,
+      "mcq_acc": 0.9388379204892966,
+      "grounded_acc": 0.8226299694189603
+    },
+    "sai_lan": {
+      "total": 204,
+      "mcq_acc": 0.803921568627451,
+      "grounded_acc": 0.6421568627450981
+    },
+    "tong_hop": {
+      "total": 76,
+      "mcq_acc": 0.6842105263157895,
+      "grounded_acc": 0.5263157894736842
+    }
+  },
+  "elapsed_sec": 32838.9
+}

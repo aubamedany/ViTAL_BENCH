@@ -1,0 +1,79 @@
+{
+  "condition": "e0_oracle",
+  "model": "internvl-2b",
+  "llm_backend": "vlm",
+  "llm_parse_failures": 432,
+  "llm_parse_failure_rate": 0.17895608947804473,
+  "corpus_version": "7ee6e71fdac6",
+  "n_questions": 2414,
+  "n_graded": 2414,
+  "k": 3,
+  "max_iterations": 2,
+  "mcq_acc": 0.6267605633802817,
+  "pick_longest_acc": 0.5414250207125103,
+  "grounded_acc": 0.5049710024855012,
+  "divergence": 0.19431592861863847,
+  "retry_rate": 0.0,
+  "avg_iterations_used": 0.0,
+  "stop_reason_distribution": {
+    "oracle_retrieval": 2414
+  },
+  "by_type_image": {
+    "cong_kenh": {
+      "total": 184,
+      "mcq_acc": 0.6521739130434783,
+      "grounded_acc": 0.4076086956521739
+    },
+    "di_vao_duong_cam": {
+      "total": 198,
+      "mcq_acc": 0.7222222222222222,
+      "grounded_acc": 0.6515151515151515
+    },
+    "du_lieu_khong_loi": {
+      "total": 236,
+      "mcq_acc": 0.75,
+      "grounded_acc": 0.5296610169491526
+    },
+    "dung_qua_vach": {
+      "total": 132,
+      "mcq_acc": 0.5454545454545454,
+      "grounded_acc": 0.4318181818181818
+    },
+    "khong_mu_bao_hiem": {
+      "total": 313,
+      "mcq_acc": 0.6134185303514377,
+      "grounded_acc": 0.4984025559105431
+    },
+    "khong_the_xac_dinh": {
+      "total": 180,
+      "mcq_acc": 0.6333333333333333,
+      "grounded_acc": 0.5611111111111111
+    },
+    "khong_tuan_thu_den_tin_hieu": {
+      "total": 444,
+      "mcq_acc": 0.6351351351351351,
+      "grounded_acc": 0.5472972972972973
+    },
+    "nguoc_chieu": {
+      "total": 120,
+      "mcq_acc": 0.475,
+      "grounded_acc": 0.39166666666666666
+    },
+    "sai_bien_bao": {
+      "total": 327,
+      "mcq_acc": 0.5840978593272171,
+      "grounded_acc": 0.4434250764525994
+    },
+    "sai_lan": {
+      "total": 204,
+      "mcq_acc": 0.5980392156862745,
+      "grounded_acc": 0.5098039215686274
+    },
+    "tong_hop": {
+      "total": 76,
+      "mcq_acc": 0.5657894736842105,
+      "grounded_acc": 0.4868421052631579
+    }
+  },
+  "elapsed_sec": 34923.5
+}

@@ -1,0 +1,79 @@
+{
+  "condition": "e0_oracle",
+  "model": "internvl-8b",
+  "llm_backend": "vlm",
+  "llm_parse_failures": 0,
+  "llm_parse_failure_rate": 0.0,
+  "corpus_version": "b923cf54a32a",
+  "n_questions": 2414,
+  "n_graded": 2414,
+  "k": 3,
+  "max_iterations": 2,
+  "mcq_acc": 0.8131731565865783,
+  "pick_longest_acc": 0.5414250207125103,
+  "grounded_acc": 0.6822700911350456,
+  "divergence": 0.16097809475292918,
+  "retry_rate": 0.0,
+  "avg_iterations_used": 0.0,
+  "stop_reason_distribution": {
+    "oracle_retrieval": 2414
+  },
+  "by_type_image": {
+    "cong_kenh": {
+      "total": 184,
+      "mcq_acc": 0.7554347826086957,
+      "grounded_acc": 0.6739130434782609
+    },
+    "di_vao_duong_cam": {
+      "total": 198,
+      "mcq_acc": 0.9393939393939394,
+      "grounded_acc": 0.6868686868686869
+    },
+    "du_lieu_khong_loi": {
+      "total": 236,
+      "mcq_acc": 0.826271186440678,
+      "grounded_acc": 0.6059322033898306
+    },
+    "dung_qua_vach": {
+      "total": 132,
+      "mcq_acc": 0.6893939393939394,
+      "grounded_acc": 0.5984848484848485
+    },
+    "khong_mu_bao_hiem": {
+      "total": 313,
+      "mcq_acc": 0.7507987220447284,
+      "grounded_acc": 0.6261980830670927
+    },
+    "khong_the_xac_dinh": {
+      "total": 180,
+      "mcq_acc": 0.8277777777777777,
+      "grounded_acc": 0.5944444444444444
+    },
+    "khong_tuan_thu_den_tin_hieu": {
+      "total": 444,
+      "mcq_acc": 0.7995495495495496,
+      "grounded_acc": 0.7567567567567568
+    },
+    "nguoc_chieu": {
+      "total": 120,
+      "mcq_acc": 0.85,
+      "grounded_acc": 0.7916666666666666
+    },
+    "sai_bien_bao": {
+      "total": 327,
+      "mcq_acc": 0.9388379204892966,
+      "grounded_acc": 0.8195718654434251
+    },
+    "sai_lan": {
+      "total": 204,
+      "mcq_acc": 0.7647058823529411,
+      "grounded_acc": 0.6862745098039216
+    },
+    "tong_hop": {
+      "total": 76,
+      "mcq_acc": 0.631578947368421,
+      "grounded_acc": 0.3026315789473684
+    }
+  },
+  "elapsed_sec": 15637.4
+}

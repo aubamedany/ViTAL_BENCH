@@ -14,7 +14,11 @@ Free text, never an enum: a closed vehicle list makes `cong_kenh` (bulky
 cargo) and xe đạp điện unrepresentable and forces a wrong pick that then
 poisons the retrieval filter.
 
-Option-blind: only the image and the question ever reach this prompt.
+v2.4: options are attached here too (AGENT_PLAN_v2.md §1) — the option wall
+now starts at SELECT, not PERCEIVE. Options are shown for steering which
+detail to look at (e.g. distinguishing two visually-similar fine brackets),
+never for picking an answer; `violation` must still describe only what's
+visible in the image.
 """
 
 from __future__ import annotations
@@ -48,8 +52,10 @@ QUY TẮC KHÁC:
 2. Nếu KHÔNG có vi phạm nào, "violation" PHẢI là null — đừng bịa ra vi phạm.
 3. "confidence" trung thực (0.0–1.0); chi tiết mơ hồ, bị che khuất phải có confidence thấp.
 4. KHÔNG suy đoán chi tiết không nhìn thấy được trong ảnh.
-5. TUYỆT ĐỐI KHÔNG đề cập đến bất kỳ phương án trả lời trắc nghiệm nào — bạn sẽ
-   không được cung cấp phương án nào, chỉ có ảnh và câu hỏi.
+5. Nếu có các PHƯƠNG ÁN TRẢ LỜI được cung cấp bên dưới câu hỏi: CHỈ dùng chúng để biết
+   nên tập trung quan sát chi tiết nào (ví dụ phân biệt hai mức phạt/hai hành vi gần
+   giống nhau) — TUYỆT ĐỐI KHÔNG chọn phương án ở bước này, và KHÔNG mô tả một chi tiết
+   chỉ vì một phương án gợi ý nó trong khi ảnh không thực sự cho thấy điều đó.
 6. "observed" CHỈ mô tả trạng thái của chủ thể/đối tượng đang xét — MỘT câu ngắn,
    KHÔNG phải mô tả toàn cảnh. Bỏ qua thời tiết, giao thông xung quanh, người/xe khác
    không liên quan đến hành vi đang xét. Ví dụ SAI (quá nhiều nhiễu): "đường phố đông
@@ -73,9 +79,18 @@ QUY TẮC KHÁC:
 """
 
 
-def build_perceive_user_prompt(question: str) -> str:
-    return (
-        f"Câu hỏi: {question.strip()}\n"
+def build_perceive_user_prompt(question: str, options: dict[str, str] | None = None) -> str:
+    lines = [f"Câu hỏi: {question.strip()}"]
+    if options:
+        lines.append("")
+        lines.append(
+            "Các phương án trả lời (chỉ để tham khảo xác định trọng tâm cần quan sát — "
+            "KHÔNG chọn phương án ở bước này):"
+        )
+        lines.extend(f"{L}. {text}" for L, text in options.items())
+    lines.append("")
+    lines.append(
         "Hãy xác định chủ thể câu hỏi hỏi về, quan sát trạng thái thực tế của chủ thể "
         "đó trong ảnh, và dự đoán hành vi vi phạm (nếu có) theo văn phong pháp luật."
     )
+    return "\n".join(lines)
