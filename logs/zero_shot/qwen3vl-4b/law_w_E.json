@@ -73,6 +73,23 @@
         "total": 76,
         "accuracy": 0.6578947368421053
       }
+    },
+    "by_law_category": {
+      "Multi-step legal Reasoning": {
+        "correct": 167,
+        "total": 331,
+        "accuracy": 0.5045317220543807
+      },
+      "Regulation Application": {
+        "correct": 839,
+        "total": 1601,
+        "accuracy": 0.5240474703310432
+      },
+      "Violation identification": {
+        "correct": 391,
+        "total": 482,
+        "accuracy": 0.8112033195020747
+      }
     }
   },
   "predictions": [
