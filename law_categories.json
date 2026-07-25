@@ -693,7 +693,7 @@
   },
   {
     "id": 174,
-    "category": "Regulation Application"
+    "category": null
   },
   {
     "id": 175,
@@ -2009,11 +2009,11 @@
   },
   {
     "id": 503,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 504,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 505,
@@ -2025,11 +2025,11 @@
   },
   {
     "id": 507,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 508,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 509,
@@ -2081,7 +2081,7 @@
   },
   {
     "id": 521,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 522,
@@ -2121,7 +2121,7 @@
   },
   {
     "id": 531,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 532,
@@ -2137,11 +2137,11 @@
   },
   {
     "id": 535,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 536,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 537,
@@ -2153,11 +2153,11 @@
   },
   {
     "id": 539,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 540,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 541,
@@ -2189,7 +2189,7 @@
   },
   {
     "id": 548,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 549,
@@ -2201,11 +2201,11 @@
   },
   {
     "id": 551,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 552,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 553,
@@ -2573,7 +2573,7 @@
   },
   {
     "id": 644,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 645,
@@ -2581,15 +2581,15 @@
   },
   {
     "id": 646,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 647,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 648,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 649,
@@ -2597,11 +2597,11 @@
   },
   {
     "id": 650,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 651,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 652,
@@ -2737,11 +2737,11 @@
   },
   {
     "id": 685,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 686,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 687,
@@ -2801,7 +2801,7 @@
   },
   {
     "id": 701,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 702,
@@ -2813,7 +2813,7 @@
   },
   {
     "id": 704,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 705,
@@ -2913,11 +2913,11 @@
   },
   {
     "id": 729,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 730,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 731,
@@ -2945,7 +2945,7 @@
   },
   {
     "id": 737,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 738,
@@ -2981,11 +2981,11 @@
   },
   {
     "id": 746,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 747,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 748,
@@ -3141,11 +3141,11 @@
   },
   {
     "id": 786,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 787,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 788,
@@ -3189,11 +3189,11 @@
   },
   {
     "id": 798,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 799,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 800,
@@ -3205,11 +3205,11 @@
   },
   {
     "id": 802,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 803,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 804,
@@ -3233,7 +3233,7 @@
   },
   {
     "id": 809,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 810,
@@ -3245,7 +3245,7 @@
   },
   {
     "id": 812,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 813,
@@ -3253,11 +3253,11 @@
   },
   {
     "id": 814,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 815,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 816,
@@ -3285,15 +3285,15 @@
   },
   {
     "id": 822,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 823,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 824,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 825,
@@ -3317,11 +3317,11 @@
   },
   {
     "id": 830,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 831,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 832,
@@ -3397,11 +3397,11 @@
   },
   {
     "id": 850,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 851,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 852,
@@ -3421,7 +3421,7 @@
   },
   {
     "id": 856,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 857,
@@ -3437,7 +3437,7 @@
   },
   {
     "id": 860,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 861,
@@ -3445,11 +3445,11 @@
   },
   {
     "id": 862,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 863,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 864,
@@ -3461,11 +3461,11 @@
   },
   {
     "id": 866,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 867,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 868,
@@ -3557,11 +3557,11 @@
   },
   {
     "id": 890,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 891,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 892,
@@ -3621,11 +3621,11 @@
   },
   {
     "id": 906,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 907,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 908,
@@ -3685,11 +3685,11 @@
   },
   {
     "id": 922,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 923,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 924,
@@ -3717,11 +3717,11 @@
   },
   {
     "id": 930,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 931,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 932,
@@ -3733,11 +3733,11 @@
   },
   {
     "id": 934,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 935,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 936,
@@ -3757,7 +3757,7 @@
   },
   {
     "id": 940,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 941,
@@ -3969,7 +3969,7 @@
   },
   {
     "id": 993,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 994,
@@ -4065,15 +4065,15 @@
   },
   {
     "id": 1017,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 1018,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1019,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1020,
@@ -4085,11 +4085,11 @@
   },
   {
     "id": 1022,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1023,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1024,
@@ -4101,11 +4101,11 @@
   },
   {
     "id": 1026,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1027,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1028,
@@ -4197,11 +4197,11 @@
   },
   {
     "id": 1050,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1051,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1052,
@@ -4245,11 +4245,11 @@
   },
   {
     "id": 1062,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1063,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1064,
@@ -5169,11 +5169,11 @@
   },
   {
     "id": 1293,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 1294,
-    "category": "Multi-step legal Reasoning"
+    "category": "Regulation Application"
   },
   {
     "id": 1295,
@@ -5377,7 +5377,7 @@
   },
   {
     "id": 1345,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 1346,
@@ -5753,7 +5753,7 @@
   },
   {
     "id": 1439,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1440,
@@ -5801,7 +5801,7 @@
   },
   {
     "id": 1451,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1452,
@@ -5897,7 +5897,7 @@
   },
   {
     "id": 1475,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1476,
@@ -5973,7 +5973,7 @@
   },
   {
     "id": 1494,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1495,
@@ -5989,7 +5989,7 @@
   },
   {
     "id": 1498,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1499,
@@ -6005,7 +6005,7 @@
   },
   {
     "id": 1502,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1503,
@@ -6021,7 +6021,7 @@
   },
   {
     "id": 1506,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1507,
@@ -6069,7 +6069,7 @@
   },
   {
     "id": 1518,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1519,
@@ -6093,7 +6093,7 @@
   },
   {
     "id": 1524,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1525,
@@ -6117,7 +6117,7 @@
   },
   {
     "id": 1530,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1531,
@@ -6157,7 +6157,7 @@
   },
   {
     "id": 1540,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1541,
@@ -6181,7 +6181,7 @@
   },
   {
     "id": 1546,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1547,
@@ -6197,7 +6197,7 @@
   },
   {
     "id": 1550,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1551,
@@ -6353,7 +6353,7 @@
   },
   {
     "id": 1589,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1590,
@@ -7097,7 +7097,7 @@
   },
   {
     "id": 1775,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1776,
@@ -7105,19 +7105,19 @@
   },
   {
     "id": 1777,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1778,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1779,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1780,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1781,
@@ -7149,11 +7149,11 @@
   },
   {
     "id": 1788,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1789,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1790,
@@ -7173,23 +7173,23 @@
   },
   {
     "id": 1794,
-    "category": "Violation identification"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1795,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1796,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1797,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1798,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1799,
@@ -7213,7 +7213,7 @@
   },
   {
     "id": 1804,
-    "category": "Violation identification"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1805,
@@ -7225,11 +7225,11 @@
   },
   {
     "id": 1807,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1808,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1809,
@@ -7241,15 +7241,15 @@
   },
   {
     "id": 1811,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1812,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1813,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1814,
@@ -7273,19 +7273,19 @@
   },
   {
     "id": 1819,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1820,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1821,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1822,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 1823,
@@ -7305,19 +7305,19 @@
   },
   {
     "id": 1827,
-    "category": "Violation identification"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1828,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1829,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1830,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 1831,
@@ -7837,7 +7837,7 @@
   },
   {
     "id": 1960,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 1961,
@@ -8205,7 +8205,7 @@
   },
   {
     "id": 2052,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 2053,
@@ -8669,7 +8669,7 @@
   },
   {
     "id": 2168,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 2169,
@@ -8765,35 +8765,35 @@
   },
   {
     "id": 2192,
-    "category": "Regulation Application"
+    "category": "Violation identification"
   },
   {
     "id": 2193,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2194,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2195,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2196,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 2197,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 2198,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 2199,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 2200,
@@ -8801,7 +8801,7 @@
   },
   {
     "id": 2201,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2202,
@@ -8809,19 +8809,19 @@
   },
   {
     "id": 2203,
-    "category": "Multi-step legal Reasoning"
-  },
-  {
-    "id": 2204,
     "category": "Violation identification"
   },
   {
-    "id": 2205,
+    "id": 2204,
     "category": "Regulation Application"
   },
   {
+    "id": 2205,
+    "category": "Multi-step legal Reasoning"
+  },
+  {
     "id": 2206,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2207,
@@ -8829,7 +8829,7 @@
   },
   {
     "id": 2208,
-    "category": "Violation identification"
+    "category": "Regulation Application"
   },
   {
     "id": 2209,
@@ -8853,7 +8853,7 @@
   },
   {
     "id": 2214,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2215,
@@ -8869,7 +8869,7 @@
   },
   {
     "id": 2218,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2219,
@@ -8885,7 +8885,7 @@
   },
   {
     "id": 2222,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2223,
@@ -8901,7 +8901,7 @@
   },
   {
     "id": 2226,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2227,
@@ -8917,7 +8917,7 @@
   },
   {
     "id": 2230,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2231,
@@ -8933,7 +8933,7 @@
   },
   {
     "id": 2234,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2235,
@@ -8949,7 +8949,7 @@
   },
   {
     "id": 2238,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2239,
@@ -8965,7 +8965,7 @@
   },
   {
     "id": 2242,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2243,
@@ -8981,7 +8981,7 @@
   },
   {
     "id": 2246,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2247,
@@ -8997,7 +8997,7 @@
   },
   {
     "id": 2250,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2251,
@@ -9013,7 +9013,7 @@
   },
   {
     "id": 2254,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2255,
@@ -9029,7 +9029,7 @@
   },
   {
     "id": 2258,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2259,
@@ -9045,7 +9045,7 @@
   },
   {
     "id": 2262,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2263,
@@ -9077,7 +9077,7 @@
   },
   {
     "id": 2270,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2271,
@@ -9093,7 +9093,7 @@
   },
   {
     "id": 2274,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2275,
@@ -9109,7 +9109,7 @@
   },
   {
     "id": 2278,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2279,
@@ -9125,7 +9125,7 @@
   },
   {
     "id": 2282,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2283,
@@ -9157,7 +9157,7 @@
   },
   {
     "id": 2290,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2291,
@@ -9173,7 +9173,7 @@
   },
   {
     "id": 2294,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2295,
@@ -9189,7 +9189,7 @@
   },
   {
     "id": 2298,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2299,
@@ -9205,7 +9205,7 @@
   },
   {
     "id": 2302,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2303,
@@ -9237,7 +9237,7 @@
   },
   {
     "id": 2310,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2311,
@@ -9253,7 +9253,7 @@
   },
   {
     "id": 2314,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2315,
@@ -9285,7 +9285,7 @@
   },
   {
     "id": 2322,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2323,
@@ -9301,7 +9301,7 @@
   },
   {
     "id": 2326,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2327,
@@ -9317,7 +9317,7 @@
   },
   {
     "id": 2330,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2331,
@@ -9333,7 +9333,7 @@
   },
   {
     "id": 2334,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2335,
@@ -9349,7 +9349,7 @@
   },
   {
     "id": 2338,
-    "category": "Regulation Application"
+    "category": "Multi-step legal Reasoning"
   },
   {
     "id": 2339,
