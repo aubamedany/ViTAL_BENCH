@@ -6,14 +6,14 @@ Clean the public repository structure and documentation without publishing agent
 
 ## Repository layout
 
-Move the four question dataset files into `data/questions/`:
+Move the four question dataset files into `datasets/questions/`:
 
 - `detection.json`
 - `detection_e.json`
 - `law.json`
 - `law_e.json`
 
-Move the legal metadata and corpus files into `data/legal/`:
+Move the legal metadata and corpus files into `datasets/legal/`:
 
 - `law_categories.json`
 - `law_db.json`
@@ -44,4 +44,4 @@ Check that the working tree contains only intended changes before committing.
 
 This cleanup changes file organization, path references, ignore rules, and README documentation only.
 
-It does not modify dataset contents, paper prose, images, model behavior, or files under `data/` other than moving the specified JSON files.
+It does not modify dataset contents, paper prose, images, model behavior, or files under the protected `data/` directory.
