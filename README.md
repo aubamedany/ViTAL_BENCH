@@ -70,7 +70,7 @@ Model inference requires downloading the selected model separately and may requi
 The legal corpus is built from QCVN 41:2024/BGTVT, Law No. 36/2024/QH15, and Decree No. 168/2024/ND-CP.
 
 The canonical question files are `datasets/questions/detection.json` and `datasets/questions/law.json`.
-The law metadata and 990-chunk corpus are `datasets/legal/law_categories.json` and `datasets/legal/law_db.json`.
+The law metadata and 1071-chunk corpus are `datasets/legal/law_categories.json` and `datasets/legal/law_db.json`.
 The extended question files are `datasets/questions/detection_e.json` and `datasets/questions/law_e.json`.
 
 Generated logs, caches, indexes, and model outputs are not included in the public release and should be regenerated locally when needed.
