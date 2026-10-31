@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Strip the HTML/Word-export markup embedded in QCVN_41_2024 chunks (the
-only document in law_db.json affected — verified LUAT_36_2024/ND_168_2024
+only document in datasets/legal/law_db.json affected — verified LUAT_36_2024/ND_168_2024
 contain none).
 
 Source pattern: QCVN's ingestion pipeline pasted raw Word-HTML table markup
@@ -86,7 +86,7 @@ def clean_chunk_text(text: str) -> str:
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--corpus", default=str(ROOT / "law_db.json"))
+    p.add_argument("--corpus", default=str(ROOT / "datasets/legal/law_db.json"))
     args = p.parse_args()
 
     corpus_path = Path(args.corpus)

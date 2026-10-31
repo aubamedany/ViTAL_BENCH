@@ -24,9 +24,9 @@ IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
 
 
 def load_stats(root: Path) -> dict[str, object]:
-    detection = json.loads((root / "detection.json").read_text())
-    law = json.loads((root / "law.json").read_text())
-    law_categories = json.loads((root / "law_categories.json").read_text())
+    detection = json.loads((root / "datasets/questions/detection.json").read_text())
+    law = json.loads((root / "datasets/questions/law.json").read_text())
+    law_categories = json.loads((root / "datasets/legal/law_categories.json").read_text())
     images = [
         path
         for path in (root / "data").rglob("*")
@@ -38,7 +38,7 @@ def load_stats(root: Path) -> dict[str, object]:
         "law_questions": len(law),
         "images": len(images),
         "image_categories": len({path.parent.name for path in images}),
-        "law_corpus_chunks": len(json.loads((root / "law_db.json").read_text())),
+        "law_corpus_chunks": len(json.loads((root / "datasets/legal/law_db.json").read_text())),
         "law_categories": {
             category: sum(1 for item in law_categories if item["category"] == category)
             for category in EXPECTED["law_categories"]

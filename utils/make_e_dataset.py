@@ -40,8 +40,8 @@ def add_e_option(rec: dict, text: str) -> dict:
 def parse_args(argv=None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--in", dest="inp", default="law.json", help="input dataset")
-    p.add_argument("--out", default="law_e.json", help="output dataset")
+    p.add_argument("--in", dest="inp", default="datasets/questions/law.json", help="input dataset")
+    p.add_argument("--out", default="datasets/questions/law_e.json", help="output dataset")
     p.add_argument("--text", default=DEFAULT_E_TEXT, help="text for option E")
     p.add_argument("--letter", default="E", help="option letter to add (default: E)")
     return p.parse_args(argv)

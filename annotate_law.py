@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-"""Streamlit app to categorize law.json questions into reasoning-type buckets.
+"""Streamlit app to categorize datasets/questions/law.json questions into reasoning-type buckets.
 
 Shows one question (image + question text + A-D options) at a time and lets
 the annotator pick one of three categories. Choices are persisted incrementally
-to ``law_categories.json`` as ``[{"id": ..., "category": ...}, ...]``.
+to ``datasets/legal/law_categories.json`` as ``[{"id": ..., "category": ...}, ...]``.
 
 Run with:
     streamlit run annotate_law.py
@@ -18,8 +18,8 @@ import streamlit as st
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 ROOT = Path(__file__).parent
-DATA_PATH = ROOT / "law.json"
-OUTPUT_PATH = ROOT / "law_categories.json"
+DATA_PATH = ROOT / "datasets/questions/law.json"
+OUTPUT_PATH = ROOT / "datasets/legal/law_categories.json"
 
 CATEGORIES = [
     "Violation identification",

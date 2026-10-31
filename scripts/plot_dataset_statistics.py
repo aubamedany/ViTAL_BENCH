@@ -15,9 +15,9 @@ OUTPUTS = (ROOT / "paper/Figures/Statistic.pdf", ROOT / "paper/_aaai/Figures/Sta
 
 
 def load_data() -> tuple[list[dict], list[dict], list[dict]]:
-    detection = json.loads((ROOT / "detection.json").read_text())
-    law = json.loads((ROOT / "law.json").read_text())
-    law_categories = json.loads((ROOT / "law_categories.json").read_text())
+    detection = json.loads((ROOT / "datasets/questions/detection.json").read_text())
+    law = json.loads((ROOT / "datasets/questions/law.json").read_text())
+    law_categories = json.loads((ROOT / "datasets/legal/law_categories.json").read_text())
     return detection, law, law_categories
 
 
