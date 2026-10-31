@@ -44,7 +44,11 @@ paper_tables/
 agent/
 backup/
 banks/
+docs/
 notebooks/
+paper/
+scripts/
+tests/
 AGENT_PLAN*.md
 FORMULATE_PROMPT.md
 QUERY_GEN_SPEC.md

@@ -31,27 +31,12 @@ The law questions are distributed across the three categories used in the paper:
 
 The canonical release files are under `datasets/questions/` and `datasets/legal/`, and the images remain under `data/`.
 
-Run the release audit after changing these files:
-
-```bash
-python scripts/check_release_stats.py
-```
-
-Regenerate Fig. 3 from the same counts with:
-
-```bash
-python scripts/plot_dataset_statistics.py
-```
-
 ## Repository layout
 
 ```text
 data/                 Released traffic images grouped by category.
 datasets/questions/    Detection and law question JSON files.
 datasets/legal/        Law-category metadata and the canonical legal corpus.
-scripts/               Dataset, evaluation, and release-audit scripts.
-tests/                 Release validation tests.
-paper/                 ViTALBench paper source.
 ```
 
 ## Installation
@@ -65,17 +50,6 @@ python -m pip install -r requirements.txt
 ```
 
 Some model and retrieval dependencies are large and may require a compatible GPU, Java installation, or external model downloads.
-
-## Quick checks
-
-Run the release audit and tests:
-
-```bash
-python scripts/check_release_stats.py
-PYTHONPATH=. pytest -q
-```
-
-The audit is dependency-free and verifies the question counts, image count, category count, law-category counts, and legal-corpus size.
 
 ## Running inference
 
@@ -91,13 +65,9 @@ python get_law.py --help
 
 Model inference requires downloading the selected model separately and may require substantial GPU memory.
 
-## Paper and reproducibility
-
-The paper source uses the name ViTALBench and the repository-derived dataset statistics above.
+## Legal corpus
 
 The legal corpus is built from QCVN 41:2024/BGTVT, Law No. 36/2024/QH15, and Decree No. 168/2024/ND-CP.
-
-The paper figure can be regenerated from the canonical files with `python scripts/plot_dataset_statistics.py`.
 
 The canonical question files are `datasets/questions/detection.json` and `datasets/questions/law.json`.
 The law metadata and 990-chunk corpus are `datasets/legal/law_categories.json` and `datasets/legal/law_db.json`.
