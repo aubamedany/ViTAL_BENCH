@@ -1,12 +1,12 @@
 \section{Introduction}
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{Figures/Sample2.pdf}
-\caption{
-An example from \textsc{ViTALBench}. The grounding shown is provided only for illustration and is not part of the benchmark annotations.
-}
-\label{fig:sample}
-\end{figure}
+% \begin{figure}[t]
+% \centering
+% \includegraphics[width=\linewidth]{Figures/Sample2.pdf}
+% \caption{
+% An example from \textsc{ViTALBench}. The grounding shown is provided only for illustration and is not part of the benchmark annotations.
+% }
+% \label{fig:sample}
+% \end{figure}
 Recent advances in vision-language models (VLMs)  have significantly enhanced their ability to perceive and reason about complex traffic environments~\cite{zhou2024vision}. Nevertheless, recognizing a traffic violation is fundamentally different from understanding a traffic scene. It requires reasoning beyond visual recognition. A model must understand the traffic context, identify potential violations, link its judgment to relevant legal provisions, and determine the associated legal consequences. Despite impressive progress in intelligent transportation tasks~\cite{li2023blip,liu2024improved,wang2024qwen2,chen2023internvl,wu2025trafficinternvl,kuang2025traffic}, existing VLMs have rarely been evaluated on this integrated perception and legal reasoning capability. Bridging this gap is crucial for building trustworthy AI systems that can support traffic law enforcement and legal decision-making.
 
 To support research in intelligent transportation, several traffic-oriented vision-language benchmarks have been introduced~\cite{qian2024nuscenesqa,wei2025driveqa,guan2026roadscenevqa,luu2025vlsp}. These benchmarks have significantly advanced the evaluation of traffic scene understanding, driving knowledge, behavior analysis, and traffic rule comprehension. However, they primarily focus on perceptual understanding or traffic-related knowledge, without assessing whether models can transform visual evidence into legally grounded decisions. Beyond traffic-oriented benchmarks, legal reasoning benchmarks, including LexGLUE, LegalBench, LawBench, and recent multilingual legal reasoning datasets, have explored the ability of language models to understand and apply legal knowledge~\cite{chalkidis2022lexglue,guha2023legalbench,fei2024lawbench,yu2027benchmarking}. However, these benchmarks are predominantly text-based and do not capture the multimodal nature of real-world legal reasoning, where legal conclusions often depend on visual evidence. Therefore, a benchmark integrating visual evidence and legal decision-making remains unexplored. It leaves an open question whether modern vision-language models can derive legally grounded decisions from real-world traffic scenarios.
