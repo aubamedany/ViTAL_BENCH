@@ -1,0 +1,18 @@
+\section{Conclusion}
+
+We introduce \textsc{ViTALBench}, a visual question-answering benchmark that covers common traffic violations in Vietnam and evaluates whether VLMs can connect visual evidence to applicable legal provisions and consequences. Experiments across ten VLMs reveal a consistent gap between visual perception and statute-dependent legal reasoning. Importantly, supplying the correct statutory evidence substantially improves legal accuracy, showing that limited access to the governing law is a major source of error. However, the remaining gap indicates that models must also effectively interpret and apply the retrieved evidence.
+
+These findings motivate future work on retrieval-based multimodal legal reasoning. Future systems should dynamically retrieve the relevant statutory provisions and integrate them with visual evidence at inference time. This direction is particularly valuable in jurisdictions where regulations are frequently revised, as retrieval-based approaches can incorporate legal updates without repeatedly retraining the underlying VLM.
+
+
+% \section{Limitations}
+% ViTALBench has several limitations that provide opportunities for future research.
+
+% First, the benchmark is currently instantiated using Vietnamese traffic regulations. Although this design enables legally accurate annotations for real-world traffic scenarios in Vietnam, traffic regulations vary across jurisdictions, and the legal conclusions in ViTALBenchmay not be directly applicable to other countries. Extending the benchmark to support multiple jurisdictions is an important direction for future work.
+
+% Second, ViTALBench is constructed from still images. While many traffic violations can be determined from a single frame, certain violations require temporal information, such as vehicle trajectories, lane-changing behaviors, or continuous traffic signal observations. Incorporating videos or multi-frame reasoning would further broaden the scope of the benchmark.
+
+% Third, although candidate annotations are generated with the assistance of a large language model and subsequently verified by human annotators against official traffic regulations, the benchmark may still contain a small number of annotation errors or ambiguous cases that are difficult to completely eliminate. We will continue improving the benchmark through community feedback and future updates.
+
+
+% Finally, the current benchmark focuses on evaluating model capabilities rather than providing training data for developing traffic-specific vision-language models. Future work may investigate larger-scale datasets and training strategies that improve multimodal legal reasoning in traffic scenarios.

@@ -14,3 +14,32 @@ paper_tables/       # T1-T6 markdown/latex + stats.json
 
 # FAISS indices / model caches
 *.faiss
+
+# Local and generated release artifacts
+.idea/
+.claude/settings.local.json
+__pycache__/
+.pytest_cache/
+*.log
+*.out
+*.err
+*.e[0-9]*
+*.o[0-9]*
+~$*
+~WRL*
+logs/
+index/
+artifacts/
+configs/
+runs/
+cache/
+paper_tables/
+agent/
+backup/
+banks/
+notebooks/
+AGENT_PLAN*.md
+FORMULATE_PROMPT.md
+QUERY_GEN_SPEC.md
+run_e4agent.sh
+run_oracle.sh*

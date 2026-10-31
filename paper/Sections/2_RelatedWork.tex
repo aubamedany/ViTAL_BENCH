@@ -1,0 +1,49 @@
+\section{Related Work}
+\begin{table}[t]
+\centering
+\caption{Comparison of \textsc{ViTALBench} with representative traffic and legal reasoning benchmarks. \textcolor{green}{\ding{51}} indicates full support, $\LEFTcircle$ partial support, and \textcolor{red}{\ding{55}} indicates no support. \textit{Perception} denotes understanding of visual traffic scenes; \textit{Violation Identification} refers to detecting traffic violations from observations; \textit{Regulation Application} indicates whether models can apply relevant traffic rules; \textit{Multi-step Legal Reasoning} measures reasoning over multiple legal steps; and \textit{Grounded in Real Legal Code} indicates whether decisions are supported by official legal regulations.}
+\label{tab:benchmark_comparison}
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Benchmark} &
+\textbf{Year} &
+\textbf{Modality} &
+\textbf{Perception} &
+\textbf{Violation} &
+\textbf{Regulation} &
+\textbf{Multi-step} &
+\textbf{Grounded in} \\
+&
+&
+&
+&
+\textbf{Identification} &
+\textbf{Application} &
+\textbf{Legal Reasoning} &
+\textbf{Real Legal Code} \\
+\midrule
+LexGLUE       & 2022 & Text & \textcolor{red}{\ding{55}} &  \textcolor{red}{\ding{55}} & \textcolor{green}{\ding{51}} & $\LEFTcircle$ & \textcolor{green}{\ding{51}} \\
+LegalBench    & 2023 & Text &  \textcolor{red}{\ding{55}} &  \textcolor{red}{\ding{55}} & \textcolor{green}{\ding{51}} & \textcolor{green}{\ding{51}} & \textcolor{green}{\ding{51}}\\
+LawBench    & 2024 & Text &  \textcolor{red}{\ding{55}}&  \textcolor{red}{\ding{55}}& \textcolor{green}{\ding{51}}& \textcolor{green}{\ding{51}} & \textcolor{green}{\ding{51}}\\
+NuScenes-QA  & 2024 & Image+Text &\textcolor{green}{\ding{51}}&  \textcolor{red}{\ding{55}}&  \textcolor{red}{\ding{55}} & \textcolor{green}{\ding{51}}&  \textcolor{red}{\ding{55}} \\
+DriveQA      & 2025 & Image+Text & \textcolor{green}{\ding{51}} &  \textcolor{red}{\ding{55}} & $\LEFTcircle$ & \textcolor{green}{\ding{51}}&  \textcolor{red}{\ding{55}}\\
+MLQA-TSR     & 2025 & Image+Text & $\LEFTcircle$ &  \textcolor{red}{\ding{55}} & \textcolor{green}{\ding{51}} &  \textcolor{red}{\ding{55}} & \textcolor{green}{\ding{51}}\\
+RoadSceneVQA & 2026 & Image+Text & \textcolor{green}{\ding{51}}& $\LEFTcircle$ &  \textcolor{red}{\ding{55}} & $\LEFTcircle$ &  \textcolor{red}{\ding{55}} \\
+\midrule
+\textbf{\textsc{ViTALBench}} & \textbf{2026} & Image+Text &
+\textcolor{green}{\ding{51}}&
+\textcolor{green}{\ding{51}}&
+\textcolor{green}{\ding{51}} &
+\textcolor{green}{\ding{51}}&
+\textcolor{green}{\ding{51}}\\
+
+\bottomrule
+\end{tabular}}
+\end{table}
+Recent advances in VLMs have led to a series of multimodal benchmarks for intelligent transportation systems. Existing traffic-oriented benchmarks mainly evaluate three complementary capabilities: traffic scene understanding, driving situation reasoning, and traffic regulation comprehension. NuScenes-QA~\cite{qian2024nuscenesqa} focuses on traffic scene perception through question answering about objects, road layouts, and driving context. DriveQA~\cite{wei2025driveqa} extends this setting by incorporating traffic regulation knowledge into driving-related reasoning. RoadSceneVQA~\cite{guan2026roadscenevqa} introduces violation-related questions grounded in traffic scenes, although it does not systematically connect identified violations to specific legal provisions. MLQA-TSR~\cite{luu2025vlsp} instead emphasizes traffic sign recognition based on regulatory documents without evaluating violation identification or legal consequence prediction. Although these benchmarks have substantially advanced multimodal reasoning for intelligent transportation, they mainly evaluate visual understanding and driving knowledge rather than legally grounded decision-making. In most cases, models are not required to explicitly identify the governing legal provision or justify their predictions using statutory evidence. Consequently, strong performance on existing traffic benchmarks does not necessarily indicate that a model can perform regulation-grounded legal reasoning in real-world traffic scenarios.
+
+In parallel, legal reasoning has emerged as an important research direction with the rise of large language models. Existing legal benchmarks, including LexGLUE~\cite{chalkidis2022lexglue}, LegalBench~\cite{guha2023legalbench}, and LawBench~\cite{fei2024lawbench}, focus on legal reasoning over textual statutes, case documents, and legal knowledge. While these benchmarks provide valuable evaluations of language-based legal reasoning, they assume that all relevant evidence is explicitly available in text. This assumption differs fundamentally from traffic law enforcement, where the primary evidence is visual, and the applicable legal provision must first be inferred from the observed scene. Consequently, success on textual legal reasoning benchmarks does not imply the ability to perform multimodal legal reasoning grounded in visual evidence.
+
+These observations highlight an important distinction between traffic regulation comprehension and regulation grounding. The former only requires benchmarks to incorporate regulatory knowledge, whereas the latter requires models to identify violations and justify their decisions based on the specific legal provisions governing observed behaviors. Existing benchmarks largely evaluate these capabilities separately and do not assess the complete reasoning process that connects visual evidence to legally justified decisions. As summarized in Table~\ref{tab:benchmark_comparison}, \textsc{ViTALBench} bridges this gap by jointly evaluating visual perception, violation identification, regulation application, and multi-step legal reasoning, with each benchmark instance grounded in real legal codes.

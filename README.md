@@ -1,163 +1,118 @@
-# VNTrafficVQA / VNTraffic-Agent
+# ViTALBench
 
-Experiment code for **VNTrafficVQA**, an option-blind agentic benchmark for
-grounded Vietnamese traffic-law reasoning over images (AAAI 2026), and
-**VNTraffic-Agent**, a training-free option-blind two-phase agent.
+ViTALBench is a Vietnamese traffic-law visual question answering dataset and research codebase for multimodal traffic-scene understanding and legal reasoning.
 
-This repository implements the full programme in `EXPERIMENT_PLAN.md`: the data
-gates, the E1–E4 ablation ladder, a ≤14B model ladder, citation-grounding and
-leakage metrics, ablations, and the paper tables T1–T6.
+The repository contains the released images, multiple-choice questions, Vietnamese traffic-law corpora, baseline inference scripts, and the paper source.
 
-- **Dataset** — `data.json`: 2,475 MCQ items (1,156 detection + 1,319 law) over
-  ~300 Vietnamese traffic images, 11 categories. Law items carry gold citations.
-- **Statute corpus** — `legal_traffic_chunks.json`: 777 clause-level chunks
-  (Luật 36/2024, NĐ 168/2024, QCVN 41:2024).
+ViTALBench contains two top-level tiers: detection and law.
+The law tier is divided into violation identification, regulation application, and multi-step legal reasoning.
+The dataset is constructed from publicly accessible traffic images and Vietnamese traffic regulations through LLM-assisted drafting and human verification.
 
-## Claims → conditions → tables
+## Release statistics
 
-| Claim | Conditions | Headline |
-|---|---|---|
-| C1 perception–legal gap | E1, both tiers, full ladder | T1 |
-| C2 retrieval helps but leaks | E2 vs E3 | T2 |
-| C3 option exposure = leakage | E2/E3/E4 decomposition | **T3** |
-| C4 option-blind agent is best-grounded | E4 vs E1–E3 | T4, T5 |
+The statistics below are computed from the canonical files in this repository.
 
-Conditions (one variable changes per rung):
+| Resource | Count |
+|---|---:|
+| Images | 551 |
+| Image categories | 11 |
+| Total questions | 4,536 |
+| Detection questions | 2,122 |
+| Law questions | 2,414 |
+| Legal corpus chunks | 990 |
 
-| ID | Retrieval | Query | Options at retrieval |
-|----|-----------|-------|----------------------|
-| E1 | none | — | — |
-| E2 | single-shot | question only | hidden |
-| E3 | single-shot | question + options | **exposed** (leakage probe) |
-| E4 | iterative agent | agent-formulated | hidden (Phase 1) |
+The law questions are distributed across the three categories used in the paper:
 
-## Install
+| Category | Count |
+|---|---:|
+| Violation identification | 482 |
+| Regulation Application | 1,601 |
+| Multi-step legal Reasoning | 331 |
 
-```bash
-pip install -r requirements.txt
-```
+The canonical release files are `detection.json`, `law.json`, `law_categories.json`, `law_db.json`, and the images under `data/`.
 
-The **data gates, metrics, stats, and tables run with only PyYAML** (everything
-else is pure Python). `torch`/`transformers`/`sentence-transformers`/`faiss` are
-needed only for real model inference and dense retrieval.
-
-## Pipeline
-
-### 1. Data gates → freeze dataset v1 (`EXPERIMENT_PLAN.md §7`)
+Run the release audit after changing these files:
 
 ```bash
-python scripts/run_gates.py
+python scripts/check_release_stats.py
 ```
 
-Runs, in order: dedup (§7.5) → resolver coverage (§7.1) → gradeability / Path B
-(§7.2) → detection rebalance to ~25/25/25/25 (§7.3) → freeze. Verifies the plan's
-frozen numbers (coverage 6/23/78/72, 974 gradeable) and writes
-`artifacts/dataset_v1/` (`data.json`, `manifest.json`, `coverage.json`,
-`gradeability.json`). The original `data.json` is never mutated.
-
-Optional subtype tags (§7.4) — proposed by a transparent rule tagger, applied
-**only after human review**:
+Regenerate Fig. 3 from the same counts with:
 
 ```bash
-python scripts/tag_subtypes.py propose --out artifacts/subtype_review.csv
-# edit the 'reviewed_subtype' column, then:
-python scripts/run_gates.py --reviewed-subtypes artifacts/subtype_review.csv
+python scripts/plot_dataset_statistics.py
 ```
 
-### 2. Build the retrieval index (`§6`)
+## Repository layout
+
+```text
+data/                 Released traffic images grouped by category.
+detection.json         Detection questions.
+law.json               Law questions with legal references.
+law_categories.json    Law-question category labels.
+law_db.json            Canonical 990-chunk legal corpus.
+scripts/               Dataset, evaluation, and release-audit scripts.
+tests/                 Release validation tests.
+paper/                 ViTALBench paper source.
+```
+
+## Installation
+
+Create a Python environment and install the dependencies:
 
 ```bash
-python scripts/build_index.py                 # multilingual-e5-base by default
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-### 3. Pilot go/no-go (`§9.2`)
+Some model and retrieval dependencies are large and may require a compatible GPU, Java installation, or external model downloads.
+
+## Quick checks
+
+Run the release audit and tests:
 
 ```bash
-BACKEND=hf MODEL=internvl3-8b bash scripts/run_pilot.sh
+python scripts/check_release_stats.py
+PYTHONPATH=. pytest -q
 ```
 
-Samples a stratified 200-item law set, runs E1–E4, and checks the leakage
-signature (E3 acc > E2, E3 F1 ≈ E2, E4 F1 > E3). **Stop and debug E3 if the
-signature is absent.**
+The audit is dependency-free and verifies the question counts, image count, category count, law-category counts, and legal-corpus size.
 
-### 4. Main sweep + ablations + tables (`§9.3–§9.6`)
+## Running inference
+
+The top-level scripts `answer_vqa.py`, `annotate_law.py`, and `get_law.py` provide the original VQA and law-processing workflows.
+
+Inspect each script's command-line help before running a model experiment:
 
 ```bash
-python scripts/gen_configs.py                 # write the full run matrix → configs/
-BACKEND=hf bash scripts/run_main_sweep.sh     # E1/E4 full ladder + E2/E3 subset
-BACKEND=hf bash scripts/run_ablations.sh      # A1/A2/A4 + CircularEval, then tables
-python scripts/make_tables.py                 # T1–T6 + bootstrap CIs + McNemar
+python answer_vqa.py --help
+python annotate_law.py --help
+python get_law.py --help
 ```
 
-Tables land in `paper_tables/` (markdown + LaTeX) with `stats.json`.
+Model inference requires downloading the selected model separately and may require substantial GPU memory.
 
-## Backends
+## Paper and reproducibility
 
-Set the backend per run (`--backend` on `run_condition.py`, or `BACKEND=` for the
-shell wrappers):
+The paper source uses the name ViTALBench and the repository-derived dataset statistics above.
 
-- `hf` (default) — local HuggingFace Transformers; per-family adapters for
-  InternVL3, Qwen2.5-VL, Llama-3.2-Vision.
-- `openai` — OpenAI-compatible server; point `base_url` at `vllm serve` for
-  ~5–10× faster sweeps (E4 is tens of thousands of calls).
-- `mock` — deterministic, dependency-free; for dry runs.
+The legal corpus is built from QCVN 41:2024/BGTVT, Law No. 36/2024/QH15, and Decree No. 168/2024/ND-CP.
 
-The retriever is selectable too: `retriever: faiss` (default, dense e5) or
-`retriever: lexical` (pure-Python TF-IDF; a zero-setup smoke-test + lexical
-baseline).
+The paper figure can be regenerated from the canonical files with `python scripts/plot_dataset_statistics.py`.
 
-### Dry run (no GPU, no downloads)
+Generated logs, caches, indexes, and model outputs are not included in the public release and should be regenerated locally when needed.
 
-```bash
-python scripts/run_gates.py
-python scripts/run_condition.py \
-  --config <(python - <<'PY'
-from vntraffic.config import RunConfig
-print(RunConfig(run_id="dry__E4", condition="E4", model_key="internvl3-8b",
-                backend="mock", retriever="lexical",
-                data="artifacts/dataset_v1/data.json", limit=5).to_dict())
-PY
-) --backend mock
-```
+The release audit validates the canonical dataset inputs.
 
-(Or construct a `RunConfig(..., backend="mock", retriever="lexical")` in Python
-and call `vntraffic.runner.run`.)
+It does not independently reproduce every historical model result reported in the paper.
 
-## QCVN 41:2024 ingestion (Path A, `§7.2`)
+## Data and legal-corpus notice
 
-The shipped corpus resolves 974/1,319 law items (Path B). To close the gap when
-you have the official QCVN text:
+The images were collected from publicly accessible sources and are included for research use.
 
-```bash
-python scripts/qcvn_ingest.py skeleton --out artifacts/qcvn_skeleton.yaml
-# fill the 'content' fields, then:
-python scripts/qcvn_ingest.py merge --skeleton artifacts/qcvn_skeleton.yaml \
-    --out-corpus artifacts/legal_traffic_chunks_v2.json
-```
+Users should verify image provenance, copyright, privacy, and redistribution requirements before publishing a mirror or using the images commercially.
 
-Merging grows the corpus + an alias map, changes the corpus version (invalidating
-caches), and flips previously-ungradeable items to gradeable — picked up
-automatically the next time `run_gates.py` runs.
+The legal corpus contains Vietnamese traffic-law text for research and reference.
 
-## Layout
-
-```
-vntraffic/          package: dataset, corpus, resolver, gradeability, retriever,
-                    embedder, models/ (hf|openai|mock), prompts, agent, conditions,
-                    runner, metrics, circular, stats, tables, gates, subtags, qcvn_ingest
-scripts/            run_gates, build_index, make_pilot_sample, gen_configs,
-                    run_condition, check_pilot_gonogo, make_tables, tag_subtypes,
-                    qcvn_ingest, run_{pilot,main_sweep,ablations}.sh
-data/               images (data/<category>/<n>.jpg)
-data.json           QA items
-legal_traffic_chunks.json   statute corpus
-```
-
-## Reproducibility
-
-Fixed seeds; greedy decoding (temperature 0); one config file per
-model × condition (no manual prompt edits between runs); per-item JSONL logs +
-run manifests (model id, corpus version, resolver coverage, decoding params);
-SHA-keyed retrieval cache. Generated outputs (`artifacts/`, `configs/`, `runs/`,
-`cache/`, `paper_tables/`) are git-ignored and regenerate deterministically from
-source.
+It is not legal advice, and current official sources should be consulted for legal decisions.

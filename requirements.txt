@@ -1,4 +1,4 @@
-# VNTrafficVQA / VNTraffic-Agent — experiment dependencies.
+# ViTALBench experiment dependencies.
 #
 # The data gates, resolver, metrics, stats, and tables run on pure-Python + PyYAML
 # (see the mock+lexical dry-run in the README). The heavy deps below are only
@@ -33,11 +33,6 @@ openai>=1.30
 # --- annotation UI ---
 streamlit>=1.30
 
-# --- agent/ package (VNTraffic-Agent scaffolding) ---
-pydantic>=2.0
-tqdm>=4.60                  # agent/cli.py progress bar with live accuracy
-
-# --- BM25 retrieval (agent/retrieval/bm25.py) ---
-# pyserini needs a JDK (11+) on PATH for the underlying Lucene index/search.
-pyserini>=0.22
-pyvi>=0.1.1                # Vietnamese word segmentation, required for BM25 (AGENT_PLAN.md §3.2)
+# --- progress and annotation utilities ---
+tqdm>=4.60
+beautifulsoup4>=4.12

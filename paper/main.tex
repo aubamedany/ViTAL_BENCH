@@ -1,0 +1,58 @@
+% ViTALBench -- Springer LNCS version (converted from AAAI-27 submission)
+\documentclass[runningheads]{llncs}
+% Large embedded figure PDFs overflow pdfTeX's object stream buffer; disable object streams.
+\pdfobjcompresslevel=0
+%
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage[varvw]{newtxmath}   % also provides the AMS symbols (do not load amssymb)
+%
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{pifont}             % \ding{51} / \ding{55}
+\usepackage{xcolor}
+\usepackage[nointegrals]{wasysym} % \LEFTcircle
+\usepackage[hyphens]{url}
+\usepackage{marvosym}
+%
+% Optional (Springer eBook style links):
+%\usepackage{hyperref}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+
+\begin{document}
+%
+\title{\textsc{ViTALBench}: A Vietnamese Traffic-Law Benchmark Dataset for Multimodal Legal Reasoning}
+\titlerunning{\textsc{ViTALBench}: Vietnamese Traffic-Law Multimodal Benchmark}
+%
+% TODO: replace with the real author list.
+\author{Dang Le\inst{1}\orcidID{0009-0002-9557-2636} \and
+Duy-Minh Nguyen-Tran\inst{1}\orcidID{0000-0001-7626-5142} \and
+Thinh-Hung Nguyen \inst{1}\orcidID{0000-0001-7626-5142} \and
+Le-Minh Nguyen\inst{1}(\Letter)\orcidID{0000-0002-2265-1010}}
+%
+\authorrunning{F. Author et al.}
+%
+\institute{Japan Advanced Institute of Science and Technology, Ishikawa, Japan\\
+\email{\{lnhdang14, ntdminh, nguyenml\}@jaist.ac.jp}}
+
+
+\maketitle
+%
+\input{Sections/0_Abstract}
+
+\input{Sections/1_Introduction}
+
+\input{Sections/2_RelatedWork}
+
+\input{Sections/3_DataConstruction}
+
+\input{Sections/5_Experiment}
+
+\input{Sections/6_Conclusion}
+
+\bibliographystyle{splncs04}
+\bibliography{references}
+
+\end{document}
