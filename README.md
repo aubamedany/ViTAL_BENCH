@@ -29,7 +29,7 @@ The law questions are distributed across the three categories used in the paper:
 | Regulation Application | 1,601 |
 | Multi-step legal Reasoning | 331 |
 
-The canonical release files are `detection.json`, `law.json`, `law_categories.json`, `law_db.json`, and the images under `data/`.
+The canonical release files are under `datasets/questions/` and `datasets/legal/`, and the images remain under `data/`.
 
 Run the release audit after changing these files:
 
@@ -47,10 +47,8 @@ python scripts/plot_dataset_statistics.py
 
 ```text
 data/                 Released traffic images grouped by category.
-detection.json         Detection questions.
-law.json               Law questions with legal references.
-law_categories.json    Law-question category labels.
-law_db.json            Canonical 990-chunk legal corpus.
+datasets/questions/    Detection and law question JSON files.
+datasets/legal/        Law-category metadata and the canonical legal corpus.
 scripts/               Dataset, evaluation, and release-audit scripts.
 tests/                 Release validation tests.
 paper/                 ViTALBench paper source.
@@ -100,6 +98,10 @@ The paper source uses the name ViTALBench and the repository-derived dataset sta
 The legal corpus is built from QCVN 41:2024/BGTVT, Law No. 36/2024/QH15, and Decree No. 168/2024/ND-CP.
 
 The paper figure can be regenerated from the canonical files with `python scripts/plot_dataset_statistics.py`.
+
+The canonical question files are `datasets/questions/detection.json` and `datasets/questions/law.json`.
+The law metadata and 990-chunk corpus are `datasets/legal/law_categories.json` and `datasets/legal/law_db.json`.
+The extended question files are `datasets/questions/detection_e.json` and `datasets/questions/law_e.json`.
 
 Generated logs, caches, indexes, and model outputs are not included in the public release and should be regenerated locally when needed.
 

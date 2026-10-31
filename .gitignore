@@ -17,6 +17,13 @@ paper_tables/       # T1-T6 markdown/latex + stats.json
 
 # Local and generated release artifacts
 .idea/
+**/.idea/
+AGENTS.md
+**/AGENTS.md
+agents.md
+**/agents.md
+backup/
+**/backup/
 .claude/settings.local.json
 __pycache__/
 .pytest_cache/
